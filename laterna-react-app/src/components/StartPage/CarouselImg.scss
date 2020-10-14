@@ -1,0 +1,42 @@
+
+
+.carousel {
+  .control-dots {
+    display: none;
+  }
+  .carousel-status{
+    display: none;
+  }
+
+.slider-wrapper.axis-horizontal .slider {
+  -ms-box-orient: horizontal;
+  display: -moz-flex;
+  width: 175.5px;
+  justify-content: flex-start;
+  margin: 0 auto;
+  align-items: center;
+
+  .slide{
+    padding: 0 5px;
+    background-color: #F2EDEB;
+    img{ 
+      width: 139.09px;
+      height: 194.41px;
+    }
+   
+
+    &.selected{
+      img{
+        width: 165.5px;
+        height: 233px;
+      }
+    .rectangle{
+      background-color: transparent; 
+   } 
+  }
+   }
+
+ 
+}
+}
+  

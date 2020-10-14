@@ -1,0 +1,42 @@
+@import '../../styles/layout.scss';
+@import '../../styles/texts.scss';
+
+.Lantern{
+  @include flex-column-between;
+  width: 100%;
+  background-color: #F2EDEB;
+
+  p{
+    @include paragraph;
+    margin: 0;
+  }
+
+  &--wrapper{
+    @include flex-column-between;
+    width: 302.4px;
+  }
+  &--header{
+    @include flex-row-between;
+    width: 100%;
+  }
+
+  &--basic-info{
+    // @include flex-column-between;
+    // justify-content: space-around;
+    height: 452.76px;
+    width: 100%;
+
+    &--wrapper{
+      @include flex-column-between;
+      justify-content: flex-start;
+      height: 43px;
+      width: 100%;
+      margin-top: 30px;
+
+      h2{
+        @include main-text-style;
+        letter-spacing: 0.45px;
+      }
+    }
+  }
+}

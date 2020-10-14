@@ -1,0 +1,45 @@
+@import '../../styles/texts.scss';
+@import '../../styles/layout.scss';
+@import '../../styles/buttons.scss';
+
+.IntroPassport{
+  @include flex-column-between;
+  background-color: #F2EDEB;
+  height: 335.77px;
+  position: relative;
+
+  &--header{
+    @include flex-column-between;
+    justify-content: flex-start;
+    width: 302px;
+    height: 107px;
+    
+    h2 {
+      @include main-text-style;
+    }
+  }
+
+  &--passportGetDetails {
+    @include flex-row-between;
+    margin-bottom: 39.96px;
+    width: 301.53px;
+    z-index: 1;
+
+    #passportDetails{
+      @include remove-button-style;
+      transform: translateY(10px);
+    }
+  }
+
+  &--arrow{
+    z-index: 1;
+    position: absolute;
+    bottom: 145.39px;
+    transform: translateX(30%);
+  }
+
+  &--wave{
+    position: absolute;
+    bottom: 0;
+  }
+}

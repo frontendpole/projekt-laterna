@@ -1,0 +1,30 @@
+@import '../../styles/texts.scss';
+@import '../../styles/layout.scss';
+
+.ProjectDescription {
+  @include flex-column-between;
+  background-color: #F2EDEB;
+  height: 1406px;
+
+  &--article {
+    max-width: 302px;
+    margin-top: 45px;
+
+    p {
+      @include paragraph;
+
+      &:nth-child(9) {
+        text-align: center;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &--title {
+    @include main-text-style;
+  }
+
+  img {
+    margin-top: 14px;
+  }
+}

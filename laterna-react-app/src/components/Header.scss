@@ -1,0 +1,14 @@
+@import '../styles/layout.scss';
+
+.PageHeader {
+  @include flex-row-between;
+  height: 97px;
+  padding-left: 36px;
+  padding-right: 35px;
+
+  img {
+    width: 100%;
+    max-width: 117px;
+    max-height: 32.47px;
+  }
+}

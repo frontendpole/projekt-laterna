@@ -1,0 +1,44 @@
+@import '../../styles/layout.scss';
+@import '../../styles/texts.scss';
+@import '../../styles/buttons.scss';
+
+.PassportGetInfo {
+  @include flex-column-between;
+  justify-content: flex-start;
+  background-color: #F2EDEB;
+  height: 469.5px;
+
+  &--header {
+    @include flex-column-between;
+    justify-content: flex-start;
+    width: 302px;
+    height: 138px;
+
+    &--info {
+      @include main-text-style;
+    }
+  }
+
+  &--form {
+    @include flex-column-between;
+    justify-content: flex-start;
+    height: 228.5px;
+
+    &--checkbox {
+      @include flex-row-between;
+      align-items: flex-start;
+      align-self: flex-start;
+      width: 262px;
+      margin-top: 30px;
+
+      label {
+        @include label-checkbox;
+      }
+    }
+  }
+
+  #sendBtn{
+    @include remove-button-style;
+    margin-top: 12px;
+  }
+}

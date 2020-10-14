@@ -1,0 +1,35 @@
+@font-face {
+  font-family: ClarikaProGeo;
+  src: url('../assets/fonts/Clarika\ Pro\ Geometric/ClarikaProGeo-Rg.woff');
+}
+
+@font-face {
+  font-family: ClarikaProGeoLight;
+  src: url('../assets/fonts/Clarika\ Pro\ Geometric\ Light/ClarikaProGeo-Lt.woff');
+}
+
+@mixin main-text-style {
+  font-size: 18px;
+  color: #2A4C5A;
+  font-family: "Sulphur Point", sans-serif;
+  margin: 0;
+  text-align: center;
+  line-height: 22px;
+}
+
+@mixin paragraph {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  font-family: 'ClarikaProGeo', sans-serif;
+  color: #2E3C4B;
+  line-height: 19.5px;
+}
+
+@mixin label-checkbox {
+  font-family: ClarikaProGeoLight;
+  letter-spacing: 0.4px;
+  color: #2E3C4B;
+  line-height: 23px;
+  margin-left: 9px;
+  align-self: flex-end;
+}

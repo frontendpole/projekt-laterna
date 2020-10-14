@@ -1,0 +1,53 @@
+@import '../../styles/layout.scss';
+@import '../../styles/texts.scss';
+
+.PassportDescription {
+  @include flex-column-between;
+  background-color: #F2EDEB;
+  height: 2458.5px;
+
+  &--header {
+    @include flex-column-between;
+    justify-content: flex-start;
+    margin-top: 45px;
+    width: 302px;
+    height: 107px;
+
+    &--info {
+      @include main-text-style;
+    }
+  }
+
+  &--article {
+    @include flex-column-between;
+    height: 2306.5px;
+    max-width: 302px;
+    position: relative;
+
+    p {
+      @include paragraph;
+
+      &:nth-child(3) {
+        margin-top: 195px;
+      }
+    }
+
+    img {
+      margin-top: 9.04px;
+
+      &:nth-child(1) {
+        z-index: 1;
+      }
+
+      &:nth-child(2) {
+        position: absolute;
+        top: 207px;
+        left: 7px;
+      }
+
+      &:nth-child(9) {
+        margin-bottom: 61.5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import '../../styles/layout.scss';
+@import '../../styles/buttons.scss';
+@import '../../styles/texts.scss';
+
+.ContactForm {
+  @include flex-column-between;
+  justify-content: flex-start;
+  height: 676px;
+  background-color: #F2EDEB;
+  position: relative;
+
+  &--header {
+    @include main-text-style;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 37px;
+  }
+
+  &--form {
+    width: 302px;
+    margin-top: 31px;
+
+    &--checkbox {
+      @include flex-row-between;
+      align-items: flex-start;
+      align-self: flex-start;
+      width: 262px;
+      margin-top: 20px;
+
+      label {
+        @include label-checkbox;
+      }
+    }
+  }
+  #sendBtn{
+    @include remove-button-style;
+    position: absolute;
+    bottom: 44px;
+    transform: translateX(74px);
+  }
+  
+}

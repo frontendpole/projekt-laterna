@@ -1,0 +1,52 @@
+@import '../../styles/layout.scss';
+@import '../../styles/buttons.scss';
+@import '../../styles/texts.scss';
+
+.ContactChannels {
+  @include flex-column-between;
+  background-color: #F2EDEB;
+  height: 356px;
+
+  header {
+    width: 302px;
+    height: 73px;
+    margin-top: 40px;
+
+    p {
+      @include paragraph;
+      margin: 0;
+    }
+
+
+  }
+
+  &--emailWrapper {
+    position: relative;
+
+    &--emailAddress {
+      font-size: 20px;
+      font-family: "Sulphur Point", sans-serif;
+      color: #F2EDEB;
+      position: absolute;
+      top: 3px;
+      left: 25px;
+    }
+  }
+
+  &--social-media {
+    @include flex-row-between;
+    width: 263.67px;
+
+    button {
+      @include remove-button-style;
+
+      a {
+        border: none;
+      }
+    }
+
+    margin-bottom: 65.35px;
+  }
+
+
+}

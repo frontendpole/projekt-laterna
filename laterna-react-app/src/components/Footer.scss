@@ -1,0 +1,64 @@
+@import '../styles/buttons.scss';
+@import '../styles/layout.scss';
+
+.Footer {
+  @include flex-column-between;
+  background-color: #2E3D4B;
+  height: 739px;
+  color: #F2EDEB;
+  font-family: 'Sulphur Point', sans-serif;
+
+  h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 41px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #F2EDEB;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 2px solid #E5A34C;
+    line-height: 18px;
+  }
+
+  .contactDetails {
+    width: 147px;
+    height: 31px;
+    font-size: 13.5px;
+    text-align: center;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .social-media {
+    @include flex-row-between;
+    width: 199.29px;
+    height: 43.2px;
+
+    button {
+      @include remove-button-style;
+
+      a {
+        border: none;
+      }
+    }
+  }
+
+  .footer-pictures {
+    @include flex-row-between;
+    width: 302px;
+    flex-wrap: wrap;
+  }
+
+  p {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 36px;
+  }
+}
