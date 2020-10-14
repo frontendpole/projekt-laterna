@@ -1,12 +1,13 @@
 import React from 'react';
 import './Card.scss';
 import { NavLink } from 'react-router-dom';
+import lanterns from '../../data/lanterns.json';
 
-const Card = ({ img, name }) => {
+const Card = ({ img, id }) => {
 
   return (
-    <NavLink to={`/latarnie/${name}`}>
-      <img src={img} alt={`zdjęcie latarni morskiej w miejscowości ${name}`} className="Card" />
+    <NavLink to={`/latarnie/${id}`}>
+      <img src={img} alt={`zdjęcie latarni morskiej w miejscowości ${lanterns[id].name}`} className="Card" />
       <div className="rectangle"></div>
     </NavLink>
   )
