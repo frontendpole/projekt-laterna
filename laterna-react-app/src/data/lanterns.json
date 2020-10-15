@@ -1,6 +1,6 @@
 [
 { "id":"0",
-  "name":"swinoujscie",
+  "name":"świnoujście",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 18.png",
   "headerImgUrl": "/images-lantern/SLIDER.png",
   "constructionYear":"1990",
@@ -39,7 +39,7 @@
   "introImg": ""
 }, 
 { "id":"3",
-  "name":"kolobrzeg",
+  "name":"kołobrzeg",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 26.png",
   "headerImgUrl": "/images-lantern/SLIDER-1.png",
   "constructionYear":"1666 (1946)",
@@ -52,7 +52,7 @@
   "introImg": ""
 }, 
 { "id":"4",
-  "name":"gaski",
+  "name":"gąski",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 27.png",
   "headerImgUrl": "/images-lantern/SLIDER-2.png",
   "constructionYear":"1878",
@@ -65,7 +65,7 @@
   "introImg": ""
 }, 
 { "id":"5",
-  "name":"darlowo",
+  "name":"darłowo",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 2.png",
   "headerImgUrl": "/images-lantern/SLIDER-3.png",
   "constructionYear":"1885",
@@ -78,7 +78,7 @@
   "introImg": ""
 }, 
 { "id":"6",
-  "name":"jaroslawiec",
+  "name":"jarosławiec",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 14.png",
   "headerImgUrl": "/images-lantern/SLIDER-4.png",
   "constructionYear":"1838",
@@ -117,7 +117,7 @@
   "introImg": ""
 }, 
 { "id":"9",
-  "name":"czolpino",
+  "name":"czołpino",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 17_1.png",
   "headerImgUrl": "/images-lantern/SLIDER-7.png",
   "constructionYear":"1875",
@@ -182,7 +182,7 @@
   "introImg": ""
 }, 
 { "id":"14",
-  "name":"gdansk-nowy-port",
+  "name":"gdańsk nowy port",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 5.png",
   "headerImgUrl": "/images-lantern/SLIDER-11.png",
   "constructionYear":"1894",
@@ -195,7 +195,7 @@
   "introImg": ""
 }, 
 { "id":"15",
-  "name":"gdansk-port-pln",
+  "name":"gdańsk port północny",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 8.png",
   "headerImgUrl": "/images-lantern/SLIDER-12.png",
   "constructionYear":"1984",
@@ -208,7 +208,7 @@
   "introImg": ""
 }, 
 { "id":"16",
-  "name":"krynica",
+  "name":"krynica morska",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 19.png",
   "headerImgUrl": "/images-lantern/SLIDER-13.png",
   "constructionYear":"1951",

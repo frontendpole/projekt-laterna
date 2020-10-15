@@ -4,7 +4,6 @@ import StartPage from './StartPage';
 import AboutProjectPage from './AboutProjectPage';
 import PassportPage from './PassportPage';
 import ContactPage from './ContactPage';
-import lanterns from '../data/lanterns.json';
 import LanternPage from './LanternPage';
 
 const Main = () => {
