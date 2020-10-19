@@ -1,12 +1,10 @@
+@import '../styles/texts.scss';
+
 .Navigation--List--NavListItem {
+  margin-top: 40.11px;
 
   a {
-    text-decoration: none;
-    text-transform: uppercase;
+    @include default-link;
     font-size: 20px;
-    font-family: 'Sulphur Point', sans-serif;
-    letter-spacing: 0px;
-    color: #F2EDEB;
-    opacity: 1;
   }
 }

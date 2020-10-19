@@ -1,5 +1,6 @@
 @import '../styles/buttons.scss';
 @import '../styles/layout.scss';
+@import '../styles/texts.scss';
 
 button {
   @include remove-button-style;
@@ -15,11 +16,16 @@ button {
   width: 17.68px;
 }
 
-#showLanternList{
+#showLanternList {
   @include flex-row-between;
   width: 142.92px;
+  margin-top: 40.11px;
 
-  p{
+  .rotate {
+    transform: rotate(90deg);
+  }
+
+  p {
     text-transform: uppercase;
     font-size: 20px;
     color: #F2EDEB;
@@ -31,60 +37,52 @@ button {
   position: fixed;
   visibility: hidden;
   opacity: 0;
+  right: 0;
+  top: 0;
+  // background-color: #2E3D4BE5;
+  background-color: #2E3D4B;
+  width: 100%;
+  height: 100vh;
+  padding-right: 36px;
+  font-family: 'Sulphur Point', sans-serif;
+  z-index: 3;
+  overflow-x: scroll;
 
-  &--active {
+
+  &.active {
     visibility: visible;
     opacity: 1;
     position: fixed;
-    right: 0;
-    top: 0;
-    // background-color: #2E3D4BE5;
-    background-color: #2E3D4B;
-    width: 100%;
-    height: 100vh;
-    padding-right: 36px;
-    font-family: 'Sulphur Point', sans-serif;
-    z-index: 3;
+  }
 
-    &--header {
-      @include flex-row-between;
-      height: 97px;
-      padding-left: 72px;
-    }
+  &--header {
+    @include flex-row-between;
+    height: 97px;
+    padding-left: 72px;
+  }
 
-    &--list {
-      @include flex-column-between;
-      align-items: flex-end;
+  &--list {
+    @include flex-column-between;
+    align-items: flex-end;
+    list-style-type: none;
+    min-height: 254.89px;
+
+    &--lanterns {
+      display: none;
+
+      &.active {
+        @include flex-column-between;
+        align-items: flex-end;
+        margin-top: 40.11px;
+      }
+
       list-style-type: none;
-      min-height: 254.89px;
+      height: 721.11px;
 
-      &--lantern-list{
-        display: none;
-
-        &--active{
-          display: block;
-          @include flex-column-between;
-          align-items: flex-end;
-          list-style-type: none;
-          height: 721.11px;
-        
-
-         button:nth-child(1){
-            margin-top: 40.11px;
-          }
-
-          a {
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-            font-family: 'Sulphur Point', sans-serif;
-            letter-spacing: 0px;
-            color: #F2EDEB;
-            opacity: 1;
-          }
-        }
-        
+      a {
+        @include default-link;
       }
     }
   }
+
 }

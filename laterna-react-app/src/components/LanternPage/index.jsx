@@ -1,6 +1,7 @@
 import React from 'react';
 import LanternHeader from './LanternHeader';
 import LanternBasicInfo from './LanternBasicInfo';
+import LanternRest from './LanternRest';
 import './LanternPage.scss';
 import { useParams } from 'react-router-dom';
 import lanterns from '../../data/lanterns.json';
@@ -15,6 +16,7 @@ const LanternPage = () => {
         <div className="Lantern--wrapper">
           <LanternHeader lanternId={id} />
           <LanternBasicInfo lanternId={id} />
+          <LanternRest lanternId={id} />
         </div>
       </section>
     </>

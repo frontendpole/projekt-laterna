@@ -33,3 +33,12 @@
   margin-left: 9px;
   align-self: flex-end;
 }
+
+@mixin default-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Sulphur Point', sans-serif;
+  letter-spacing: 0px;
+  color: #F2EDEB;
+}

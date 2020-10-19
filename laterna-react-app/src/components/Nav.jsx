@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { withRouter } from 'react-router-dom';
+import classNames from 'classnames';
 import NavListItem from './NavListItem';
 import './Nav.scss';
 import { NavLink } from 'react-router-dom';
@@ -9,59 +11,66 @@ import lanterns from '../data/lanterns.json';
 import showLanternListImg from '../assets/images/przy latarniach.png';
 
 
-const Nav = () => {
+const Nav = ({ history }) => {
+  const [isMenuActive, setIsMenuActive] = useState(false);
+  const toggleMenu = () => setIsMenuActive(!isMenuActive);
 
-  const [navClass, setNavClass] = useState('Navigation');
+  const [isArrowRotated, setIsArrowRotated] = useState(false);
 
-  const [lanternListClass, setLanternListClass] = useState('Navigation--active--list--lantern-list')
-
-  const handleShowLanternList = () => {
-    setLanternListClass('Navigation--active--list--lantern-list--active');
-
+  const [isLanternListOpened, setIsLanternListOpened] = useState(false);
+  const toggleLanternList = () => {
+    setIsLanternListOpened(!isLanternListOpened);
+    setIsArrowRotated(!isArrowRotated)
   }
+
+  useEffect(() => {
+    const unListen = history.listen(() => {
+      setIsMenuActive(false);
+    });
+
+    return () => {
+      unListen();
+    }
+  }, [])
 
   return (
     <>
-      <button type='button' onClick={() => setNavClass('Navigation--active')} id='hamburger'>
+      <button type='button' onClick={toggleMenu} id='hamburger'>
         <img src={hamburgerIcon} style={{
           height: 20
         }} />
       </button>
-      <nav className={navClass}>
-        <div className="Navigation--active--header">
-          <button onClick={() => setNavClass('Navigation')}><NavLink to='/'><img src={navLogo} className="Navigation--active--header--logo" /></NavLink></button>
-          <button type='button' onClick={() => setNavClass('Navigation')} id='closeMenu'>
+
+      <nav className={classNames('Navigation', { active: isMenuActive })}>
+        <div className="Navigation--header">
+          <NavLink to='/' as="button">
+            <img src={navLogo} className="Navigation--header--logo" />
+          </NavLink>
+
+          <button type='button' onClick={toggleMenu} id='closeMenu'>
             <img src={closeIcon} className="Navigation--active--header--icon" />
           </button>
         </div>
-        <ul className="Navigation--active--list">
-          <button onClick={() => setNavClass('Navigation')}>
-            <NavListItem path='/oprojekcie' name='o projekcie' />
-          </button>
-          <button onClick={handleShowLanternList} id="showLanternList">
-            <img src={showLanternListImg} alt="strzałka rozwijająca listę latarni" style={{ width: 6.11, height: 12.33 }} />
+        <ul className="Navigation--list">
+          <NavListItem as="button" path='/oprojekcie' name='o projekcie' />
+
+          <button onClick={toggleLanternList} id="showLanternList">
+            <img className={classNames('arrow', { rotate: isArrowRotated })} src={showLanternListImg} alt="strzałka rozwijająca listę latarni" style={{ width: 6.11, height: 12.33 }} />
             <p>latarnie</p>
           </button>
-          <ul className={lanternListClass}>
+
+          <ul className={classNames('Navigation--list--lanterns', { active: isLanternListOpened })}>
             {lanterns.map(lantern => (
-              <button onClick={() => setNavClass('Navigation')}>
-                <NavLink to={`/latarnie/${lantern.id}`}>{lantern.name}</NavLink>
-              </button>
+              <NavLink as="button" to={`/latarnie/${lantern.id}`}>{lantern.name}</NavLink>
             ))}
           </ul>
-          <button onClick={() => setNavClass('Navigation')}>
-            <NavListItem path='/paszport' name='paszport' />
-          </button>
-          <button onClick={() => setNavClass('Navigation')}>
-            <NavListItem path='/sklep' name='sklep' />
-          </button>
-          <button onClick={() => setNavClass('Navigation')}>
-            <NavListItem path='/kontakt' name='kontakt' />
-          </button>
+          <NavListItem as="button" path='/paszport' name='paszport' />
+          <NavListItem as="button" path='/sklep' name='sklep' />
+          <NavListItem as="button" path='/kontakt' name='kontakt' />
         </ul>
       </nav>
     </>
   )
 }
 
-export default Nav;
+export default withRouter(Nav);

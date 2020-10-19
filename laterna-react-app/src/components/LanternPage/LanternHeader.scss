@@ -1,0 +1,49 @@
+@import '../../styles/layout.scss';
+@import '../../styles/texts.scss';
+@import '../../styles/buttons.scss';
+
+.Lantern {
+  &--header {
+    @include flex-row-between;
+    width: 95vw;
+
+    a {
+      @include default-link;
+
+      button {
+        @include remove-button-style;
+        @include flex-row-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        letter-spacing: 0;
+
+        p {
+          @include main-text-style;
+          text-transform: uppercase;
+          font-size: 16px;
+        }
+
+        &#goBack {
+          img {
+            margin-right: 10px;
+          }
+
+          p {
+            text-align: left;
+          }
+        }
+
+        &#goForward {
+          img {
+            transform: rotate(180deg);
+            margin-left: 10px;
+          }
+
+          p {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}

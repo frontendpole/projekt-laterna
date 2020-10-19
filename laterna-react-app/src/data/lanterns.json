@@ -10,7 +10,14 @@
   "address":"ul. Ku Morzu 5a",
   "address2":"72-600 Świnoujście",
   "introduction":"Pierwsza latarnia w Świnoujściu została zabudowana już w 1805 roku - była to konstrukcja z desek i luster, która ułatwiała wpływanie do portów w Świnoujściu i dalej w górę Świny do Szczecina. Wzniesiona na głowicy falochronu doczekała 1828 r., kiedy zamieniona została na stalową latarnie o wysokości około 13 m. Wreszcie w 1854 zdecydowano o budowie wysokiej i jak na ówczesne czasy, bardzo nowoczesnej latarni u nasady falochronu wschodniego. Wieża, której budowę ukończono w 1857 roku mierzy 68 metrów i dziś jest najwyższą latarnią nad Bałtykiem. Wśród czynnych, “tradycyjnych” latarni zajmuje również 10. miejsce w Europie i 12. na świecie. Jest także najwyższą latarnią zbudowaną z cegieł.",
-  "introImg": ""
+  "introImg": "/images-lantern/CIEKAWOSTKA.png",
+  "rest": [
+    { "p": "Kiedy powstała, w połowie XIX w. wieża latarni wyglądała nieco inaczej niż dziś. Żółta licowana cegła, z której początkowo była zbudowana nie wytrzymała próby czasu i ze względu na ciężkie warunki atmosferyczne zaczęła się kruszyć. Po latach prób, w ramach przeprowadzonego w latach 1902-1903 remontu, zdecydowano się wymienić ją na czerwoną i żółtą cegłę klinkierową. Przy okazji przebudowy zmienił się nie tylko budulec, ale również kształt wieży - najbardziej niszczyły się cegły na krawędziach ośmiokąta, dlatego przekrój zmieniono na okrągły. W tej formie latarnia przetrwała do dziś."},
+    { "img": "/images-lantern/poland-1218601.png"},
+    {"p":"Co ciekawe przed zakończeniem drugiej wojny światowej Niemcy chcieli wysadzić świnoujską latarnię, jednak związany z nią emocjonalnie latarnik odmówił wykonania rozkazu Od 2000 roku udostępniona jest dla zwiedzających, którzy po pokonaniu trzystu schodów mogą podziwiać widoku z najwyższej nadbałtyckiej latarni. Z kolei w przyległych do latarni budynkach można odwiedzić Muzeum na Latarni Latarnia w Świnoujściu jest wyjątkowa z jeszcze jednego powodu - emitowanego światła. Jako jedyna w Polsce poza światłem białym służącym do nawigacji na morzu, emituje również czerwone skierowane w kierunku przeciwnym do morza i służące do kierowania statków płynących Odrą."},
+    {"img": "/images-lantern/swino3.png"}
+  ],
+  "footer":"www.latarnie.com.pl / za zgodą portalu"
 }, 
 { "id":"1", 
   "name":"kikut",
@@ -23,7 +30,12 @@
   "address":"72-513 Wisełka",
   "address2":"",
   "introduction":"Zbudowana z ciosanych głazów w połowie XIX wieku dawniej pełniła rolę wieży orientacyjno-widokowej. Jednak kiedy po II wojnie światowej znacznie zwiększył się ruch morski w okolicach portów w Świnoujściu i Szczecinie, zdecydowano, że niezbędne dla nawigacji jest światło zlokalizowane pomiędzy latarniami w Świnoujściu i Niechorzu. Położona w otulinie Wolińskiego Parku Narodowego wieża widokowa Kikut okazała się idealną kandydatką - chociaż niewysoka, bo licząca jedynie 15 metrów, z racji umiejscowienia na wysokim klifie może pochwalić się wysokością światła wynoszącą 91,5 m n.p.m - najwyższą na całym Wybrzeżu Zachodnim. Widoczne w odległości 16 mil morskich światło bałtyckie statki mogą obserwować od stycznia 1962 roku.",
-  "introImg": ""
+  "introImg": "/images-lantern/kikut2.png",
+  "rest": [
+    { "img": "/images-lantern/kikut1.png"},
+    {"img": "/images-lantern/swino3.png"}
+  ],
+  "footer":"www.latarnie.com.pl / za zgodą portalu Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl"
 }, 
 { "id":"2",
   "name":"niechorze",
@@ -36,7 +48,14 @@
   "address":"ul. Polna 30",
   "address2":"72-350 Niechorze",
   "introduction":"Powstała w 1866 roku na wysokim klifie latarnia wypełniła lukę w oznaczeniach nawigacyjnych, jaka rozpościerała się pomiędzy latarniami w Świnoujściu i Jarosławcu. Podstawa latarni zbudowana jest na planie kwadratu i na wysokości około 19 metrów przechodzi w przekrój ośmiokąta. Z obu stron do wieży przylegają przybudówki, w których przewidziano mieszkania dla czterech rodzin latarników. Co ciekawe są one zamieszkane do dziś. Latarnia wraz z zabudowaniami wokół - stodołą, budynkiem inwentarskim (dziś już rozebranym) i magazynem tworzyła prawdziwy kompleks budynków uzupełniony o znajdujące się od strony północnej ogrody.",
-  "introImg": ""
+  "introImg": "/images-lantern/niechorze-ciekaw.png",
+  "rest": [
+    { "p": "Niestety, latarnia w tej formie nie doczekała czasów dzisiejszych - w 1945 podczas działań wojennych zniszczona została laterna. Całe szczęście nie doszło do wybuchu 8 min, które pozostawiły po sobie w budynku opuszczające go wojska niemieckie. Po odbudowie latarnia zaświeciła na nowo w 1948 roku."},
+    {"p": "Latem dostępna jest dla zwiedzających - po pokonaniu ponad 200 stopni znajdujemy się na tarasie, z którego roztacza się przepiękny widok na morze i okolicę. Przy okazji wizyty w latarni Niechorze można odwiedzić pobliski Park Miniatur Latarni Morskich, a w nim poza modelami latarni również jedyną w Europie sprawną rekonstrukcję blizy."},
+    { "img": "/images-lantern/Niechorze 1.png"},
+    {"img": "/images-lantern/niechorze 2 Parapente  CC BY-SA 3.0 PL.png"}
+  ],
+"footer":"Kriskros /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Parapente / CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl"
 }, 
 { "id":"3",
   "name":"kołobrzeg",
@@ -49,7 +68,14 @@
   "address":"ul. Morska 1",
   "address2":"78-100 Kołobrzeg",
   "introduction":"Kołobrzeg od związany był z morzem i żeglugą i nie dziwi, że światło latarni w Kołobrzegu było jednym z pierwszych świateł nawigacyjnych na południowym brzegu Bałtyku. Już w 1666 roku na nowo-wybudowanej wieży budynku zarządu portu zabłysło światło, początkowo zapalane jedynie w momentach, kiedy statek chciał wpłynąć do portu. W późniejszych latach za punkty nawigacyjne służyły statkom latarnie wystawiane na falochronie, następnie maszt przy stacji pilotów, wreszcie wielokrotnie przebudowywana wieża. Budowla przetrwała do 1945 roku, kiedy została wysadzona przez wycofujące się wojska niemieckie. 18 marca 1945 port został zdobyty, na plaży odbyła się defilada polskich wojsk, a żołnierze wrzucając obrączki ślubne do morza zaślubili Polskę z morzem.",
-  "introImg": ""
+  "introImg": "/images-lantern/Kołobrzeg 4 Aw58   CC BY-SA.png",
+  "rest":[
+    {"p":"Zaraz po wojnie przystąpiono do odbudowy latarni, jednak wzniesiono ją nie przed fortem, ale na głównej platformie dawnej twierdzy. Budynek zbudowano z czerwonej rozbiórkowej cegły łączonej zaprawą, do przygotowania której wykorzystano piasek z plaży. Już w 1962 roku stwierdzono, że zbudowana w ten sposób latarnia potrzebuje generalnego remontu, jednak przeprowadzono go dopiero w 1979 roku."},
+    {"p":"Kołobrzeska latarnia jest jednocześnie pomnikiem zwycięstwa nad faszyzmem - do dziś znajduje się na niej tablica ze słowami „Bohaterom poległym w walce z najeźdźcą hitlerowskim o wolność i niepodległość…”"},
+    {"img":"/images-lantern/Kołobrzeg 3.png"},
+    {"img":"/images-lantern/Ko┼éobrzeg 2.png"}
+  ],
+  "footer":"Cezarde62 /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Aw58 / CC BY-SA, https://creativecommons.org/licenses/by-sa/4.0/deed.pl Mirand /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en"
 }, 
 { "id":"4",
   "name":"gąski",
@@ -62,7 +88,13 @@
   "address":"ul. Latarników 7",
   "address2":"76-034 Gąski",
   "introduction":"W przeciwieństwie do wielu koleżanek, latarnia w Gąskach nie jest położona na wysokiej wydmie czy klifie. W tym miejscu brzeg jest dość płaski, a 51,2-metrowa wieża góruje nad pobliskimi lasami. Podobnie jak w przypadku Czołpina, na potrzeby budowy latarni na brzegu morza postawiono pomost, a materiały transportowano drogą morską. Latarnia powstawała od 1876, a jej światło po raz pierwszy zabłysnęło w 1878. Jej konstrukcja doskonale pokazuje trzy części, z których składa się typowa budowla latarni morskiej. Najniższa z nich - podstawa, ma kształt ośmiokąta i wysokością sięga 11,4 metra. Powyżej wznosi się sięgająca 40 metrów wieża, na której oparto laternę - stalowo-szklany pawilon, w którym znajduje się soczewka latarni.",
-  "introImg": ""
+  "introImg": "/images-lantern/gaski 3 Tomasz Lerczak  CC BY-SA.png",
+  "rest":[
+    {"p":"Podczas drugiej wojny światowej latarnia nie ucierpiała szczególnie mocno - zniszczono jedynie mechanizmy optyczne, a latarnia została ponownie uruchomiona w 1948 roku. Z biegiem czasu w konstrukcji zaczęły się pojawiać pęknięcia i ubytki, jednak dziś możemy ją oglądać w praktycznie niezmienionej od końca XIX wieku formie. Jest udostępniona dla zwiedzających, a na jej szczyt prowadzi 226 granitowych schodów."},
+    {"img":"/images-lantern/gaski 4.png"},
+    {"img":"/images-lantern/Gąski 2.png"}
+  ],
+  "footer":"Aw58 / CC BY-SA, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl"
 }, 
 { "id":"5",
   "name":"darłowo",
@@ -75,7 +107,11 @@
   "address":"ul. Wschodnia 14",
   "address2":"76-150 Darłowo",
   "introduction":"Latarnia Darłowo wcale nie znajduje się w Darłowie, ale w Darłówku i miała wskazywać statkom wejście do portu w Darłowie. W 1855 roku u nasady falochronu wschodniego zbudowano parterową stację pilotów, do którego przylegała wieża. Tam na drugim piętrze znajdował się pokój dyżurnego, który obserwował redę i przez okno na wysokości 12 metrów wskazywał światłem drogę do portu. 70 lat później w 1927 roku zdecydowano się zwiększyć wysokość światła - wieżę podwyższono o jedną kondygnację, nad którą zbudowano laternę osiągając 22-metrową wysokość wieży. W tej formie wieża latarni dotrwała do dziś. Narażona na niesprzyjające warunki atmosferyczne i zalewana podczas sztormów doczekała się kapitalnego remontu w 1998 roku, a sierpniu 2000 roku została udostępniona dla zwiedzających i turystów tłumnie odwiedzających latem okolice Darłowa.",
-  "introImg": ""
+  "introImg": "/images-lantern/darlowo 2.png",
+  "rest":[
+    {"img":"/images-lantern/Darlowo 3.png"}
+  ],
+  "footer":"Topory / CC BY-SA, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Red 81 / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl"
 }, 
 { "id":"6",
   "name":"jarosławiec",
@@ -88,7 +124,15 @@
   "address":"ul. Szkolna 1",
   "address2":"76-107 Jarosławiec",
   "introduction":"Potrzebę dodania światła nawigacyjnego pomiędzy Darłowem a Łebą zauważono już na początku XIX wieku. To wtedy postanowiono wybudować latarnię w Jarosławcu. Pierwszy projekt - przewidujący budowę drewnianej wieży wysokości 16,3 m powstał już w 1820 roku, ale nigdy nie doczekał się realizacji. Kolejny, przewidujący murowaną wieżę o wysokości 3,4 metra w odległości 11 m. od klifowego brzegu powstał w 1827. Też nie doczekał się realizacji - stwierdzono, że latarnia położona tak wody mogłaby zostać podmyta.",
-  "introImg": ""
+  "introImg": "/images-lantern/Group 389.png",
+  "rest":[
+    {"p":"Za to w 1830 postanowiono wybudować latarnię właśnie według tego projektu za to na wzgórzu położonym w odległości 400 metrów od wody. Tym razem okazało się, że latarnia jest za niska i jej światło zasłaniają okoliczne drzewa. Wreszcie w 1835.zdecydowano o przekształceniu niskiej latarni w mieszkania dla latarników, a obok postawiono nową wieżę - już 33,3-metrową. Wreszcie się udało, a latarnia w tej formie przetrwała do dziś."},
+    {"img":"/images-lantern/jaros┼éawiec 1.png"},
+    {"img":"/images-lantern/jaros┼éawiec 3.png"},
+    {"img":"/images-lantern/jarosławiec 2.png"}
+  ],
+  "footer":"Martawodnik97 / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
+
 }, 
 { "id":"7",
   "name":"ustka",
@@ -101,7 +145,14 @@
   "address":"ul. Marynarki Polskiej 1",
   "address2":"76-270 Ustka",
   "introduction":"W okolicach portu w Ustce od zawsze występowały silne prądy przybrzeżne i utrudniające wpłynięcie do portu prostopadłe do wybrzeża wiatry, dlatego niezbędne było zbudowanie w porcie latarni morskiej. Wybudowana w 1892 roku znajduje się u ujścia rzeki Słupi do Bałtyku. Budynek który przetrwał do dziś powstał z czerwonej cegły i składa się ze stacji pilotów i ośmiokątnej wieży, na szczycie której umieszczono soczewkę latarni.",
-  "introImg": ""
+  "introImg": "/images-lantern/ustka 1.png",
+  "rest":[
+    {"p":"II wojna światowa obeszła się z latarnią w Ustce łagodnie, zarówno wieża jak i przylegający do niej budynek stacji pilotów nie uległy zniszczeniom podczas wojennej zawieruchy. Co ciekawe od zakończenia działań wojennych latarnia nosiła nazwę Postomino, podobnie jak sąsiadująca, ale znajdująca się już w województwie zachodniopomorskim gmina. Swoją nazwę odzyskała w 1947."},
+    {"img":"/images-lantern/ustka 3.png"},
+    {"p":"Latarnia udostępniona jest dla zwiedzających, a na jej szczyt, na którym można podziwiać mechanizm soczewki pozwalającej na emitowanie światła na odległość 18 mil morskich, prowadzą betonowe i metalowe schodki."},
+    {"img":"/images-lantern/ustka 4.png"}
+  ],
+  "footer":"Obraz neufal54 z Pixabay Cezarde62 / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
 }, 
 { "id":"8",
   "name":"stilo",
@@ -114,7 +165,14 @@
   "address":"84-210 Sasino",
   "address2":"",
   "introduction":"Na samym początku XX wieku. w związku z brakiem wystarczającego oznakowania nawigacyjnego pomiędzy latarniami Czołpino i Rozewie rząd pruski zdecydował o budowie latarni niedaleko wsi Stilo. Ukończona w 1906 roku zaskakuje materiałem, z którego powstała - jako jedna z dwóch (poza Jastarnią) na polskim wybrzeżu zbudowana jest całkowicie z metalu. Jej korpus wykonano z łączonych śrubami żeliwnych elementów, które doskonale widać podczas zwiedzania latarni. Na całym świecie są tylko trzy latarnie o takiej konstrukcji.",
-  "introImg": ""
+  "introImg": "/images-lantern/stilo 3.png",
+  "rest":[
+    {"p":"Drugą cechą charakterystyczną Stilo jest kolorystyka - pomalowana została w trzy szerokie pasy - czarny u dołu, biały pośrodku i czerwony na górze. Te kolory czynią Stilo najbardziej malowniczą i rozpoznawalną latarnią na polskim wybrzeżu."},
+    {"p":"Podobnie jak w przypadku Czołpina, latarnia położona jest na wysokiej wydmie. Co za tym idzie odwiedziny latarni poprzedzone są długim spacerem w górę 45-metrowej wydmy."},
+    {"img":"/images-lantern/stilo 1.png"}
+  ],
+  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Michal Gorski / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)"
+
 }, 
 { "id":"9",
   "name":"czołpino",
@@ -127,7 +185,14 @@
   "address":"ul. Ogrodowa 12",
   "address2":"76-214 Smołdzino",
   "introduction":"Latarnia Czołpino położona w przepięknej otulinie Słowińskiego Parku Narodowego to jedna z królowych polskich latarni. Jej budowa zajęła aż trzy lata - właśnie ze względu na jej położenie. Znajduje się na wysokiej wydmie, dlatego nie było możliwości dostarczenia materiałów do jej budowy drogą lądową. Budulec zdecydowano się dostarczać morzem - z tej okazji powstał tymczasowy pomost, a materiały przypływały barkami. Latarnię zbudowano z czerwonej, licowanej cegły, a sama wieża ma 25,2 m wysokości. Dzięki położeniu na wysokiej wydmie daje to imponującą 75-metrową wysokość światła. Zbudowana w 1875 roku latarnia nienaruszona przetrwała II wojnę światową i w niezmienionej formie można ją oglądać do dziś.",
-  "introImg": ""
+  "introImg": "/images-lantern/CIEKAWOSTKA-1.png",
+  "rest":[
+    {"p":"Podobnie jak większość latarni na polskim wybrzeżu Czołpino również udostępnione jest dla zwiedzających, czeka ich jednak długi, stromy i malowniczy spacer przez Słowiński Park Narodowy. Za to widok z tarasu widokowego latarni rekompensuje “trudy” wycieczki - z galerii podziwiać możemy nie tylko park narodowy, ale również słynne ruchome wydmy."},
+    {"img":"/images-lantern/czolpino 1.png"},
+    {"img":"/images-lantern/czoplino 2.png"},
+    {"img":"/images-lantern/czoplino 3.png"}
+  ],
+  "footer":"Topory CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) Chron-Paul (Diskussion) / CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Tomasz Górny (Nemo5576) / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en))"
 }, 
 { "id":"10",
   "name":"rozewie",
@@ -140,7 +205,16 @@
   "address":"ul. Leona Wzorka 3",
   "address2":"84-104 Władysławowo",
   "introduction":"Tak naprawdę na Rozewiu stoją dwie latarnie: “stara” i “nowa”. Ta nadal aktywna to starsza, powstała już w 1822 roku, dwukrotnie modernizowana. Nosi imię Stefana Żeromskiego za sprawą legendy - latarnik Leon Wzorek opowiadał, że Żeromski pisał w Rozewiu powieść “Wiatr od morza”. Faktycznie książka powstała w Warszawie, niewykluczone jednak, że odwiedziny latarni w Rozewiu posłużyły za inspirację. Z kolei legendarny latarnik Wzorek doczekał się na Rozewiu swojej ulicy, przy której stoi latarnia.",
-  "introImg": ""
+  "introImg": "/images-lantern/CIEKAWOSTKA-2.png",
+  "rest":[
+    {"p":"Stara latarnia na Rozewiu powstała już w 1822 roku, co czyni ją najstarszą działającą latarnią w Polsce. W drugiej połowie XIX w., gdy okazało się, że statki kierujące się do portu w Gdańsku myliły rozewskie i helskie światło, zdecydowano o budowie drugiej, siostrzanej, “nowej” latarni. Rozewie I i II świeciły wspólnie od 1875 do 1910 r, kiedy zdecydowano się zmodyfikować starszą latarnię - została podwyższona, a oświetlenie naftowe wymieniono na elektryczne o większym zasięgu. “Nowa” przestała być potrzebna i do 1990 wykorzystywana była, jako wieża obserwacyjna i miejsce lokalizacji radaru strażnicy Wojsk Obrony Pogranicza."},
+    {"img":"/images-lantern/rozewie 1.png"},
+    {"p":"W 1978 roku zdecydowano o podwyższeniu latarni o kolejnych 8 metrów - rosnący od strony morza rezerwat bukowy zaczął zasłaniać światło. W efekcie wieża osiągnęła wysokość 32,7 metra. Przy okazji wizyty w rozewskiej latarni warto odwiedzić mieszczące się w jej budynku Muzeum Latarni Morskich, będące filią Narodowego Muzeum Morskiego w Gdańsku, a w nim m.in. stary reflektor latarni Rozewie."},
+    {"p":"Przy okazji wizyty w rozewskiej latarni warto odwiedzić mieszczące się w jej budynku Muzeum Latarni Morskich, będące filią Narodowego Muzeum Morskiego w Gdańsku, a w nim m.in. stary reflektor latarni Rozewie."},
+    {"img":"/images-lantern/rozewie 2.png"},
+    {"img":"/images-lantern/rozewie 4.png"}
+  ],
+  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Bazie / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)"
 }, 
 { "id":"11",
   "name":"jastarnia",
@@ -153,7 +227,13 @@
   "address":"84-140 Jastarnia",
   "address2":"",
   "introduction":"Znajdująca się między latarniami Rozewie i Hel latarnia w Jastarni zbudowana została w 1950 r. Wcześniej na jej miejscu stała latarnia zbudowana w 1938 r., jednak przetrwałą ona tylko rok i została zniszczona już na początku II wojny światowej. Zbudowana z elementów starego nautofonu* Stilo jest jedną z dwóch (właśnie obok Stilo) całkowicie metalowych latarni w Polsce. Wieża w kształcie metalowego walca osadzonego na betonowej podstawie mierzy zaledwie 13,5 metra, co czyni ją najniższą latarnią morską w Polsce. Niestety, jest również jedną z dwóch niedostępnych dla zwiedzających.",
-  "introImg": ""
+  "introImg": "/images-lantern/Group 390.png",
+  "rest":[
+    {"p":"*Nautofon - buczek mgłowy - urządzenie wykorzystywane na statkach i stałych znakach nawigacyjnych służące do nadawania sygnałów dźwiękowych w trakcie mgły. Dźwięk nautofonu może być słyszalny nawet w odległości 20 km. Dźwięk nautofonu można usłyszeć m.in. w Parku Miniatur Latarni Morskich w Niechorzu."},
+    {"img":"/images-lantern/jastarnia 1.png"},
+    {"img":"/images-lantern/jastarnia 2.png"}
+  ],
+  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
 }, 
 { "id":"12",
   "name":"hel",
@@ -166,7 +246,13 @@
   "address":"84-150 Hel",
   "address2":"",
   "introduction":"Pierwsza helska latarnia wybudowana została w 1826, niestety polscy saperzy zmuszeni byli do jej wysadzenia podczas obrony Helu we wrześniu 39’ Zarys jej fundamentów jest do dziś widoczny jako owalny skwerek, kilkanaście metrów przed wejściem do obecnej latarni. Nowa latarnia powstała jeszcze w trakcie II wojny światowej. Latarnię zbudowano w rekordowe 7 miesięcy w 1942 roku i cały czas działająca doczekała czasów obecnych.",
-  "introImg": ""
+  "introImg": "/images-lantern/hel 1.png",
+  "rest":[
+    {"p":"Zbudowana z czerwonej cegły ośmioboczna wieża ma 41,5 metra, znajduje się na samym końcu półwyspu helskiego i jak większość polskich latarni udostępniona jest dla zwiedzających."},
+    {"img":"/images-lantern/hel 3.png"},
+    {"img":"/images-lantern/hel 4.png"}
+  ],
+  "footer":"Tomasz Kolowski Tommy jr / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Bazie / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
 }, 
 { "id":"13",
   "name":"sopot",
@@ -179,7 +265,14 @@
   "address":"Plac Zdrojowy 3",
   "address2":"81-720 Sopot",
   "introduction":"Latarnia morska w Sopocie tak naprawdę nie jest latarnią. Ale od początku - w 1903 roku powstał w Sopocie zakład balneologiczny, który potrzebował kotłowni. Jednak komin w klasycznym wydaniu nie pasowałby do nadmorskiego kurortu i położenia zaraz obok sopockiego molo. Dlatego projektanci postanowili zaprojektować komin, który będzie się wpisywał w krajobraz.",
-  "introImg": ""
+  "introImg": "/images-lantern/sopot 1.png",
+  "rest":[
+    {"p":"Zakład funkcjonował do II wojny światowej, po zakończeniu której budynek przejęło miasto i urządziło tam łaźnie, a w 1956 roku przekształcono go w szpital reumatologiczny. Po remoncie szpitalnej kotłowni w 1975 roku okazało się, że dymiący komin już nie jest potrzebny, postanowiono go przebudować i zamontować na nim źródło światła. Początkowo z powodu małego zasięgu (5 Mm) światło nie było uznawane za latarnię. Status wieży zmienił się w 1977 roku, kiedy po modernizacji zasięg światła zwiększono do 17 Mm - wreszcie sopocka wieża stała się latarnią morską!."},
+    {"img":"/images-lantern/sopot 4.png"},
+    {"p":"Kiedy w 1999 zmniejszono zasięg nominalny światła do 7 Mm sopocka wieża znów straciła swój zaszczytny status i latarnią pozostaje już tylko z nazwy. Za to niezmiennie oferuje swoje przestrzenie zwiedzającym, a z punktu widokowego przepiękną panoramę Trójmiasta i Zatoki Gdańskiej."},
+    {"img":"/images-lantern/sopot 2.png"}
+  ],
+  "footer":"Obraz b-sea z Pixabay Mariusz Nasieniewski / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Almondox / CC BY (https://creativecommons.org/licenses/by/3.0)"
 }, 
 { "id":"14",
   "name":"gdańsk nowy port",
@@ -192,7 +285,17 @@
   "address":"ul. Przemysłowa 6",
   "address2":"80-542 Gdańsk",
   "introduction":"Pod koniec XIX wieku tereny na południe od gdańskiego kanału portowego, w okolicach którego znajdowały się już światła nawigacyjne, zaczęły przeobrażać się w nabrzeże nazwane Nowym Portem. Wtedy zdecydowano, że dotychczasowe światło położone jest zbyt nisko i zdecydowano o budowie latarnia Gdańsk Nowy Port, która zaświeciła po raz pierwszy w 1893 roku. 27-metrowa wieża była wyższa od poprzedniczki o 7 metrów i wzorowana na uważanej za najpiękniejszą, dziś nieistniejącej latarni w Cleveland. Na jej szczycie umieszczono kulę czasu, która przez lata pozwalała cumującym w porcie statkom nastawić chronometry. Codziennie w południe 70-kilogramowa kula spadała wzdłuż masztu zamontowanego na dachu laterny. Razem z rozwojem techniki i wprowadzeniem radia kula czasu przestała być niezbędna i po awarii podczas sztormu w 1929 roku już nie powróciła do sprawności.",
-  "introImg": ""
+  "introImg": "/images-lantern/Gdansk nowy 2.png",
+  "rest":[
+    {"p":"Dokładny moment wybuchu II wojny światowej, a ściślej wojny niemiecko-polskiej, która wybuchła 1 września 1939 jest kwestią dyskusyjną wśród historyków. W sporze dominują dwie narracje - jedna, bardziej popularna mówi, że wojna zaczęła się na Westerplatte, druga, że od bombardowania Wielunia. W przypadku nalotu na Wieluń nie do końca wiadomo, czy rozpoczął się o 4:40 czy 5:40. Dużo więcej pewności mamy w przypadku ostrzału Westerplatte - faktem jest, że siły niemieckie dostały rozkaz rozpoczęcia działań o 4:45."},
+    {"p":" Rozkaz Hitlera miały realizować również wojska niemieckie znajdujące się w porcie w Gdańsku - obsadzona przez żołnierzy z ciężkim karabinowym wieża latarni morskiej oraz zacumowany pancernik Schleswig-Hollstein. Strzały z latarni rozpoczęły się się punktualnie, o 3 minuty spóźniła się za to załoga pancernika. W efekcie za pierwsze strzały II wojny światowej należy uznać nie, jak się powszechnie uważa, te oddane ze Schlewswiga-Hollsteina, ale właśnie ostrzał z uroczej latarni morskiej w gdańskim porcie. Polskie wojska w odpowiedzi na atak błyskawicznie zniszczyły miejsce, z którego padały strzały, a takżę samą wieżę latarni. Chociaż została ona szybko odbudowana przez Niemców, do dziś jaśniejsza cegła pokazuje punkt, w które uderzyły pociski wystrzelone z Westerplatte."},
+    {"img":"/images-lantern/Gdansk nowy 3.png"},
+    {"p":"Po zakończeniu II wojny światowej latarnia wymagała remontu i na nowo zaświeciła w 1947 roku, jednak razem z rozwojem portu w Gdańsku zdecydowano o budowie nowej, wyższej i nowocześniejszej latarni. W 1984, po dziewięćdziesięciu latach działania latarnia Gdańsk Nowy Port zgasła zastąpiona przez latarnię w Porcie Północnym. Od tego momentu latarnia stała zamknięta, niszczała narażona na trudne warunki atmosferyczne wybrzeża."},
+    {"p":"Zniszczoną latarnię pod koniec lat dziewięćdziesiątych zobaczył Stefan Jacek Michalak, polski inżynier mieszkający na co dzień w Kanadzie. Zakochany w latarniach morskich zdecydował, że dziełem jego życia będzie przywrócenie latarni w Nowym Porcie do życia. Pomysł renowacji spotkał się z pozytywną reakcją gdańskiego magistratu i Urzędu Morskiej w Gdyni. Po kilku latach generalnego remontu, latarnia została odnowiona. Podczas renowacji starano się jednak zachować tak wiele oryginalnych elementów, ile się da. W efekcie w maju 2004 roku latarnia zaczęła nowe życie - już nie jako punkt nawigacyjny, ale oddany do zwiedzania zabytek historyczny. Z kolei w 2008 roku na dach laterny wróciła zrekonstruowana kula czasu. W sezonie ponownie odmierza czas spadając wzdłuż masztu o 12:00, 14:00, 16:00 i 18:00."},
+    {"img":"/images-lantern/Gdansk nowy 4.png"},
+    {"p":"Odbudowana latarnia w Nowym Porcie to jedyna prywatna latarnia w Polsce. Wyremontowana przez nowego właściciela jest udostępniona dla zwiedzających, a w środku budynku znajduje się również muzeum latarnictwa. Jako jedyna latarnia na polskim wybrzeżu ma również swoją stronę internetową, na której w niezwykle szczegółowy sposób opisana jest historia tej przepięknej budowli - można ją znaleźć pod adresem www.latarnia.gda.pl"}
+  ],
+  "footer":"Andrzej Otrębski / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Krzymill / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)"
 }, 
 { "id":"15",
   "name":"gdańsk port północny",
@@ -205,9 +308,14 @@
   "address":"ul. kpt. Żeglugi Wielkiej Witolda Poinca 1",
   "address2":"80-601 Gdańsk",
   "introduction":"Wśród polskich latarni zdecydowanie najmłodsza, bo zbudowana dopiero w 1984 r mieści się na wieży kapitanatu portu w Gdańsku. Jest nie tylko najmłodsza, ale również zdecydowanie najbrzydsza - brakuje jej magii i nie rozczula podobnie do tradycyjnych wieży latarni.",
-  "introImg": ""
+  "introImg": "/images-lantern/CIEKAWOSTKA-3.png",
+  "rest":[
+    {"p":"Jako jedyna z polskich latarni posiada windę, niestety nie skorzystają z niej turyści - nie jest udostępniona do zwiedzania. A szkoda - podobno z jej galerii rozciąga się przepiękny widok."},
+    {"img":"/images-lantern/Gdan╠üsk_Port_Po╠ü┼énocny 2.png"}
+  ],
+  "footer":"Marlena1666 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0) Yanek / fotopolska.eu / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)"
 }, 
-{ "id":"16",
+{ "id":"16", 
   "name":"krynica morska",
   "carouselImg":"/images-lantern/Carousel/233px/Artboard 19.png",
   "headerImgUrl": "/images-lantern/SLIDER-13.png",
@@ -218,6 +326,11 @@
   "address":"ul. Sienkiewicza 1",
   "address2":"82-120 Krynica Morska",
   "introduction":"Pierwsza latarnia w Krynicy powstała w 1895 roku, niestety uległa zniszczeniu w trakcie II wojny światowej. Ta, którą dziś możemy podziwiać, została uroczyście otwarta w 1951. Zbudowana została z betonowych bloków i co ciekawe jest pusta w środku - z krętej klatki schodowej mocowanej do ścian można obserwować wejście do latarni.",
-  "introImg": ""
+  "introImg": "/images-lantern/krynica 1.png",
+  "rest":[
+    {"p":"Zlokalizowana na wschodnim krańcu popularnego kurortu w Krynicy jest najbardziej na wschód wysuniętą latarnią w Polsce. Udostępniona jest do zwiedzania i z racji swojego położenia oferuje przepiękny widok zarówno na Zalew Wiślany jak i Zatokę Gdańską. Przy dobrej pogodzie z jej tarasu można dostrzec po jednej stronie światła latarni w Helu i Gdańsku, po drugiej Frombork i Tolmicko"},
+    {"img":"/images-lantern/krynica 2.png"}
+  ],
+  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
 } 
 ]
