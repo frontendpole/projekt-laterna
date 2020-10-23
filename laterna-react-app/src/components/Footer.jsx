@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Footer.scss';
+import { useMediaQuery } from 'react-responsive';
 import instagramIcon from '../assets/images/iconfinder_-2.png';
 import facebookIcon from '../assets/images/iconfinder_facebook_circle_black_-1.png';
 import pinterestIcon from '../assets/images/iconfinder_-1.png';
@@ -10,6 +11,13 @@ import photo3 from '../assets/images/insta-1.png';
 import photo4 from '../assets/images/insta-3.png';
 
 const Footer = () => {
+
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
+
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1024px)'
+  });
+
   return (
     <footer className='Footer'>
       <h2>projekt laterna</h2>

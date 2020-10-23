@@ -3,12 +3,19 @@
 .PageHeader {
   @include flex-row-between;
   height: 97px;
-  padding-left: 36px;
-  padding-right: 35px;
+  z-index: 3;
+  background-color: #FFFFFF;
+  width: 100%;
+  position: fixed;
 
-  img {
+  &.small {
+    height: 48px;
+  }
+
+  &--logo {
     width: 100%;
     max-width: 117px;
     max-height: 32.47px;
+    margin-left: 36px;
   }
 }

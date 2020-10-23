@@ -1,5 +1,11 @@
 .HeaderImg {
   position: relative;
+  margin-top: 97px;
+
+  &--wrapper {
+    width: 100%;
+    position: relative;
+  }
 
   &--img {
     max-width: 100%;
@@ -15,8 +21,8 @@
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 100%;
     text-transform: uppercase;
     text-align: center;
@@ -30,5 +36,19 @@
     left: 0;
     background-color: #335361;
     opacity: 0.48;
+  }
+}
+
+
+@media(min-device-width: 1024px) {
+  .HeaderImg {
+    &--title {
+      font-size: 65px;
+    }
+
+    &--rectangle {
+      background-color: #2E3C4B4D;
+      opacity: 1;
+    }
   }
 }
