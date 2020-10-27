@@ -31,6 +31,13 @@
 
 @media(min-device-width: 1024px) {
   .ProjectDescription {
+    position: relative;
+    overflow: hidden;
+
+    #background-wave {
+      position: absolute;
+      top: 224px;
+    }
 
     p {
       @include paragraph-desktop;
@@ -46,6 +53,7 @@
     &--wrapper1 {
       @include flex-row-between;
       width: 961px;
+      z-index: 2;
     }
 
     &--text-wrapper1 {
@@ -63,6 +71,7 @@
       width: 961px;
       margin-top: 153.5px;
       align-items: flex-start;
+      z-index: 2;
 
       img {
         &:nth-child(1) {
@@ -70,7 +79,6 @@
         }
       }
     }
-
 
     &--text-wrapper2 {
       max-width: 384px;
@@ -99,9 +107,16 @@
   }
 }
 
-
 @media(min-device-width: 1366px) {
   .ProjectDescription {
+
+    &--wrapper1 {
+      width: 1088px;
+
+      img {
+        margin-right: 127px;
+      }
+    }
 
     &--wrapper2 {
       width: 1088px;

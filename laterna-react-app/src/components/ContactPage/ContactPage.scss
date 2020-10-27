@@ -1,0 +1,19 @@
+@import '../../styles/layout.scss';
+@import '../../styles/texts.scss';
+
+
+@media(min-device-width: 1024px) {
+  .ContactPage {
+    @include flex-row-between;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #F2EDEB;
+
+    h2 {
+      @include main-text-style;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: left;
+    }
+  }
+}

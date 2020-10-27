@@ -22,8 +22,10 @@ const Header = () => {
 
   return (
     <header className={classNames("PageHeader", { small: isHeaderSmall })}>
-      <NavLink to='/'><img src={mainLogo} className="PageHeader--logo" alt="logo Projektu Laterna" /></NavLink>
-      <Nav />
+      <div className="PageHeader--wrapper">
+        <NavLink to='/'><img src={mainLogo} className="PageHeader--logo" alt="logo Projektu Laterna" /></NavLink>
+        <Nav />
+      </div>
     </header>)
 }
 

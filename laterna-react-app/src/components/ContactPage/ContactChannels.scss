@@ -16,8 +16,6 @@
       @include paragraph;
       margin: 0;
     }
-
-
   }
 
   &--emailWrapper {
@@ -47,6 +45,59 @@
 
     margin-bottom: 65.35px;
   }
+}
 
 
+@media(min-device-width: 1024px) {
+  .ContactChannels {
+    @include flex-column-between;
+    align-items: flex-start;
+    margin-top: 74px;
+    height: 325.12px;
+    width: 352px;
+    margin-right: 50px;
+
+    header {
+      margin-top: 0;
+      width: 100%;
+
+      p {
+        margin-top: 30px;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+      }
+    }
+
+    &--social-media {
+      @include flex-row-between;
+      width: 349.79px;
+      margin-bottom: 0;
+
+      img {
+        width: 82.64px;
+      }
+    }
+
+    &--emailWrapper {
+      margin-top: 85px;
+
+      img {
+        width: 349.79px;
+        height: 59.92px;
+      }
+
+      &--emailAddress {
+        font-size: 22px;
+        top: -7px;
+        left: 59px;
+      }
+    }
+  }
+}
+
+@media(min-device-width: 1366px) {
+  .ContactChannels {
+    margin-right: 201px;
+  }
 }

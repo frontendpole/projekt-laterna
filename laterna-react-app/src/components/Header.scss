@@ -12,10 +12,15 @@
     height: 48px;
   }
 
+  &--wrapper {
+    @include flex-row-between;
+    margin: auto 36px;
+    width: 100%;
+  }
+
   &--logo {
     width: 100%;
     max-width: 117px;
     max-height: 32.47px;
-    margin-left: 36px;
   }
 }

@@ -32,11 +32,45 @@
       }
     }
   }
-  #sendBtn{
+
+  #sendBtn {
     @include remove-button-style;
     position: absolute;
     bottom: 44px;
     transform: translateX(74px);
   }
-  
+
+}
+
+@media(min-device-width: 1024px) {
+  .ContactForm {
+    width: 535.25px;
+    align-items: flex-start;
+    margin-top: 74px;
+    height: 646px;
+
+    #sendBtn {
+      align-self: flex-end;
+      transform: translate(1px, 30px);
+      position: static;
+    }
+
+    &--form {
+      width: 100%;
+
+      input[type="text"] {
+        width: 100%;
+      }
+    }
+
+    &--name-wrapper {
+      @include flex-row-between;
+
+      .InputWrapper {
+        input[type="text"] {
+          width: 260.25px;
+        }
+      }
+    }
+  }
 }
