@@ -4,7 +4,6 @@ import LanternBasicInfo from './LanternBasicInfo';
 import LanternRest from './LanternRest';
 import './LanternPage.scss';
 import { useParams } from 'react-router-dom';
-import lanterns from '../../data/lanterns.json';
 
 const LanternPage = () => {
 

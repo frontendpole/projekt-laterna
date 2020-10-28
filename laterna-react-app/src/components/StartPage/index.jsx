@@ -5,7 +5,7 @@ import startPageImgMobile from '../../assets/images/ZDJECIE STILO-1.png';
 import Introduction from './Introduction';
 import IntroGadgets from './IntroGadgets';
 import IntroPassport from './IntroPassport';
-import startPageImgDesktop from '../../assets/images/ZDJECIE STILO@2x.png';
+import startPageImgDesktop from '../../assets/images/desktop/ZeroJeden . CC BY-SA 3.0 PL web@2x.png';
 
 const StartPage = () => {
 
@@ -22,7 +22,7 @@ const StartPage = () => {
 
   return (
     <>
-      <HeaderImg headerImg={isDesktopOrLaptop ? startPageImgDesktop : startPageImgMobile} rectangleStyle={rectangleStyle} />
+      <HeaderImg headerImg={isDesktopOrLaptop ? startPageImgDesktop : startPageImgMobile} rectangleStyle={isTabletOrMobile ? null : rectangleStyle} />
       <Introduction />
       <IntroPassport />
       <IntroGadgets />

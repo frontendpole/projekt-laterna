@@ -20,8 +20,16 @@
     }
   }
 
-  &--carousel{
+  &--carousel {
     width: 100%;
     margin-bottom: 48px;
+  }
+}
+
+
+@media(min-device-width: 1024px) {
+  .Introduction {
+    text-align: center;
+    height: 776.31px;
   }
 }

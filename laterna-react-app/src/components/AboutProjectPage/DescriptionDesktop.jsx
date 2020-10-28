@@ -9,7 +9,7 @@ const DescriptionDesktop = () => {
 
   return (
     <>
-      <img id="background-wave" src={backgroundWave} alt="fala w tle" />
+      <img id="background-wave1" src={backgroundWave} alt="fala w tle" />
       <div className="ProjectDescription--wrapper1">
         <div className="ProjectDescription--text-wrapper1">
           <p>Projekt Laterna to inicjatywa, której celem jest promocja latarni morskich polskiego wybrzeża jako wyjątkowego dziedzictwa kulturalnego oraz jako ciekawej destynacji podróżniczej.</p>

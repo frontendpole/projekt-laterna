@@ -37,8 +37,79 @@
     }
   }
 
-  #sendBtn{
+  #sendBtn {
     @include remove-button-style;
     margin-top: 12px;
+  }
+}
+
+
+@media(min-device-width: 1024px) {
+  .PassportGetInfo {
+    justify-content: space-around;
+    height: 500px;
+    width: 500px;
+
+    #sendBtn {
+      transform: translateY(24px);
+    }
+
+    &--header {
+      width: 427px;
+      height: auto;
+
+      h2 {
+        font-size: 32px;
+        line-height: 38px;
+        font-family: "Sulphur Point", sans-serif;
+        font-weight: normal;
+        z-index: 1;
+      }
+    }
+
+    &--form {
+      width: 370.71px;
+      height: 139.83px;
+      z-index: 3;
+
+      .InputWrapper {
+        width: 100%;
+
+        label {
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: 0.5px;
+        }
+
+        input[type="text"] {
+          width: 100%;
+        }
+      }
+
+      &--checkbox {
+        width: 100%;
+        margin-top: 29px;
+
+        .InputWrapper {
+          width: 12.51px;
+        }
+
+        label {
+          align-self: center;
+        }
+      }
+
+
+    }
+  }
+}
+
+@media(min-device-width: 1366px) {
+  .PassportGetInfo {
+    justify-content: space-between;
+
+    #sendBtn {
+      transform: translateY(0px);
+    }
   }
 }

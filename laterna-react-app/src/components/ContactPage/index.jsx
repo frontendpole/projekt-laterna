@@ -5,7 +5,7 @@ import HeaderImg from '../HeaderImg';
 import ContactPageImg from '../../assets/images/lighthouse-on-near-body-of-water-between-rock-formation-176383.png';
 import ContactChannels from './ContactChannels';
 import ContactForm from './ContactForm';
-import ContactPageImgDesktop from '../../assets/images/crop Arkadiusz Zarzecki  CC BY-SA.png';
+import ContactPageImgDesktop from '../../assets/images/crop Arkadiusz Zarzecki  CC BY-SA@2x.png';
 
 const ContactPage = () => {
 

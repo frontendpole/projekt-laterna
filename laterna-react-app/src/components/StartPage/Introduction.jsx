@@ -1,23 +1,29 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import './Introduction.scss';
 import Carousel from './CarouselImg';
+import IntroductionMobile from './IntroductionMobile';
+import IntroductionDesktop from './IntroductionDesktop';
 
 const Introduction = () => {
+
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
+
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1024px)'
+  });
+
   return (
     <section className="Introduction">
-      <header className='Introduction--header'>
-        <div className='Introduction--header--headerWrapper'>
-          <h2>NA POLSKIM WYBRZEŻU ZNAJDUJE SIĘ</h2>
-          <h2 style={{ color: '#AE4527' }}>17 LATARNI MORSKICH</h2>
-        </div>
-        <div className='Introduction--header--headerWrapper'>
-          <h2>15 Z NICH JEST CZYNNYCH </h2>
-          <h2>A 13 DOSTĘPNYCH DO ZWIEDZANIA</h2>
-        </div>
-      </header>
-      <div className="Introduction--carousel" style={{ height: 233 }}>
-        <Carousel />
-      </div>
+
+      {isTabletOrMobile &&
+        <IntroductionMobile />
+      }
+
+      {isDesktopOrLaptop &&
+        <IntroductionDesktop />
+      }
+
     </section>
   )
 }

@@ -4,9 +4,11 @@ import HeaderImg from '../HeaderImg';
 import PassportPageImg from '../../assets/images/Tomasz Lerczak  CC BY-SA.png';
 import PassportDescription from './PassportDescription';
 import PassportGetInfo from './PassportGetInfo';
-import PassportPageImgDesktop from '../../assets/images/crop Tomasz Lerczak  CC BY-SA.png';
+import PassportPageImgDesktop from '../../assets/images/crop Tomasz Lerczak  CC BY-SA@2x.png';
 
 const PassportPage = () => {
+
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
 
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1024px)'
@@ -16,7 +18,9 @@ const PassportPage = () => {
     <>
       <HeaderImg headerImg={isDesktopOrLaptop ? PassportPageImgDesktop : PassportPageImg} title="paszport" />
       <PassportDescription />
-      <PassportGetInfo />
+      {isTabletOrMobile &&
+        <PassportGetInfo />
+      }
     </>
   )
 }

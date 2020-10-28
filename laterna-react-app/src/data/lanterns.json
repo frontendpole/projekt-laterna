@@ -17,7 +17,8 @@
     {"p":"Co ciekawe przed zakończeniem drugiej wojny światowej Niemcy chcieli wysadzić świnoujską latarnię, jednak związany z nią emocjonalnie latarnik odmówił wykonania rozkazu Od 2000 roku udostępniona jest dla zwiedzających, którzy po pokonaniu trzystu schodów mogą podziwiać widoku z najwyższej nadbałtyckiej latarni. Z kolei w przyległych do latarni budynkach można odwiedzić Muzeum na Latarni Latarnia w Świnoujściu jest wyjątkowa z jeszcze jednego powodu - emitowanego światła. Jako jedyna w Polsce poza światłem białym służącym do nawigacji na morzu, emituje również czerwone skierowane w kierunku przeciwnym do morza i służące do kierowania statków płynących Odrą."},
     {"img": "/images-lantern/swino3.png"}
   ],
-  "footer":"www.latarnie.com.pl / za zgodą portalu"
+  "footer":"www.latarnie.com.pl / za zgodą portalu",
+  "mapImg":"/images-lantern/Map/Swino K.png"
 }, 
 { "id":"1", 
   "name":"kikut",
@@ -35,7 +36,8 @@
     { "img": "/images-lantern/kikut1.png"},
     {"img": "/images-lantern/swino3.png"}
   ],
-  "footer":"www.latarnie.com.pl / za zgodą portalu Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl"
+  "footer":"www.latarnie.com.pl / za zgodą portalu Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
+  "mapImg":"/images-lantern/Map/Kik K.png"
 }, 
 { "id":"2",
   "name":"niechorze",
@@ -55,7 +57,8 @@
     { "img": "/images-lantern/Niechorze 1.png"},
     {"img": "/images-lantern/niechorze 2 Parapente  CC BY-SA 3.0 PL.png"}
   ],
-"footer":"Kriskros /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Parapente / CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl"
+"footer":"Kriskros /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Parapente / CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
+"mapImg":"/images-lantern/Map/Niech K.png"
 }, 
 { "id":"3",
   "name":"kołobrzeg",
@@ -75,7 +78,8 @@
     {"img":"/images-lantern/Kołobrzeg 3.png"},
     {"img":"/images-lantern/Ko┼éobrzeg 2.png"}
   ],
-  "footer":"Cezarde62 /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Aw58 / CC BY-SA, https://creativecommons.org/licenses/by-sa/4.0/deed.pl Mirand /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en"
+  "footer":"Cezarde62 /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Aw58 / CC BY-SA, https://creativecommons.org/licenses/by-sa/4.0/deed.pl Mirand /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+  "mapImg":"/images-lantern/Map/Ko┼éo K.png"
 }, 
 { "id":"4",
   "name":"gąski",
@@ -94,7 +98,8 @@
     {"img":"/images-lantern/gaski 4.png"},
     {"img":"/images-lantern/Gąski 2.png"}
   ],
-  "footer":"Aw58 / CC BY-SA, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl"
+  "footer":"Aw58 / CC BY-SA, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
+  "mapImg":"/images-lantern/Map/G─ůski K.png"
 }, 
 { "id":"5",
   "name":"darłowo",
@@ -111,7 +116,8 @@
   "rest":[
     {"img":"/images-lantern/Darlowo 3.png"}
   ],
-  "footer":"Topory / CC BY-SA, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Red 81 / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl"
+  "footer":"Topory / CC BY-SA, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Red 81 / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
+  "mapImg":"/images-lantern/Map/Dar┼é K.png"
 }, 
 { "id":"6",
   "name":"jarosławiec",
@@ -131,8 +137,8 @@
     {"img":"/images-lantern/jaros┼éawiec 3.png"},
     {"img":"/images-lantern/jarosławiec 2.png"}
   ],
-  "footer":"Martawodnik97 / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
-
+  "footer":"Martawodnik97 / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
+  "mapImg":"/images-lantern/Map/Jaro K.png"
 }, 
 { "id":"7",
   "name":"ustka",
@@ -152,7 +158,8 @@
     {"p":"Latarnia udostępniona jest dla zwiedzających, a na jej szczyt, na którym można podziwiać mechanizm soczewki pozwalającej na emitowanie światła na odległość 18 mil morskich, prowadzą betonowe i metalowe schodki."},
     {"img":"/images-lantern/ustka 4.png"}
   ],
-  "footer":"Obraz neufal54 z Pixabay Cezarde62 / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
+  "footer":"Obraz neufal54 z Pixabay Cezarde62 / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
+  "mapImg":"/images-lantern/Map/Ustka K.png"
 }, 
 { "id":"8",
   "name":"stilo",
@@ -171,8 +178,8 @@
     {"p":"Podobnie jak w przypadku Czołpina, latarnia położona jest na wysokiej wydmie. Co za tym idzie odwiedziny latarni poprzedzone są długim spacerem w górę 45-metrowej wydmy."},
     {"img":"/images-lantern/stilo 1.png"}
   ],
-  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Michal Gorski / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)"
-
+  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Michal Gorski / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)",
+  "mapImg":"/images-lantern/Map/Stilo K.png"
 }, 
 { "id":"9",
   "name":"czołpino",
@@ -192,7 +199,8 @@
     {"img":"/images-lantern/czoplino 2.png"},
     {"img":"/images-lantern/czoplino 3.png"}
   ],
-  "footer":"Topory CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) Chron-Paul (Diskussion) / CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Tomasz Górny (Nemo5576) / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en))"
+  "footer":"Topory CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) Chron-Paul (Diskussion) / CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Tomasz Górny (Nemo5576) / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en))",
+  "mapImg":"/images-lantern/Map/Czo┼ép K.png"
 }, 
 { "id":"10",
   "name":"rozewie",
@@ -214,7 +222,8 @@
     {"img":"/images-lantern/rozewie 2.png"},
     {"img":"/images-lantern/rozewie 4.png"}
   ],
-  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Bazie / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)"
+  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Bazie / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)",
+  "mapImg":"/images-lantern/Map/Roz K.png"
 }, 
 { "id":"11",
   "name":"jastarnia",
@@ -233,7 +242,8 @@
     {"img":"/images-lantern/jastarnia 1.png"},
     {"img":"/images-lantern/jastarnia 2.png"}
   ],
-  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
+  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
+  "mapImg":"/images-lantern/Map/Jast K.png"
 }, 
 { "id":"12",
   "name":"hel",
@@ -252,7 +262,8 @@
     {"img":"/images-lantern/hel 3.png"},
     {"img":"/images-lantern/hel 4.png"}
   ],
-  "footer":"Tomasz Kolowski Tommy jr / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Bazie / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
+  "footer":"Tomasz Kolowski Tommy jr / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Bazie / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
+  "mapImg":"/images-lantern/Map/Hel K.png"
 }, 
 { "id":"13",
   "name":"sopot",
@@ -272,7 +283,8 @@
     {"p":"Kiedy w 1999 zmniejszono zasięg nominalny światła do 7 Mm sopocka wieża znów straciła swój zaszczytny status i latarnią pozostaje już tylko z nazwy. Za to niezmiennie oferuje swoje przestrzenie zwiedzającym, a z punktu widokowego przepiękną panoramę Trójmiasta i Zatoki Gdańskiej."},
     {"img":"/images-lantern/sopot 2.png"}
   ],
-  "footer":"Obraz b-sea z Pixabay Mariusz Nasieniewski / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Almondox / CC BY (https://creativecommons.org/licenses/by/3.0)"
+  "footer":"Obraz b-sea z Pixabay Mariusz Nasieniewski / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Almondox / CC BY (https://creativecommons.org/licenses/by/3.0)",
+  "mapImg":"/images-lantern/Map/Sopot K.png"
 }, 
 { "id":"14",
   "name":"gdańsk nowy port",
@@ -295,7 +307,8 @@
     {"img":"/images-lantern/Gdansk nowy 4.png"},
     {"p":"Odbudowana latarnia w Nowym Porcie to jedyna prywatna latarnia w Polsce. Wyremontowana przez nowego właściciela jest udostępniona dla zwiedzających, a w środku budynku znajduje się również muzeum latarnictwa. Jako jedyna latarnia na polskim wybrzeżu ma również swoją stronę internetową, na której w niezwykle szczegółowy sposób opisana jest historia tej przepięknej budowli - można ją znaleźć pod adresem www.latarnia.gda.pl"}
   ],
-  "footer":"Andrzej Otrębski / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Krzymill / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)"
+  "footer":"Andrzej Otrębski / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Krzymill / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)",
+  "mapImg":"/images-lantern/Map/Gda Nowy K.png"
 }, 
 { "id":"15",
   "name":"gdańsk port północny",
@@ -313,7 +326,8 @@
     {"p":"Jako jedyna z polskich latarni posiada windę, niestety nie skorzystają z niej turyści - nie jest udostępniona do zwiedzania. A szkoda - podobno z jej galerii rozciąga się przepiękny widok."},
     {"img":"/images-lantern/Gdan╠üsk_Port_Po╠ü┼énocny 2.png"}
   ],
-  "footer":"Marlena1666 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0) Yanek / fotopolska.eu / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)"
+  "footer":"Marlena1666 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0) Yanek / fotopolska.eu / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)",
+  "mapImg":"/images-lantern/Map/Gda Pn K.png"
 }, 
 { "id":"16", 
   "name":"krynica morska",
@@ -331,6 +345,7 @@
     {"p":"Zlokalizowana na wschodnim krańcu popularnego kurortu w Krynicy jest najbardziej na wschód wysuniętą latarnią w Polsce. Udostępniona jest do zwiedzania i z racji swojego położenia oferuje przepiękny widok zarówno na Zalew Wiślany jak i Zatokę Gdańską. Przy dobrej pogodzie z jej tarasu można dostrzec po jednej stronie światła latarni w Helu i Gdańsku, po drugiej Frombork i Tolmicko"},
     {"img":"/images-lantern/krynica 2.png"}
   ],
-  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)"
+  "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
+  "mapImg":"/images-lantern/Map/Kry K.png"
 } 
 ]

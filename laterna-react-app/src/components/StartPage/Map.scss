@@ -1,0 +1,20 @@
+.Map {
+  position: relative;
+  width: 1366px;
+  height: 776.31px;
+
+  #map {
+    position: absolute;
+    // width: 1366px;
+    height: 551.41px;
+    top: 224.9px;
+    left: 0;
+  }
+
+  #dots {
+    position: absolute;
+    width: 930.43px;
+    top: 261px;
+    left: 199px;
+  }
+}
