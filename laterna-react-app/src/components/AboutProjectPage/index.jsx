@@ -1,9 +1,9 @@
 import React from 'react';
-import HeaderImg from '../HeaderImg';
+import HeaderImg from '../Header/HeaderImg';
 import { useMediaQuery } from 'react-responsive';
-import AboutProjectPageImgMobile from '../../assets/images/ZDJECIE STILO-2.png'
-import AboutProjectPageImgDesktop from '../../assets/images/crop lighthouse-4324254_192@2x.png';
-import ProjectDescription from './ProjectDescription';
+import AboutProjectPageImgMobile from '../../../assets/images/ZDJECIE STILO-2.png'
+import AboutProjectPageImgDesktop from '../../../assets/images/crop lighthouse-4324254_192@2x.png';
+import ProjectDescription from './ProjectDescription/ProjectDescription';
 
 
 

@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
 import './App.scss';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 import Main from './components/Main';
 import { BrowserRouter } from 'react-router-dom';
-import classNames from 'classnames';
-
 
 function App() {
   return (

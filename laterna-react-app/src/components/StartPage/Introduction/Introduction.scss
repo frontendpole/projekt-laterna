@@ -1,0 +1,82 @@
+@import '../../../styles/texts.scss';
+@import '../../../styles/layout.scss';
+@import '../../../styles/buttons.scss';
+
+.Introduction {
+  @include flex-column-between;
+  background-color: #F2EDEB;
+  height: 482px;
+
+  &--header {
+    @include flex-column-between;
+    width: 302px;
+    height: 107px;
+    margin-top: 47px;
+
+    &--headerWrapper {
+      h2 {
+        @include main-text-style;
+      }
+    }
+  }
+
+  &--carousel {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+}
+
+@media(min-device-width: 1024px) {
+  .Introduction {
+    text-align: center;
+    height: 776.31px;
+    position: relative;
+
+    &--header {
+      &--headerWrapper1 {
+        @include main-text-style;
+        margin: 0;
+        position: absolute;
+        width: 537px;
+        line-height: 38px;
+        text-align: left;
+        top: 54px;
+        left: 207px;
+
+        h2 {
+          margin: 0;
+          line-height: 38px;
+        }
+      }
+
+      &--headerWrapper2 {
+        @include main-text-style;
+        margin: 0;
+        position: absolute;
+        width: 537px;
+        height: 77px;
+        line-height: 38px;
+        text-align: right;
+        top: 643px;
+        left: 605px;
+
+        h2 {
+          margin: 0;
+          line-height: 38px;
+        }
+      }
+    }
+  }
+}
+
+@media(min-device-width: 1366px) {
+  .Introduction--header--headerWrapper1 {
+    top: 54px;
+    left: 138px;
+  }
+
+  .Introduction--header--headerWrapper2 {
+    top: 643px;
+    left: 683px;
+  }
+}

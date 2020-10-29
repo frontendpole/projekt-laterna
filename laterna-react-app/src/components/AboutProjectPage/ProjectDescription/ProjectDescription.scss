@@ -1,0 +1,135 @@
+@import '../../../styles/texts.scss';
+@import '../../../styles/layout.scss';
+@import '../../../styles/buttons.scss';
+
+.ProjectDescription {
+  @include flex-column-between;
+  background-color: #F2EDEB;
+  height: 1406px;
+
+  &--article {
+    width: 302px;
+    margin-top: 45px;
+
+    p {
+      @include paragraph;
+
+      &:nth-child(9) {
+        text-align: center;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &--title {
+    @include main-text-style;
+  }
+
+  img {
+    margin-top: 14px;
+  }
+}
+
+@media(min-device-width: 1024px) {
+  .ProjectDescription {
+    position: relative;
+    overflow: hidden;
+
+    #background-wave1 {
+      position: absolute;
+      top: 224px;
+      width: 105vw;
+    }
+
+    p {
+      @include paragraph-desktop;
+      margin: 0;
+    }
+
+    &--article {
+      @include flex-column-between;
+      width: 100%;
+      margin-top: 108.5px;
+    }
+
+    &--wrapper1 {
+      @include flex-row-between;
+      width: 961px;
+      z-index: 2;
+    }
+
+    &--text-wrapper1 {
+      max-width: 536px;
+
+      p {
+        &:nth-child(2) {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    &--wrapper2 {
+      @include flex-row-between;
+      width: 961px;
+      margin-top: 153.5px;
+      align-items: flex-start;
+      z-index: 2;
+
+      img {
+        &:nth-child(1) {
+          margin-top: 0;
+        }
+      }
+    }
+
+    &--text-wrapper2 {
+      max-width: 384px;
+      position: relative;
+      height: 402px;
+
+      p {
+        margin: 0;
+
+        &:nth-child(2) {
+          margin-top: 20px;
+        }
+
+        &:nth-child(3) {
+          margin-top: 20px;
+        }
+      }
+
+      img {
+        position: absolute;
+        margin-top: 0;
+        bottom: -85px;
+        left: -27px;
+      }
+    }
+  }
+}
+
+@media(min-device-width: 1366px) {
+  .ProjectDescription {
+
+    &--wrapper1 {
+      width: 1088px;
+
+      img {
+        margin-right: 127px;
+      }
+    }
+
+    &--wrapper2 {
+      width: 1088px;
+    }
+
+    &--text-wrapper2 {
+      max-width: 511px;
+
+      img {
+        bottom: -55px;
+      }
+    }
+  }
+}
