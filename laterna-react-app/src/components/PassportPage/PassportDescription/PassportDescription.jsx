@@ -1,7 +1,7 @@
 import React from 'react';
 import './PassportDescription.scss';
 import { useMediaQuery } from 'react-responsive';
-import PassportDesktop from './PassportDesktop';
+import PassportDesktop from './DesktopPassportDesc/PassportDesktop';
 import PassportDescMobile from './MobilePassportDesc/PassportDescMobile';
 
 const PassportDescription = () => {

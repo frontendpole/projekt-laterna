@@ -2,7 +2,7 @@ import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import './Introduction.scss';
 import IntroductionMobile from './IntroductionMobile/IntroductionMobile';
-import Map from '../IntroPassport/DesktopIntroPassport/Map';
+import Map from '../Introduction/IntroductionDesktop/Map';
 
 const Introduction = () => {
 

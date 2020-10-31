@@ -8,3 +8,17 @@
     font-size: 20px;
   }
 }
+
+@media(min-device-width: 1024px) {
+  .Navigation--List--NavListItem {
+    margin: 0;
+
+    a {
+      color: #2E3D4B;
+
+      &:hover {
+        border-bottom: 4px solid #E5A34C;
+      }
+    }
+  }
+}

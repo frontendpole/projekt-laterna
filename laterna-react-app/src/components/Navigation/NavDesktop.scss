@@ -1,0 +1,109 @@
+@import '../../styles/layout.scss';
+@import '../../styles/texts.scss';
+
+.showLanternListDesktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  width: 153px;
+  height: 100%;
+
+  .arrowDesktop {
+    width: 14px;
+    height: 8px;
+    margin-right: 4.67px;
+  }
+
+  p {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    color: #2E3D4B;
+    font-family: 'Sulphur Point', sans-serif;
+
+    &:hover {
+      border-bottom: 4px solid #E5A34C;
+    }
+  }
+
+  &.active {
+    background-color: #2E3C4BE6;
+
+    p {
+      text-transform: uppercase;
+      font-size: 20px;
+      line-height: 20px;
+      margin: 0;
+      color: #F2EDEB;
+      // font-family: 'Sulphur Point', sans-serif;      
+      border: none;
+    }
+
+  }
+}
+
+.NavDesktop {
+  position: relative;
+  height: 100%;
+
+  &--list {
+    @include flex-row-between;
+    margin: 0;
+    padding: 0;
+    width: 651px;
+    height: 100%;
+  }
+
+  &--lanterns {
+    display: none;
+
+    &.active {
+      @include flex-row-between;
+      justify-content: center;
+      width: 100vw;
+      position: absolute;
+      top: 100%;
+      background-color: #2E3C4BE6;
+      height: 247px;
+      list-style-type: none;
+      margin: 0;
+    }
+
+    &--wrapper {
+      @include flex-column-between;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      height: 174.89px;
+      width: 1052px;
+    }
+
+    a {
+      @include default-link;
+      font-size: 16px;
+      line-height: 19px;
+      margin-top: 20px;
+      text-align: left;
+      width: 224px;
+
+      &:nth-child(1),
+      &:nth-child(6),
+      &:nth-child(11) {
+        margin-top: 0;
+      }
+
+      &:nth-child(16) {
+        margin-top: 0;
+        transform: translateY(-29px);
+      }
+
+      &:nth-child(17) {
+        margin-top: 0;
+        transform: translateY(-82px);
+      }
+
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProjectDescription.scss';
+import '../ProjectDescription.scss';
 import imgDesktop1 from '../../../../assets/images/Chron-Paul (Diskussion)  CC BY-SA 3.0 DE.png';
 import imgDesktop2 from '../../../../assets/images/101681023_294729721553318_7178833893036916736_n (2).png';
 import logoPJATKDesktop from '../../../../assets/images/Logo_PL_1.png';

@@ -20,8 +20,40 @@
   }
 
   &--logo {
-    width: 100%;
-    max-width: 117px;
-    max-height: 32.47px;
+    width: 117px;
+    height: 32.47px;
+
+    &.mini {
+      width: 100px;
+      height: auto;
+    }
+  }
+}
+
+@media(min-device-width: 1024px) {
+  .PageHeader {
+    height: 99px;
+    justify-content: center;
+
+    &--logo {
+      width: auto;
+      height: auto;
+      margin-right: 100px;
+    }
+
+    &--wrapper {
+      justify-content: center;
+      margin: 0;
+      width: 80%;
+      height: 100%;
+    }
+  }
+}
+
+@media(min-device-width: 1366px) {
+  .PageHeader {
+    &--logo {
+      margin-right: 270px;
+    }
   }
 }

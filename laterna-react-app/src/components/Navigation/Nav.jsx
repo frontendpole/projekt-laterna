@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 import hamburgerIcon from '../../assets/images/MENU.png'
 import closeIcon from '../../assets/images/X.png';
 import navLogo from '../../assets/images/LOGO.png';
-import lanterns from '../../../data/lanterns.json';
+import lanterns from '../../data/lanterns.json';
 import showLanternListImg from '../../assets/images/przy latarniach.png';
 
 

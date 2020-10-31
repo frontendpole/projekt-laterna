@@ -1,25 +1,24 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
 import './IntroGadgets.scss'
-import cardsImg from '../../../../assets/images/pocztowki.png';
-import goToStoreImg from '../../../../assets/images/przejdz.png';
+import IntroGadgetsMobile from './MobileIntroGadgets/IntroGadgetsMobile';
+import IntroGadgetsDesktop from './DesktopIntroGadgets/IntroGadgetsDesktop';
 
 const IntroGadgets = () => {
+
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
+
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1024px)'
+  });
+
   return (
     <section className="IntroGadgets">
-      <header className='IntroGadgets--header'>
-        <div className='IntroGadgets--header--info'>
-          <h2>ZDOBĄDŹ POCZTÓWKI,</h2>
-          <h2>PLAKATY, GRY I INNE <span style={{ color: '#AE4527' }}>SKARBY</span></h2>
-          <h2>Z LATARNIAMI MORSKIMI</h2>
-        </div>
-      </header>
-      <div className="IntroGadgets--gadgetsGetDetails">
-        <img src={cardsImg} alt="Pocztówki z latarniami morskimi" />
-        <button id="goToStore">
-          <NavLink to='/sklep'><img src={goToStoreImg} alt="Przycisk przejdź do sklepu" /></NavLink>
-        </button>
-      </div>
+      {isTabletOrMobile &&
+        <IntroGadgetsMobile />}
+
+      {isDesktopOrLaptop &&
+        <IntroGadgetsDesktop />}
     </section>
   )
 }

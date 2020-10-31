@@ -1,0 +1,289 @@
+.LanternImg {
+  position: absolute;
+
+  &:hover {
+    transform: scale(1.15);
+    transition: 0.2s;
+  }
+
+  &.świnoujście {
+    top: 312px;
+    left: 196px;
+  }
+
+  &.kikut {
+    top: 556px;
+    left: 308px;
+  }
+
+  &.niechorze {
+    top: 268px;
+    left: 312px;
+  }
+
+  &.kołobrzeg {
+    top: 507px;
+    left: 426px;
+  }
+
+  &.gąski {
+    top: 217px;
+    left: 449px;
+  }
+
+  &.darłowo {
+    top: 438px;
+    left: 555px;
+  }
+
+  &.jarosławiec {
+    top: 165px;
+    left: 560px;
+  }
+
+  &.ustka {
+    top: 376px;
+    left: 677px;
+  }
+
+  &.stilo {
+    top: 103px;
+    left: 689px;
+
+  }
+
+  &.czołpino {
+    top: 334px;
+    left: 786px;
+  }
+
+  &.rozewie {
+    top: 87px;
+    left: 845px;
+  }
+
+  &.jastarnia {
+    top: 119px;
+    left: 971px;
+  }
+
+  &.hel {
+    left: 1074px;
+    top: 184px;
+  }
+
+  &.sopot {
+    top: 186px;
+    left: 1156px;
+  }
+
+  &.gdańsk1 {
+    top: 401px;
+    left: 907px;
+  }
+
+  &.gdańsk2 {
+    left: 1021px;
+    top: 459px;
+  }
+
+  &.krynica {
+    top: 447px;
+    left: 1135px;
+  }
+}
+
+.LanternText {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.38px;
+  color: #2E3C4B;
+  font-family: "Sulphur Point", sans-serif;
+  position: absolute;
+  margin: 0;
+
+  &.świnoujście {
+    top: 551px;
+    left: 180px;
+  }
+
+  &.kikut {
+    top: 507px;
+    left: 224px;
+  }
+
+  &.niechorze {
+    top: 471px;
+    left: 274px;
+  }
+
+  &.kołobrzeg {
+    top: 445px;
+    left: 356px;
+  }
+
+  &.gąski {
+    top: 426px;
+    left: 449px;
+  }
+
+  &.darłowo {
+    top: 369px;
+    left: 516px;
+  }
+
+  &.jarosławiec {
+    top: 333px;
+    left: 520px;
+
+  }
+
+  &.ustka {
+    top: 319px;
+    left: 625px;
+  }
+
+  &.stilo {
+    top: 278px;
+    left: 700px;
+  }
+
+  &.czołpino {
+    top: 256px;
+    left: 756px;
+  }
+
+  &.rozewie {
+    top: 243px;
+    left: 875px;
+  }
+
+  &.jastarnia {
+    top: 304px;
+    left: 919px;
+  }
+
+  &.hel {
+    left: 987px;
+    top: 331px;
+  }
+
+  &.sopot {
+    top: 362px;
+    left: 929px;
+  }
+
+  &.gdańsk1 {
+    top: 381px;
+    left: 994px;
+  }
+
+  &.gdańsk2 {
+    display: none;
+  }
+
+  &.krynica {
+    top: 362px;
+    left: 1072px;
+    max-width: 60px;
+  }
+}
+
+.LanternLine {
+  position: absolute;
+
+  &.świnoujście {
+    top: 451px;
+    left: 207px;
+  }
+
+  &.kikut {
+    top: 532px;
+    left: 261px;
+  }
+
+  &.niechorze {
+    top: 404px;
+    left: 341px;
+  }
+
+  &.kołobrzeg {
+    top: 472px;
+    left: 434px;
+  }
+
+  &.gąski {
+    top: 351px;
+    left: 471px;
+  }
+
+  &.darłowo {
+    top: 395px;
+    left: 584px;
+  }
+
+  &.jarosławiec {
+    top: 290px;
+    left: 589px;
+  }
+
+  &.ustka {
+    top: 347px;
+    left: 667px;
+  }
+
+  &.stilo {
+    top: 241px;
+    left: 708px;
+  }
+
+  &.czołpino {
+    top: 286px;
+    left: 816px;
+  }
+
+  &.rozewie {
+    top: 209px;
+    left: 877px;
+  }
+
+  &.jastarnia {
+    top: 244px;
+    left: 989px;
+  }
+
+  &.hel {
+    left: 1018px;
+    top: 303px;
+  }
+
+  &.sopot {
+    top: 322px;
+    left: 979px;
+  }
+
+  &.gdańsk1 {
+    top: 397px;
+    left: 946px;
+  }
+
+  &.gdańsk2 {
+    left: 991px;
+    top: 400px;
+  }
+
+  &.krynica {
+    top: 409px;
+    left: 1129px;
+  }
+}
+
+
+@media(min-device-width: 1366px) {
+
+  .LanternText.świnoujście {
+    top: 523px;
+    left: 119px;
+  }
+}
