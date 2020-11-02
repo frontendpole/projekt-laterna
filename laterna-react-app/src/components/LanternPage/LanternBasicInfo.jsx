@@ -1,8 +1,15 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import './LanternBasicInfo.scss';
 import lanterns from '../../data/lanterns.json';
 
 const LanternBasicInfo = ({ lanternId }) => {
+
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
+
+  // const isDesktopOrLaptop = useMediaQuery({
+  //   query: '(min-device-width: 1024px)'
+  // });
 
   return (
     <>
@@ -34,9 +41,11 @@ const LanternBasicInfo = ({ lanternId }) => {
           <p>{lanterns[lanternId].address2}</p>
         </div>
       </div>
-      <div className="Lantern--introduction">
-        <p>{lanterns[lanternId].introduction}</p>
-      </div>
+
+      {isTabletOrMobile &&
+        <div className="Lantern--introduction">
+          <p>{lanterns[lanternId].introduction}</p>
+        </div>}
     </>
   )
 }

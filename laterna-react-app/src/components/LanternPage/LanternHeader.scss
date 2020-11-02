@@ -47,3 +47,37 @@
     }
   }
 }
+
+@media (min-device-width: 1024px) {
+
+  #goBack {
+    margin-right: 25px;
+  }
+
+  .Lantern {
+    &--header {
+      height: 120px;
+
+      a {
+        button {
+          p {
+            font-size: 20px;
+          }
+
+          &#goBack {
+            img {
+              margin-right: 30px;
+            }
+          }
+
+          &#goForward {
+            img {
+              transform: rotate(180deg);
+              margin-left: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

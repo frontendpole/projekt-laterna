@@ -1,4 +1,5 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import { NavLink } from 'react-router-dom';
 import arrow from '../../assets/images/Group 418.png';
 import './LanternHeader.scss';
@@ -6,6 +7,12 @@ import lanterns from '../../data/lanterns.json';
 
 
 const LanternHeader = ({ lanternId }) => {
+
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
+
+  // const isDesktopOrLaptop = useMediaQuery({
+  //   query: '(min-device-width: 1024px)'
+  // });
 
   return (
     <>
@@ -27,7 +34,8 @@ const LanternHeader = ({ lanternId }) => {
           </button>
         </NavLink>
       </header>
-      <img src={`${lanterns[lanternId].headerImgUrl}`} alt={`grafika latarni morskiej w miejscowości ${lanterns[lanternId].name}`} />
+      {isTabletOrMobile &&
+        <img src={`${lanterns[lanternId].headerImgUrl}`} alt={`grafika latarni morskiej w miejscowości ${lanterns[lanternId].name}`} />}
     </>
   )
 }

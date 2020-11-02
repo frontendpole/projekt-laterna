@@ -1,0 +1,85 @@
+@import '../../../styles/layout.scss';
+@import '../../../styles/texts.scss';
+
+.LanternPageDesktop {
+  @include flex-column-between;
+  max-width: 996px;
+
+  &--basic-info {
+    @include flex-row-between;
+    justify-content: flex-start;
+    width: 996px;
+    height: 496px;
+
+    img {
+      margin-right: 232.25px;
+    }
+  }
+
+  &--wrapper {
+    @include flex-row-between;
+    width: 996px;
+    margin-top: 91.5px;
+    align-self: flex-end;
+
+    p {
+      font-family: ClarikaProGeoLight;
+      margin-top: 30px;
+      font-size: 18px;
+      line-height: 23px;
+      width: 100%;
+      letter-spacing: 0.45px;
+
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &--textSolo {
+    @include flex-column-between;
+    align-items: flex-start;
+    width: 996px;
+    margin-top: 70px;
+
+    p {
+      width: 904px;
+      font-family: ClarikaProGeoLight;
+      margin-top: 30px;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: 0.45px;
+
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &--text {
+    width: 520px;
+  }
+
+  &--pictures {
+    @include flex-row-between;
+    margin-top: 70px;
+
+    img {
+      margin-right: 27px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &--photo {
+    img {
+      display: none;
+
+      &:last-child {
+        display: block;
+      }
+    }
+  }
+}

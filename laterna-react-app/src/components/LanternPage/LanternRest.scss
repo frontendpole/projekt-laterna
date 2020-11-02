@@ -26,3 +26,14 @@
     }
   }
 }
+
+@media (min-device-width: 1024px) {
+  .lanternRest {
+    &--footer {
+      width: 527px;
+      margin-top: 70px;
+      margin-bottom: 61px;
+      align-self: flex-start;
+    }
+  }
+}

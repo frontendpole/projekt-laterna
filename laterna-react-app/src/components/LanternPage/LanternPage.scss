@@ -18,3 +18,17 @@
     width: 302.4px;
   }
 }
+
+
+@media (min-device-width: 1024px) {
+  .Lantern {
+    margin-top: 0;
+
+    p {
+      font-size: 20px;
+      font-family: ClarikaProGeoLight;
+      letter-spacing: 0.5px;
+    }
+
+  }
+}
