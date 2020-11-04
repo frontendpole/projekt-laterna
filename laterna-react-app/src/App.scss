@@ -1,9 +1,13 @@
 html {
   height: 100vh;
+}
 
-  .App {
-    margin: 0 auto;
-    overflow: hidden;
-    width: 100vw;
-  }
+body {
+  overflow-x: hidden;
+}
+
+.App {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100vw;
 }

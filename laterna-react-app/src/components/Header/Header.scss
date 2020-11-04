@@ -11,22 +11,27 @@
 
   &.small {
     height: 48px;
+
+    div {
+      margin-bottom: 0;
+    }
   }
 
   &--wrapper {
     @include flex-row-between;
     margin: auto 36px;
     width: 100%;
-  }
 
-  &--logo {
-    width: 117px;
-    height: 32.47px;
 
-    &.mini {
-      width: 100px;
-      height: auto;
+    .PageHeader--logo {
+      height: 32.47px;
+      width: 117px;
+
+      &.mini {
+        transform: scale(0.7);
+      }
     }
+
   }
 }
 
@@ -35,25 +40,33 @@
     height: 99px;
     justify-content: center;
 
-    &--logo {
-      width: auto;
-      height: auto;
-      margin-right: 100px;
-    }
-
     &--wrapper {
       justify-content: center;
       margin: 0;
       width: 80%;
       height: 100%;
+
+
+      .PageHeader--logo {
+        width: 168px;
+        height: auto;
+        margin-right: 100px;
+
+        &.mini {
+          transform: scale(0.6);
+        }
+      }
+
     }
   }
 }
 
 @media(min-device-width: 1366px) {
   .PageHeader {
-    &--logo {
-      margin-right: 270px;
+    &--wrapper {
+      .PageHeader--logo {
+        margin-right: 270px;
+      }
     }
   }
 }

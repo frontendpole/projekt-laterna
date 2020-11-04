@@ -5,6 +5,7 @@ import AboutProjectPage from './AboutProjectPage';
 import PassportPage from './PassportPage';
 import ContactPage from './ContactPage';
 import LanternPage from './LanternPage';
+import ShopPage from './ShopPage';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
         <Route exact path="/paszport" component={PassportPage} />
         <Route exact path="/kontakt" component={ContactPage} />
         <Route exact path="/latarnie/:id" component={LanternPage} />
+        <Route exact path="/sklep" component={ShopPage} />
       </Switch>
     </main>
   )

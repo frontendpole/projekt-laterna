@@ -13,11 +13,34 @@
   .Navigation--List--NavListItem {
     margin: 0;
 
+    list-style-type: none;
+
+    &:nth-child(1) {
+      margin-right: 31px;
+    }
+
+    &:nth-child(3) {
+      margin-right: 58px;
+      margin-left: 31px;
+    }
+
+    &:nth-child(4) {
+      margin-right: 58px;
+    }
+
     a {
       color: #2E3D4B;
 
-      &:hover {
-        border-bottom: 4px solid #E5A34C;
+      &:after {
+      display: block;
+      content: '';
+      border-bottom: 4px solid #B04527;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
+
+      &:hover:after {
+        transform: scaleX(1);
       }
     }
   }

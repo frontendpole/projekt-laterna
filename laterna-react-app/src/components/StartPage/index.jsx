@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderImg from '../Header/HeaderImg';
 import { useMediaQuery } from 'react-responsive';
-import startPageImgMobile from '../../assets/images/ZDJECIE STILO-1.png';
+import startPageImgMobile from '../../assets/images/ZDJECIE STILO-1@2x.png';
 import Introduction from './Introduction/Introduction';
 import IntroGadgets from './IntroGadgets/IntroGadgets';
 import IntroPassport from './IntroPassport/IntroPassport';
@@ -26,7 +26,7 @@ const StartPage = () => {
     textAlign: 'left',
     fontSize: '55px',
     lineHeight: '66px',
-    top: "85%",
+    top: "75%",
     left: "10%"
   }
 

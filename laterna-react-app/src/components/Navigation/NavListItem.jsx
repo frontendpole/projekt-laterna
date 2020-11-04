@@ -13,19 +13,9 @@ const NavListItem = ({ name, path }) => {
   ]
 
   return (
-    <div className="Navigation--List--NavListItem">
+    <li className="Navigation--List--NavListItem">
       <NavLink exact to={path}>{name}</NavLink>
-
-
-
-      {/* {
-        menu.map(item => (
-          <li key={item.name}>
-            <NavLink exact to={item.path}>{item.name}</NavLink>
-          </li>
-        ))
-      } */}
-    </div>
+    </li>
   )
 }
 

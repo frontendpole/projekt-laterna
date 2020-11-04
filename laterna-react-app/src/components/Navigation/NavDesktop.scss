@@ -13,7 +13,8 @@
   .arrowDesktop {
     width: 14px;
     height: 8px;
-    margin-right: 4.67px;
+    margin-right: 5px;
+    margin-bottom: 4px;
   }
 
   p {
@@ -24,8 +25,16 @@
     color: #2E3D4B;
     font-family: 'Sulphur Point', sans-serif;
 
-    &:hover {
-      border-bottom: 4px solid #E5A34C;
+    &:after {
+      display: block;
+      content: '';
+      border-bottom: 4px solid #B04527;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
+
+    &:hover:after {
+      transform: scaleX(1);
     }
   }
 
@@ -38,7 +47,6 @@
       line-height: 20px;
       margin: 0;
       color: #F2EDEB;
-      // font-family: 'Sulphur Point', sans-serif;      
       border: none;
     }
 
@@ -51,6 +59,7 @@
 
   &--list {
     @include flex-row-between;
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
     width: 651px;
