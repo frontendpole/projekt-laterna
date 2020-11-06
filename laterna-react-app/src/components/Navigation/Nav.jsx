@@ -26,6 +26,7 @@ const Nav = ({ history }) => {
   useEffect(() => {
     const unListen = history.listen(() => {
       setIsMenuActive(false);
+      window.scrollTo(0, 0);
     });
 
     return () => {
