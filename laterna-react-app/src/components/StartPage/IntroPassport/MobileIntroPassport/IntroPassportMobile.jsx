@@ -18,7 +18,7 @@ const IntroPassportMobile = () => {
       <div className="IntroPassport--passportGetDetails">
         <img src={passportImg} alt="Paszport miłośnika latarni morskich." />
         <button id="passportDetails">
-          <NavLink to='/paszport'>
+          <NavLink to='/projekt-laterna/paszport'>
             <img src={getInfoButton} alt="Przycisk dowiedz się więcej" />
           </NavLink>
         </button>

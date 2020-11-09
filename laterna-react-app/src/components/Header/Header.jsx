@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <header className={classNames("PageHeader", { small: isHeaderSmall })}>
       <div className="PageHeader--wrapper">
-        <NavLink to='/'><img src={isDesktopOrLaptop ? desktopNavLogo : mainLogo} className={classNames("PageHeader--logo", { mini: isHeaderSmall })} alt="logo Projektu Laterna" /></NavLink>
+        <NavLink to='/projekt-laterna'><img src={isDesktopOrLaptop ? desktopNavLogo : mainLogo} className={classNames("PageHeader--logo", { mini: isHeaderSmall })} alt="logo Projektu Laterna" /></NavLink>
 
         {isTabletOrMobile &&
           <Nav />

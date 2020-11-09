@@ -44,7 +44,7 @@ const Nav = ({ history }) => {
 
       <nav className={classNames('Navigation', { active: isMenuActive })}>
         <div className="Navigation--header">
-          <NavLink to='/' as="button">
+          <NavLink to='/projekt-laterna' as="button">
             <img src={navLogo} className="Navigation--header--logo" />
           </NavLink>
 
@@ -53,7 +53,7 @@ const Nav = ({ history }) => {
           </button>
         </div>
         <ul className="Navigation--list">
-          <NavListItem as="button" path='/oprojekcie' name='o projekcie' />
+          <NavListItem as="button" path='/projekt-laterna/oprojekcie' name='o projekcie' />
 
           <button onClick={toggleLanternList} id="showLanternList">
             <img className={classNames('arrow', { rotate: isArrowRotated })} src={showLanternListImg} alt="strzałka rozwijająca listę latarni" style={{ width: 6.11, height: 12.33 }} />
@@ -62,12 +62,12 @@ const Nav = ({ history }) => {
 
           <ul className={classNames('Navigation--list--lanterns', { active: isLanternListOpened })}>
             {lanterns.map(lantern => (
-              <NavLink as="button" to={`/latarnie/${lantern.id}`}>{lantern.name}</NavLink>
+              <NavLink as="button" to={`/projekt-laterna/latarnie/${lantern.id}`}>{lantern.name}</NavLink>
             ))}
           </ul>
-          <NavListItem as="button" path='/paszport' name='paszport' />
-          <NavListItem as="button" path='/sklep' name='sklep' />
-          <NavListItem as="button" path='/kontakt' name='kontakt' />
+          <NavListItem as="button" path='/projekt-laterna/paszport' name='paszport' />
+          <NavListItem as="button" path='/projekt-laterna/sklep' name='sklep' />
+          <NavListItem as="button" path='/projekt-laterna/kontakt' name='kontakt' />
         </ul>
       </nav>
     </>

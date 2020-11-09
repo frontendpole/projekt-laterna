@@ -14,7 +14,7 @@ const FooterMobile = () => {
   return (
     <>
       <h2>projekt laterna</h2>
-      <NavLink to='/kontakt'>kontakt</NavLink>
+      <NavLink to='/projekt-laterna/kontakt'>kontakt</NavLink>
       <section className='contactDetails'>
         <p>kontakt@projektlaterna.pl</p>
         <p>+48 602 439 801</p>

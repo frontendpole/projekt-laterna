@@ -36,22 +36,22 @@ const NavDesktop = ({ history }) => {
     <>
       <nav className="NavDesktop">
         <ul className="NavDesktop--list">
-          <NavListItem as="button" path='/oprojekcie' name='o projekcie' />
+          <NavListItem as="button" path='/projekt-laterna/oprojekcie' name='o projekcie' />
 
           <button onClick={toggleLanternList} className={classNames("showLanternListDesktop", { active: isLanternsDark })}>
             <img className="arrowDesktop" src={isLanternListOpened ? arrowLight : arrowDark} alt="strzałka rozwijająca listę latarni" />
             <p>latarnie</p>
           </button>
-          <NavListItem as="button" path='/paszport' name='paszport' />
-          <NavListItem as="button" path='/sklep' name='sklep' />
-          <NavListItem as="button" path='/kontakt' name='kontakt' />
+          <NavListItem as="button" path='/projekt-laterna/paszport' name='paszport' />
+          <NavListItem as="button" path='/projekt-laterna/sklep' name='sklep' />
+          <NavListItem as="button" path='/projekt-laterna/kontakt' name='kontakt' />
         </ul>
 
       </nav>
       <ul className={classNames('NavDesktop--lanterns', { active: isLanternListOpened })}>
         <div className="NavDesktop--lanterns--wrapper">
           {lanterns.map(lantern => (
-            <NavLink as="button" to={`/latarnie/${lantern.id}`}>{lantern.name}</NavLink>
+            <NavLink as="button" to={`/projekt-laterna/latarnie/${lantern.id}`}>{lantern.name}</NavLink>
           ))}
         </div>
       </ul>

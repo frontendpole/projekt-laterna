@@ -11,12 +11,12 @@ const Main = () => {
   return (
     <main>
       <Switch>
-        <Route exact path="/" component={StartPage} />
-        <Route exact path="/oprojekcie" component={AboutProjectPage} />
-        <Route exact path="/paszport" component={PassportPage} />
-        <Route exact path="/kontakt" component={ContactPage} />
-        <Route exact path="/latarnie/:id" component={LanternPage} />
-        <Route exact path="/sklep" component={ShopPage} />
+        <Route exact path="/projekt-laterna" component={StartPage} />
+        <Route exact path="/projekt-laterna/oprojekcie" component={AboutProjectPage} />
+        <Route exact path="/projekt-laterna/paszport" component={PassportPage} />
+        <Route exact path="/projekt-laterna/kontakt" component={ContactPage} />
+        <Route exact path="/projekt-laterna/latarnie/:id" component={LanternPage} />
+        <Route exact path="/projekt-laterna/sklep" component={ShopPage} />
       </Switch>
     </main>
   )

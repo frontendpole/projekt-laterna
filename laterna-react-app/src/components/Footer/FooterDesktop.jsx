@@ -15,7 +15,7 @@ const FooterDesktop = () => {
     <>
       <div className="Footer--wrapper1">
         <h2>projekt laterna</h2>
-        <NavLink to='/kontakt'>kontakt</NavLink>
+        <NavLink to='/projekt-laterna/kontakt'>kontakt</NavLink>
         <section className='contactDetails'>
           <p>kontakt@projektlaterna.pl</p>
         </section>

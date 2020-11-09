@@ -26,7 +26,7 @@ const LanternMapImg = () => {
     <>
       {lanterns.map(lantern => (
         <>
-          <NavLink to={`/latarnie/${lantern.id}`}>
+          <NavLink to={`/projekt-laterna/latarnie/${lantern.id}`}>
             <img src={lantern.mapImg} className={`LanternImg ${lantern.name === "gdańsk nowy port" ? "gdańsk1" : lantern.name === "gdańsk port północny" ? "gdańsk2" : lantern.name === "krynica morska" ? "krynica" : lantern.name}`} alt={`grafika latarni morskiej w miejscowości ${lantern.name}`} />
           </NavLink>
           <p className={`LanternText ${lantern.name === "gdańsk nowy port" ? "gdańsk1" : lantern.name === "gdańsk port północny" ? "gdańsk2" : lantern.name === "krynica morska" ? "krynica" : lantern.name}`} alt={`grafika latarni morskiej w miejscowości ${lantern.name}`}>{lantern.name === "gdańsk nowy port" ? "gdańsk" : lantern.name}</p>

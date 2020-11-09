@@ -17,7 +17,7 @@ const IntroGadgetsMobile = () => {
       <div className="IntroGadgets--gadgetsGetDetails">
         <img src={cardsImg} alt="Pocztówki z latarniami morskimi" />
         <button id="goToStore">
-          <NavLink to='/sklep'><img src={goToStoreImg} alt="Przycisk przejdź do sklepu" /></NavLink>
+          <NavLink to='/projekt-laterna/sklep'><img src={goToStoreImg} alt="Przycisk przejdź do sklepu" /></NavLink>
         </button>
       </div>
     </>

@@ -13,7 +13,7 @@ const IntroGadgetsDesktop = () => {
           <h2>POCZTÓWKI, PLAKATY, GRY <br /> I INNE <span style={{ color: '#AE4527' }}>SKARBY</span> <br /> Z LATARNIAMI MORSKIMI</h2>
         </header>
         <button id="goToStore">
-          <NavLink to='/sklep'><img src={goToStoreImg} alt="Przycisk przejdź do sklepu" /></NavLink>
+          <NavLink to='/projekt-laterna/sklep'><img src={goToStoreImg} alt="Przycisk przejdź do sklepu" /></NavLink>
         </button>
       </div>
       <div className="IntroGadgets--3pics">
