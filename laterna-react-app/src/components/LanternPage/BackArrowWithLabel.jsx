@@ -1,15 +1,23 @@
 import React from 'react';
+import lanterns from '../../data/lanterns.json';
+import arrow from '../../assets/images/Group 418.png';
+import { NavLink } from 'react-router-dom';
 
-const BackArrowWithLabel = ({ lanternData, isFirst, isLast }) => (
-  <NavLink to={!isFirst ? `/latarnie/${lanternData.urlSubPath}` : '/projekt-laterna'}>
-    <button id="goBack">
-      <img src={arrow} alt={isFirst ? "strzałka do powrotu do strony głównej" : "poprzednia strona"} />
-      <p>
-        {isFirst ? "strona główna" : (lanternData.shortName || lanterData.name)}
-      </p>
-    </button>
-  </NavLink>
-)
+const BackArrowWithLabel = ({ lanternId, isFirst }) => {
+
+  let previousId = parseInt(lanternId) - 1;
+
+  return (
+    <NavLink to={!isFirst ? `/projekt-laterna/latarnie/${previousId}` : '/projekt-laterna'}>
+      <button id="goBack">
+        <img src={arrow} alt={isFirst ? "strzałka do powrotu do strony głównej" : "poprzednia strona"} />
+        <p>
+          {isFirst ? "strona gł." : (lanterns[previousId].shortName || lanterns[previousId].name)}
+        </p>
+      </button>
+    </NavLink>
+  )
+}
 
 export default BackArrowWithLabel;
 
