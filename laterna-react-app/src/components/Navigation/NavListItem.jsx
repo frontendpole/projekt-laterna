@@ -6,7 +6,7 @@ const NavListItem = ({ name, path }) => {
 
   const menu = [
     { name: 'o projekcie', path: '/projekt-laterna/oprojekcie' },
-    { name: 'latarnie', path: '/projekt-laterna/latarnie' },
+    { name: 'latarnie', path: '/projekt-laterna/latarnie/' },
     { name: 'paszport', path: '/projekt-laterna/paszport' },
     { name: 'sklep', path: '/projekt-laterna/sklep' },
     { name: 'kontakt', path: '/projekt-laterna/kontakt' }

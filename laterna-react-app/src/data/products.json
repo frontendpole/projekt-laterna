@@ -1,6 +1,6 @@
 [{
-  "imgMobile":"/shopProducts/sklep poczt (2).png",
-  "imgDesktop":"/shopProducts/sklep poczt.png",
+  "imgMobile":"shopProducts/sklep poczt (2).png",
+  "imgDesktop":"shopProducts/sklep poczt.png",
   "name": "pocztówki",
   "price":"20"
 },

@@ -17,7 +17,7 @@ const LanternHeader = ({ lanternId }) => {
   return (
     <>
       <header className="Lantern--header">
-        <NavLink to={lanternId > 0 ? `/projekt-laterna/latarnie/${parseInt(lanternId) - 1}` : '/'}>
+        <NavLink to={lanternId > 0 ? `/projekt-laterna/latarnie/${parseInt(lanternId) - 1}` : '/projekt-laterna'}>
           <button id="goBack">
             <img src={arrow} alt="strzałka do powrotu do strony głównej" />
             <p>
@@ -25,7 +25,7 @@ const LanternHeader = ({ lanternId }) => {
             </p>
           </button>
         </NavLink>
-        <NavLink to={lanternId < 16 ? `/projekt-laterna/latarnie/${parseInt(lanternId) + 1}` : '/'}>
+        <NavLink to={lanternId < 16 ? `/projekt-laterna/latarnie/${parseInt(lanternId) + 1}` : '/projekt-laterna'}>
           <button id="goForward">
             <p>
               {lanternId < 16 ? `${lanterns[parseInt(lanternId) + 1].name === 'gdańsk port północny' ? 'gdańsk' : lanterns[parseInt(lanternId) + 1].name === 'gdańsk nowy port' ? 'gdańsk' : lanterns[parseInt(lanternId) + 1].name === 'krynica morska' ? 'krynica m.' : lanterns[parseInt(lanternId) + 1].name}` : 'strona gł.'}
@@ -39,8 +39,8 @@ const LanternHeader = ({ lanternId }) => {
     </>
   )
 }
-
 export default LanternHeader;
+
 
 
 

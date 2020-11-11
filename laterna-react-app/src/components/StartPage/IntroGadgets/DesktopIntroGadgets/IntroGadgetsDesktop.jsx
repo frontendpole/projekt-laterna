@@ -1,7 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../IntroGadgets.scss';
-import cardsImg from '../../../../assets/images/export main page/Group 420.png';
+import postCardImg from '../../../../assets/images/export main page/Group 84.png';
+import lanternCardImg from '../../../../assets/images/export main page/Group 89.png';
+import blueCardImg from '../../../../assets/images/export main page/Group 275.png';
 import goToStoreImg from '../../../../assets/images/export main page/Group 421.png';
 
 const IntroGadgetsDesktop = () => {
@@ -17,7 +19,11 @@ const IntroGadgetsDesktop = () => {
         </button>
       </div>
       <div className="IntroGadgets--3pics">
-        <img src={cardsImg} alt="Pocztówki z latarniami morskimi" />
+        <div className="IntroGadgets--3pics--wrapper">
+          <img src={blueCardImg} alt="Pocztówki z latarniami morskimi" />
+          <img src={postCardImg} alt="Pocztówki z latarniami morskimi" />
+          <img src={lanternCardImg} alt="Pocztówki z latarniami morskimi" />
+        </div>
       </div>
     </div>
   )
