@@ -25,11 +25,16 @@ const LanternPageDesktop = ({ lanternId }) => {
 
   return (
     <>
-      <HeaderImg headerImg={lanterns[lanternId].headerImg} title={lanterns[lanternId].name} titleStyle={titleStyle} />
+      <HeaderImg
+        headerImg={lanterns[lanternId].headerImg}
+        title={lanterns[lanternId].name}
+        titleStyle={titleStyle} />
       <LanternHeader lanternId={lanternId} />
       <div className="LanternPageDesktop">
         <div className="LanternPageDesktop--basic-info">
-          <img src={`${lanterns[lanternId].desktopImg}`} alt={`grafika latarni morskiej w miejscowości ${lanterns[lanternId].name}`} />
+          <img
+            src={`${lanterns[lanternId].desktopImg}`}
+            alt={`grafika latarni morskiej w miejscowości ${lanterns[lanternId].name}`} />
           <LanternBasicInfo lanternId={lanternId} />
         </div>
         <LanternCustomInfo array={introDesktop} />
@@ -39,9 +44,11 @@ const LanternPageDesktop = ({ lanternId }) => {
             <img src={element.img} alt="zdjęcie latarni morskiej" />
           ))}
         </div>
+
         {lanterns[lanternId].restDesktop &&
           <LanternCustomInfo array={restDesktop} />
         }
+
         <footer className="lanternRest--footer">
           <p>Zdjęcia:</p>
           <p>{lanterns[lanternId].footer}</p>

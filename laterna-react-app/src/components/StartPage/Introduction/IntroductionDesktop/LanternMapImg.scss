@@ -6,7 +6,7 @@
     transition: 0.2s;
   }
 
-  &.świnoujście {
+  &.swinoujscie {
     top: 312px;
     left: 196px;
   }
@@ -21,22 +21,22 @@
     left: 312px;
   }
 
-  &.kołobrzeg {
+  &.kolobrzeg {
     top: 507px;
     left: 426px;
   }
 
-  &.gąski {
+  &.gaski {
     top: 217px;
     left: 449px;
   }
 
-  &.darłowo {
+  &.darlowo {
     top: 438px;
     left: 555px;
   }
 
-  &.jarosławiec {
+  &.jaroslawiec {
     top: 165px;
     left: 560px;
   }
@@ -52,7 +52,7 @@
 
   }
 
-  &.czołpino {
+  &.czolpino {
     top: 334px;
     left: 786px;
   }
@@ -77,17 +77,17 @@
     left: 1156px;
   }
 
-  &.gdańsk1 {
+  &.gdansk-nowy-port {
     top: 401px;
     left: 907px;
   }
 
-  &.gdańsk2 {
+  &.gdansk-port-polnocny {
     left: 1021px;
     top: 459px;
   }
 
-  &.krynica {
+  &.krynica-morska {
     top: 447px;
     left: 1135px;
   }
@@ -103,7 +103,7 @@
   position: absolute;
   margin: 0;
 
-  &.świnoujście {
+  &.swinoujscie {
     top: 551px;
     left: 180px;
   }
@@ -118,22 +118,22 @@
     left: 274px;
   }
 
-  &.kołobrzeg {
+  &.kolobrzeg {
     top: 445px;
     left: 356px;
   }
 
-  &.gąski {
+  &.gaski {
     top: 426px;
     left: 449px;
   }
 
-  &.darłowo {
+  &.darlowo {
     top: 369px;
     left: 516px;
   }
 
-  &.jarosławiec {
+  &.jaroslawiec {
     top: 333px;
     left: 520px;
 
@@ -149,7 +149,7 @@
     left: 700px;
   }
 
-  &.czołpino {
+  &.czolpino {
     top: 256px;
     left: 756px;
   }
@@ -174,16 +174,16 @@
     left: 929px;
   }
 
-  &.gdańsk1 {
+  &.gdansk-nowy-port {
     top: 381px;
     left: 994px;
   }
 
-  &.gdańsk2 {
+  &.gdansk-port-polnocny {
     display: none;
   }
 
-  &.krynica {
+  &.krynica-morska {
     top: 362px;
     left: 1072px;
     max-width: 60px;
@@ -193,7 +193,7 @@
 .LanternLine {
   position: absolute;
 
-  &.świnoujście {
+  &.swinoujscie {
     top: 451px;
     left: 207px;
   }
@@ -208,22 +208,22 @@
     left: 341px;
   }
 
-  &.kołobrzeg {
+  &.kolobrzeg {
     top: 472px;
     left: 434px;
   }
 
-  &.gąski {
+  &.gaski {
     top: 351px;
     left: 471px;
   }
 
-  &.darłowo {
+  &.darlowo {
     top: 395px;
     left: 584px;
   }
 
-  &.jarosławiec {
+  &.jaroslawiec {
     top: 290px;
     left: 589px;
   }
@@ -238,7 +238,7 @@
     left: 708px;
   }
 
-  &.czołpino {
+  &.czolpino {
     top: 286px;
     left: 816px;
   }
@@ -263,17 +263,17 @@
     left: 979px;
   }
 
-  &.gdańsk1 {
+  &.gdansk-nowy-port {
     top: 397px;
     left: 946px;
   }
 
-  &.gdańsk2 {
+  &.gdansk-port-polnocny {
     left: 991px;
     top: 400px;
   }
 
-  &.krynica {
+  &.krynica-morska {
     top: 409px;
     left: 1129px;
   }
@@ -282,7 +282,7 @@
 
 @media(min-device-width: 1366px) {
 
-  .LanternText.świnoujście {
+  .LanternText.swinoujscie {
     top: 523px;
     left: 119px;
   }

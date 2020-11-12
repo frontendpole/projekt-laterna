@@ -20,7 +20,9 @@ const LanternHeader = ({ lanternId }) => {
         <ForwardArrowWithLabel lanternId={lanternId} isLast={lanternId === "16" ? true : false} />
       </header>
       {isTabletOrMobile &&
-        <img src={`${lanterns[lanternId].headerImgUrl}`} alt={`grafika latarni morskiej w miejscowości ${lanterns[lanternId].name}`} />}
+        <img
+          src={`${lanterns[lanternId].headerImgUrl}`}
+          alt={`grafika latarni morskiej w miejscowości ${lanterns[lanternId].name}`} />}
     </>
   )
 }

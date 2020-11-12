@@ -10,14 +10,18 @@ const IntroGadgetsMobile = () => {
       <header className='IntroGadgets--header'>
         <div className='IntroGadgets--header--info'>
           <h2>ZDOBĄDŹ POCZTÓWKI,</h2>
-          <h2>PLAKATY, GRY I INNE <span style={{ color: '#AE4527' }}>SKARBY</span></h2>
+          <h2>PLAKATY, GRY I INNE
+          <span style={{ color: '#AE4527' }}>SKARBY</span>
+          </h2>
           <h2>Z LATARNIAMI MORSKIMI</h2>
         </div>
       </header>
       <div className="IntroGadgets--gadgetsGetDetails">
         <img src={cardsImg} alt="Pocztówki z latarniami morskimi" />
         <button id="goToStore">
-          <NavLink to='/projekt-laterna/sklep'><img src={goToStoreImg} alt="Przycisk przejdź do sklepu" /></NavLink>
+          <NavLink to='/sklep'>
+            <img src={goToStoreImg} alt="Przycisk przejdź do sklepu" />
+          </NavLink>
         </button>
       </div>
     </>

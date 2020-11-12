@@ -16,7 +16,7 @@ const DescriptionMobile = () => {
       <img src={aboutProjectImg2} alt="zdjęcie autorki projektu przy mapie polskiego wybrzeża" />
       <p>Inicjatorką projektu jest Sabina Strzelecka - absolwentka Polsko-Japońskiej Akademii Technik Komputerowych w Warszawie na wydziale Sztuki Nowych Mediów oraz miłośniczka latarni morskich w Polsce i na świecie. Stworzyła Projekt w ramach pracy dyplomowej, której promotorami byli:</p>
       <p>dr Anna Barlik <br /> mgr inż. Marcin Wichrowski <br /> dr Marzena Królikowska-Dziubecka</p>
-      <img src={logoPJATK} alt="logo Polsko-Japońskiej Akademii Technik Komputerowych" />
+      <img className="logoMobile" src={logoPJATK} alt="logo Polsko-Japońskiej Akademii Technik Komputerowych" />
       <p>Warszawa, 2020</p>
     </>
   )

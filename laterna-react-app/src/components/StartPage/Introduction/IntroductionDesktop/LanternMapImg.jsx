@@ -26,29 +26,31 @@ const LanternMapImg = () => {
     <>
       {lanterns.map(lantern => (
         <>
-          <NavLink to={`/projekt-laterna/latarnie/${lantern.id}`}>
-            <img src={lantern.mapImg} className={`LanternImg ${lantern.name === "gdańsk nowy port" ? "gdańsk1" : lantern.name === "gdańsk port północny" ? "gdańsk2" : lantern.name === "krynica morska" ? "krynica" : lantern.name}`} alt={`grafika latarni morskiej w miejscowości ${lantern.name}`} />
+          <NavLink to={`/latarnie/${lantern.id}`}>
+            <img src={lantern.mapImg} className={`LanternImg ${lantern.url}`} />
           </NavLink>
-          <p className={`LanternText ${lantern.name === "gdańsk nowy port" ? "gdańsk1" : lantern.name === "gdańsk port północny" ? "gdańsk2" : lantern.name === "krynica morska" ? "krynica" : lantern.name}`} alt={`grafika latarni morskiej w miejscowości ${lantern.name}`}>{lantern.name === "gdańsk nowy port" ? "gdańsk" : lantern.name}</p>
+          <p className={`LanternText ${lantern.url}`}>
+            {lantern.name != "krynica morska" && lantern.shortName || lantern.name}
+          </p>
         </>
       ))}
-      <img src={świnoujścieLine} className="LanternLine świnoujście" />
-      <img src={kikutLine} className="LanternLine kikut" />
-      <img src={niechorzeLine} className="LanternLine niechorze" />
-      <img src={kołobrzegLine} className="LanternLine kołobrzeg" />
-      <img src={gąskiLine} className="LanternLine gąski" />
-      <img src={darłowoLine} className="LanternLine darłowo" />
-      <img src={jarosławiecLine} className="LanternLine jarosławiec" />
-      <img src={ustkaLine} className="LanternLine ustka" />
-      <img src={stiloLine} className="LanternLine stilo" />
-      <img src={czołpinoLine} className="LanternLine czołpino" />
-      <img src={rozewieLine} className="LanternLine rozewie" />
-      <img src={jastarniaLine} className="LanternLine jastarnia" />
-      <img src={helLine} className="LanternLine hel" />
-      <img src={sopotLine} className="LanternLine sopot" />
-      <img src={gdańsk1Line} className="LanternLine gdańsk1" />
-      <img src={gdańsk2Line} className="LanternLine gdańsk2" />
-      <img src={darłowoLine} className="LanternLine krynica" />
+      <img src={świnoujścieLine} className={`LanternLine ${lanterns[0].url}`} />
+      <img src={kikutLine} className={`LanternLine ${lanterns[1].url}`} />
+      <img src={niechorzeLine} className={`LanternLine ${lanterns[2].url}`} />
+      <img src={kołobrzegLine} className={`LanternLine ${lanterns[3].url}`} />
+      <img src={gąskiLine} className={`LanternLine ${lanterns[4].url}`} />
+      <img src={darłowoLine} className={`LanternLine ${lanterns[5].url}`} />
+      <img src={jarosławiecLine} className={`LanternLine ${lanterns[6].url}`} />
+      <img src={ustkaLine} className={`LanternLine ${lanterns[7].url}`} />
+      <img src={stiloLine} className={`LanternLine ${lanterns[8].url}`} />
+      <img src={czołpinoLine} className={`LanternLine ${lanterns[9].url}`} />
+      <img src={rozewieLine} className={`LanternLine ${lanterns[10].url}`} />
+      <img src={jastarniaLine} className={`LanternLine ${lanterns[11].url}`} />
+      <img src={helLine} className={`LanternLine ${lanterns[12].url}`} />
+      <img src={sopotLine} className={`LanternLine ${lanterns[13].url}`} />
+      <img src={gdańsk1Line} className={`LanternLine ${lanterns[14].url}`} />
+      <img src={gdańsk2Line} className={`LanternLine ${lanterns[15].url}`} />
+      <img src={darłowoLine} className={`LanternLine ${lanterns[16].url}`} />
     </>
   )
 }

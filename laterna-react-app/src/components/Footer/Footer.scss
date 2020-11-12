@@ -43,6 +43,10 @@
     button {
       @include remove-button-style;
 
+      &:hover {
+        transform: scale(0.95);
+      }
+
       a {
         border: none;
       }

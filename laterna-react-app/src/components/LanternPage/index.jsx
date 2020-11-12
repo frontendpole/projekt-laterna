@@ -17,23 +17,20 @@ const LanternPage = () => {
     query: '(min-device-width: 1024px)'
   });
 
-
   return (
-    <>
-      <section className="Lantern">
-        <div className="Lantern--wrapper">
-          {isTabletOrMobile &&
-            <>
-              <LanternHeader lanternId={id} />
-              <LanternBasicInfo lanternId={id} />
-              <LanternRest lanternId={id} />
-            </>
-          }
-        </div>
-        {isDesktopOrLaptop &&
-          <LanternPageDesktop lanternId={id} />}
-      </section>
-    </>
+    <section className="Lantern">
+      <div className="Lantern--wrapper">
+        {isTabletOrMobile &&
+          <>
+            <LanternHeader lanternId={id} />
+            <LanternBasicInfo lanternId={id} />
+            <LanternRest lanternId={id} />
+          </>
+        }
+      </div>
+      {isDesktopOrLaptop &&
+        <LanternPageDesktop lanternId={id} />}
+    </section>
   )
 }
 

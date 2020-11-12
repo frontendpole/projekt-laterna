@@ -5,11 +5,11 @@ import './NavListItem.scss';
 const NavListItem = ({ name, path }) => {
 
   const menu = [
-    { name: 'o projekcie', path: '/projekt-laterna/oprojekcie' },
-    { name: 'latarnie', path: '/projekt-laterna/latarnie/' },
-    { name: 'paszport', path: '/projekt-laterna/paszport' },
-    { name: 'sklep', path: '/projekt-laterna/sklep' },
-    { name: 'kontakt', path: '/projekt-laterna/kontakt' }
+    { name: 'o projekcie', path: '/oprojekcie' },
+    { name: 'latarnie', path: '/latarnie/' },
+    { name: 'paszport', path: '/paszport' },
+    { name: 'sklep', path: '/sklep' },
+    { name: 'kontakt', path: '/kontakt' }
   ]
 
   return (

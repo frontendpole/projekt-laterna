@@ -32,7 +32,11 @@ const StartPage = () => {
 
   return (
     <>
-      <HeaderImg headerImg={isDesktopOrLaptop ? startPageImgDesktop : startPageImgMobile} rectangleStyle={isTabletOrMobile ? rectangleStyle : null} title={isDesktopOrLaptop && "poznaj latarnie morskie polskiego wybrzeża"} titleStyle={titleStyle} />
+      <HeaderImg
+        headerImg={isDesktopOrLaptop ? startPageImgDesktop : startPageImgMobile}
+        rectangleStyle={isTabletOrMobile ? rectangleStyle : null}
+        title={isDesktopOrLaptop && "poznaj latarnie morskie polskiego wybrzeża"}
+        titleStyle={titleStyle} />
       <Introduction />
       <IntroPassport />
       <IntroGadgets />

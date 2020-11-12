@@ -27,7 +27,7 @@ const IntroPassportDesktop = () => {
           <h2 style={{ color: '#AE4527' }}>LATARNI MORSKICH</h2>
         </div>
         <button id="passportDetails">
-          <NavLink to='/projekt-laterna/paszport'>
+          <NavLink to='/paszport'>
             <img src={getInfoButton} alt="Przycisk dowiedz się więcej" />
           </NavLink>
         </button>

@@ -9,16 +9,17 @@ import arrowImg from '../../../../assets/images/strzalka.png';
 const IntroPassportMobile = () => {
 
   return (
-    <>      <div className="IntroPassport--header">
-      <h2>POZNAWAJ LATARNIE</h2>
-      <h2>I ZBIERAJ PIECZĄTKI</h2>
-      <h2>W <span style={{ color: '#AE4527' }}>PASZPORCIE MIŁOŚNIKA</span></h2>
-      <h2 style={{ color: '#AE4527' }}>LATARNI MORSKICH</h2>
-    </div>
+    <>
+      <div className="IntroPassport--header">
+        <h2>POZNAWAJ LATARNIE</h2>
+        <h2>I ZBIERAJ PIECZĄTKI</h2>
+        <h2>W <span style={{ color: '#AE4527' }}>PASZPORCIE MIŁOŚNIKA</span></h2>
+        <h2 style={{ color: '#AE4527' }}>LATARNI MORSKICH</h2>
+      </div>
       <div className="IntroPassport--passportGetDetails">
         <img src={passportImg} alt="Paszport miłośnika latarni morskich." />
         <button id="passportDetails">
-          <NavLink to='/projekt-laterna/paszport'>
+          <NavLink to='/paszport'>
             <img src={getInfoButton} alt="Przycisk dowiedz się więcej" />
           </NavLink>
         </button>

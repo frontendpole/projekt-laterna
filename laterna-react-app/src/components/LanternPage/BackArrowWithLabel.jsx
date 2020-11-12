@@ -8,7 +8,7 @@ const BackArrowWithLabel = ({ lanternId, isFirst }) => {
   let previousId = parseInt(lanternId) - 1;
 
   return (
-    <NavLink to={!isFirst ? `/projekt-laterna/latarnie/${previousId}` : '/projekt-laterna'}>
+    <NavLink to={!isFirst ? `/latarnie/${previousId}` : '/projekt-laterna'}>
       <button id="goBack">
         <img src={arrow} alt={isFirst ? "strzałka do powrotu do strony głównej" : "poprzednia strona"} />
         <p>

@@ -15,31 +15,30 @@ const FooterDesktop = () => {
     <>
       <div className="Footer--wrapper1">
         <h2>projekt laterna</h2>
-        <NavLink to='/projekt-laterna/kontakt'>kontakt</NavLink>
+        <NavLink to='/kontakt'>kontakt</NavLink>
         <section className='contactDetails'>
           <p>kontakt@projektlaterna.pl</p>
         </section>
         <section className='social-media'>
           <button>
-            <NavLink to='https://www.instagram.com/projektlaterna/?igshid=1ama6k71e24md&fbclid=IwAR2zkE5gdUxncRjTMfx7-jsX2Ka2AVt1IGc_7dmZxxk4KQCrOxOn-GvYNPQ'>
+            <a href="https://www.instagram.com/projektlaterna/?igshid=1ama6k71e24md&fbclid=IwAR2zkE5gdUxncRjTMfx7-jsX2Ka2AVt1IGc_7dmZxxk4KQCrOxOn-GvYNPQ">
               <img className='social-media--instagram' src={instagramDesktop} alt="instagram icon" />
-            </NavLink>
+            </a>
           </button>
           <button>
-            <NavLink to='#'>
+            <a href="#">
               <img className='social-media--facebook' src={facebookDesktop} alt="facebook icon" />
-            </NavLink>
+            </a>
           </button>
           <button>
-            <NavLink to='#'>
+            <a href="#">
               <img className='social-media--pinterest' src={pinterestDesktop} alt="pinterest icon" />
-            </NavLink>
+            </a>
           </button>
         </section>
       </div>
       <div className="Footer--wrapper2">
-        <NavLink to='/instagram'>instagram</NavLink>
-        <section className='footer-pictures'>
+        <a href="https://www.instagram.com/projektlaterna/?igshid=1ama6k71e24md&fbclid=IwAR2zkE5gdUxncRjTMfx7-jsX2Ka2AVt1IGc_7dmZxxk4KQCrOxOn-GvYNPQ">instagram</a>        <section className='footer-pictures'>
           <img src={photo1Desktop} alt="" />
           <img src={photo2Desktop} alt="" />
           <img src={photo3Desktop} alt="" />

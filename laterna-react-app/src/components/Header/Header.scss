@@ -3,7 +3,7 @@
 .PageHeader {
   @include flex-row-between;
   height: 97px;
-  z-index: 3;
+  z-index: 5;
   background-color: #FFFFFF;
   width: 100%;
   max-width: 100vw;
@@ -39,6 +39,7 @@
   .PageHeader {
     height: 99px;
     justify-content: center;
+
 
     &--wrapper {
       justify-content: center;

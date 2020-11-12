@@ -15,7 +15,9 @@ const AboutProjectPage = () => {
 
   return (
     <>
-      <HeaderImg headerImg={isDesktopOrLaptop ? AboutProjectPageImgDesktop : AboutProjectPageImgMobile} title="o projekcie" />
+      <HeaderImg 
+      headerImg={isDesktopOrLaptop ? AboutProjectPageImgDesktop : AboutProjectPageImgMobile} 
+      title="o projekcie" />
       <ProjectDescription />
     </>
   )

@@ -74,6 +74,10 @@
 
     #goToStore {
       position: static;
+
+      &:hover {
+        transform: scale(0.95);
+      }
     }
 
     &--3pics {

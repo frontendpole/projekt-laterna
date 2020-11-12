@@ -14,7 +14,6 @@
     width: 14px;
     height: 8px;
     margin-right: 5px;
-    margin-bottom: 4px;
   }
 
   p {
@@ -22,6 +21,7 @@
     font-size: 20px;
     line-height: 20px;
     margin: 0;
+    margin-top: 5px;
     color: #2E3D4B;
     font-family: 'Sulphur Point', sans-serif;
 
@@ -31,7 +31,6 @@
       border-bottom: 4px solid #B04527;
       transform: scaleX(0);
       transition: transform 250ms ease-in-out;
-      margin-top: 5px;
     }
 
     &:hover:after {
@@ -49,8 +48,8 @@
       margin: 0;
       color: #F2EDEB;
       border: none;
+      margin-top: 5px;
     }
-
   }
 }
 

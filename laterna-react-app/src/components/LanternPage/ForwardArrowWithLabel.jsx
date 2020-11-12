@@ -8,7 +8,7 @@ const ForwardArrowWithLabel = ({ lanternId, isLast }) => {
   let nextId = parseInt(lanternId) + 1;
 
   return (
-    <NavLink to={!isLast ? `/projekt-laterna/latarnie/${nextId}` : '/projekt-laterna'}>
+    <NavLink to={!isLast ? `/latarnie/${nextId}` : '/projekt-laterna'}>
       <button id="goForward">
         <p>
           {isLast ? "strona gł." : (lanterns[nextId].shortName || lanterns[nextId].name)}

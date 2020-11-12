@@ -15,7 +15,9 @@ const ContactPage = () => {
 
   return (
     <>
-      <HeaderImg headerImg={isDesktopOrLaptop ? ContactPageImgDesktop : ContactPageImg} title='kontakt' />
+      <HeaderImg
+        headerImg={isDesktopOrLaptop ? ContactPageImgDesktop : ContactPageImg}
+        title='kontakt' />
       <div className="ContactPage">
         <ContactChannels />
         <ContactForm />

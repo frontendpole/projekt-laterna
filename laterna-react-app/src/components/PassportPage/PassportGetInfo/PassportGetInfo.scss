@@ -52,6 +52,12 @@
 
     #sendBtn {
       transform: translateY(24px);
+      z-index: 2;
+
+      &:hover {
+        transform: scale(0.95);
+        cursor: pointer;
+      }
     }
 
     &--header {
