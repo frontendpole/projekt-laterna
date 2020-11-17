@@ -20,7 +20,6 @@ const LanternCustomInfo = ({ array }) => {
     <>
       {imgFound &&
         <div className="LanternPageDesktop--wrapper">
-
           <div className="LanternPageDesktop--text">
             {array.map(element => (
               <p>{element.p}</p>

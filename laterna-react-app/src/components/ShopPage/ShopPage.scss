@@ -54,7 +54,7 @@
 }
 
 
-@media (min-device-width: 1024px) {
+@media (min-width: 1024px) {
   .ShopPage {
 
     &--header {
@@ -93,7 +93,7 @@
   }
 }
 
-@media (min-device-width: 1366px) {
+@media (min-width: 1366px) {
 
   .ShopPage {
     &--articles {

@@ -44,7 +44,7 @@
 }
 
 
-@media(min-device-width: 1024px) {
+@media(min-width: 1024px) {
   .PassportGetInfo {
     justify-content: space-around;
     height: 500px;
@@ -110,7 +110,7 @@
   }
 }
 
-@media(min-device-width: 1366px) {
+@media(min-width: 1366px) {
   .PassportGetInfo {
     justify-content: space-between;
 

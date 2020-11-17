@@ -19,7 +19,6 @@ import sopotLine from '../../../../assets/images/map/lines/Line 938.png';
 import gdańsk1Line from '../../../../assets/images/map/lines/Line 936.png';
 import gdańsk2Line from '../../../../assets/images/map/lines/Line 937.png';
 
-
 const LanternMapImg = () => {
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderImg from '../Header/HeaderImg';
-import { useMediaQuery } from 'react-responsive';
+import useLayoutQueries from '../../functions/useLayoutQueries';
 import startPageImgMobile from '../../assets/images/ZDJECIE STILO-1@2x.png';
 import Introduction from './Introduction/Introduction';
 import IntroGadgets from './IntroGadgets/IntroGadgets';
@@ -13,12 +13,6 @@ const StartPage = () => {
     backgroundColor: 'transparent',
     opacity: 1
   }
-
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
-
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1024px)'
-  });
 
   const titleStyle = {
     width: '897px',
@@ -33,9 +27,9 @@ const StartPage = () => {
   return (
     <>
       <HeaderImg
-        headerImg={isDesktopOrLaptop ? startPageImgDesktop : startPageImgMobile}
-        rectangleStyle={isTabletOrMobile ? rectangleStyle : null}
-        title={isDesktopOrLaptop && "poznaj latarnie morskie polskiego wybrzeża"}
+        headerImg={useLayoutQueries().isDesktopOrLaptop ? startPageImgDesktop : startPageImgMobile}
+        rectangleStyle={useLayoutQueries().isTabletOrMobile ? rectangleStyle : null}
+        title={useLayoutQueries().isDesktopOrLaptop && "poznaj latarnie morskie polskiego wybrzeża"}
         titleStyle={titleStyle} />
       <Introduction />
       <IntroPassport />

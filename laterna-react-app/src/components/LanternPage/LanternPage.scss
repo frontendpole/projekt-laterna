@@ -8,6 +8,12 @@
   background-color: #F2EDEB;
   margin-top: 97px;
 
+  &--basicInfoWrapper {
+    width: 302px;
+    display: flex;
+    flex-direction: column;
+  }
+
   p {
     @include paragraph;
     margin: 0;
@@ -20,9 +26,26 @@
 }
 
 
-@media (min-device-width: 1024px) {
+@media (min-width: 1024px) {
   .Lantern {
     margin-top: 0;
+
+    &--wrapper {
+      @include flex-column-between;
+      width: 100%;
+      max-width: 1087px;
+    }
+
+    &--basicInfoWrapper {
+      @include flex-row-between;
+      justify-content: flex-start;
+      width: 996px;
+      height: 496px;
+
+      img {
+        margin-right: 232.25px;
+      }
+    }
 
     p {
       font-size: 20px;

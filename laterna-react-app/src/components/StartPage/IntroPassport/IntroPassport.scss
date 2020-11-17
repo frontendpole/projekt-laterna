@@ -44,9 +44,16 @@
   }
 }
 
-@media(min-device-width: 1024px) {
+@media(min-width: 1024px) {
 
   #passportDetails {
+    height: 96px;
+
+    a {
+      height: 96px;
+      display: block;
+    }
+
     &:hover {
       transform: scale(0.95);
     }
@@ -131,7 +138,7 @@
   }
 }
 
-@media(min-device-width: 1366px) {
+@media(min-width: 1366px) {
   .IntroPassport {
     &--2pics {
       width: 500px;

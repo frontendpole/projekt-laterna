@@ -3,22 +3,17 @@ import './PassportDescription.scss';
 import { useMediaQuery } from 'react-responsive';
 import PassportDesktop from './DesktopPassportDesc/PassportDesktop';
 import PassportDescMobile from './MobilePassportDesc/PassportDescMobile';
+import useLayoutQueries from '../../../functions/useLayoutQueries';
 
 const PassportDescription = () => {
-
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
-
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1024px)'
-  });
 
   return (
     <section className="PassportDescription">
 
-      {isTabletOrMobile &&
+      {useLayoutQueries().isTabletOrMobile &&
         <PassportDescMobile />
       }
-      {isDesktopOrLaptop &&
+      {useLayoutQueries().isDesktopOrLaptop &&
         <PassportDesktop />
       }
 

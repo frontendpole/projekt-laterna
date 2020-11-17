@@ -1,15 +1,8 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
 import './LanternBasicInfo.scss';
-import lanterns from '../../data/lanterns.json';
+import useLayoutQueries from '../../functions/useLayoutQueries';
 
-const LanternBasicInfo = ({ lanternId }) => {
-
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
-
-  // const isDesktopOrLaptop = useMediaQuery({
-  //   query: '(min-device-width: 1024px)'
-  // });
+const LanternBasicInfo = ({ constructionYear, height, lightHeight, lightDetails, address, address2, introduction }) => {
 
   return (
     <>
@@ -17,34 +10,34 @@ const LanternBasicInfo = ({ lanternId }) => {
         <div className="Lantern--basic-info--wrapper" style={{ marginTop: 47.76 }}>
           <h2>ROK BUDOWY LATARNI</h2>
           <div className="border"></div>
-          <p>{lanterns[lanternId].constructionYear}</p>
+          <p>{constructionYear}</p>
         </div>
         <div className="Lantern--basic-info--wrapper">
           <h2>WYSOKOŚĆ LATARNI</h2>
           <div className="border"></div>
-          <p>{lanterns[lanternId].height}</p>
+          <p>{height}</p>
         </div>
         <div className="Lantern--basic-info--wrapper">
           <h2>WYSOKOŚĆ ŚWIATŁA</h2>
           <div className="border"></div>
-          <p>{lanterns[lanternId].lightHeight}</p>
+          <p>{lightHeight}</p>
         </div>
         <div className="Lantern--basic-info--wrapper">
           <h2>CHARAKTERYSTYKA ŚWIATŁA</h2>
           <div className="border"></div>
-          <p>{lanterns[lanternId].lightDetails}</p>
+          <p>{lightDetails}</p>
         </div>
         <div className="Lantern--basic-info--wrapper">
           <h2>ADRES LATARNI</h2>
           <div className="border"></div>
-          <p>{lanterns[lanternId].address}</p>
-          <p>{lanterns[lanternId].address2}</p>
+          <p>{address}</p>
+          <p>{address2}</p>
         </div>
       </div>
 
-      {isTabletOrMobile &&
+      {useLayoutQueries().isTabletOrMobile &&
         <div className="Lantern--introduction">
-          <p>{lanterns[lanternId].introduction}</p>
+          <p>{introduction}</p>
         </div>}
     </>
   )

@@ -3,22 +3,17 @@ import './Footer.scss';
 import { useMediaQuery } from 'react-responsive';
 import FooterMobile from './FooterMobile';
 import FooterDesktop from './FooterDesktop';
+import useLayoutQueries from '../../functions/useLayoutQueries';
 
 const Footer = () => {
-
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
-
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1024px)'
-  });
 
   return (
     <footer className='Footer'>
 
-      {isTabletOrMobile &&
+      {useLayoutQueries().isTabletOrMobile &&
         <FooterMobile />}
 
-      {isDesktopOrLaptop &&
+      {useLayoutQueries().isDesktopOrLaptop &&
         <FooterDesktop />}
 
     </footer>

@@ -31,7 +31,7 @@
   }
 }
 
-@media(min-device-width: 1024px) {
+@media(min-width: 1024px) {
   .ProjectDescription {
     position: relative;
     overflow: hidden;
@@ -110,7 +110,7 @@
   }
 }
 
-@media(min-device-width: 1366px) {
+@media(min-width: 1366px) {
   .ProjectDescription {
 
     &--wrapper1 {

@@ -1,21 +1,20 @@
 import './LanternPage.scss';
 import React from 'react';
-import lanterns from '../../data/lanterns.json';
 import './LanternRest.scss';
 
-const LanternRest = ({ lanternId }) => {
+const LanternRest = ({ introImg, name, rest, footer }) => {
 
   return (
     <div className="lanternRest">
       <img
-        src={lanterns[lanternId].introImg}
-        alt={`zdjęcie latarni morskiej w miejscowości ${lanterns[lanternId].name}`} />
-      {lanterns[lanternId].rest.map(element => (
+        src={introImg}
+        alt={`zdjęcie latarni morskiej w miejscowości ${name}`} />
+      {rest.map(element => (
         element.p ? <p>{element.p}</p> : <img src={element.img} alt="zdjęcie latarni morskiej" />
       ))}
       <footer className="lanternRest--footer">
         <p>Zdjęcia:</p>
-        <p>{lanterns[lanternId].footer}</p>
+        <p>{footer}</p>
       </footer>
     </div>
   )

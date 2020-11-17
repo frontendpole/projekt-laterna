@@ -1,7 +1,7 @@
 import React from 'react';
 import '../IntroPassport.scss';
 import { NavLink } from 'react-router-dom';
-import getInfoButton from '../../../../assets/images/export main page/Group 421 (2).png';
+import getInfoButton from '../../../../assets/images/export main page/dowiedz (2).png';
 import waveImg from '../../../../assets/images/export main page/Path 1874@2x.png';
 import arrowImg from '../../../../assets/images/export main page/Group 257.png';
 import PassportImg4Desktop from '../../../../assets/images/desktop/Group 256.png';

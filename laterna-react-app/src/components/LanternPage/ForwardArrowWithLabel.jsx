@@ -1,17 +1,14 @@
 import React from 'react';
-import lanterns from '../../data/lanterns.json';
 import arrow from '../../assets/images/Group 418.png';
 import { NavLink } from 'react-router-dom';
 
-const ForwardArrowWithLabel = ({ lanternId, isLast }) => {
-
-  let nextId = parseInt(lanternId) + 1;
+const ForwardArrowWithLabel = ({ isLast, nextId, nextName }) => {
 
   return (
-    <NavLink to={!isLast ? `/latarnie/${nextId}` : '/projekt-laterna'}>
+    <NavLink to={!isLast ? `/latarnie/${nextId}` : '/'}>
       <button id="goForward">
         <p>
-          {isLast ? "strona gł." : (lanterns[nextId].shortName || lanterns[nextId].name)}
+          {nextName}
         </p>
         <img src={arrow} alt={isLast ? "strzałka do powrotu do strony głównej" : "poprzednia strona"} />
       </button>

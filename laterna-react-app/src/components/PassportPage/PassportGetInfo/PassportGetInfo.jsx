@@ -1,14 +1,11 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
+import useLayoutQueries from '../../../functions/useLayoutQueries';
 import './PassportGetInfo.scss';
 import Input from '../../Elements/Input';
 import sendBtnImg from '../../../assets/images/Group 397.png';
 
 const PassportGetInfo = () => {
 
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1024px)'
-  });
 
   return (
     <section className="PassportGetInfo">
@@ -21,7 +18,7 @@ const PassportGetInfo = () => {
       </header>
       <form className="PassportGetInfo--form">
         <Input type="text" label='Imię' />
-        <Input type="text" label='Adres e-mail' labelStyle={{ marginTop: isDesktopOrLaptop ? 16 : 20 }} />
+        <Input type="text" label='Adres e-mail' labelStyle={{ marginTop: useLayoutQueries().isDesktopOrLaptop ? 16 : 20 }} />
         <div className='PassportGetInfo--form--checkbox'>
           <Input type="checkbox" />
           <label htmlFor="checkbox">Akceptuję Politykę Prywatności Projektu Laterna</label>

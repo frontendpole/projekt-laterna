@@ -1,15 +1,11 @@
 import React from 'react';
 import './ShopPage.scss';
-import { useMediaQuery } from 'react-responsive';
+import useLayoutQueries from '../../functions/useLayoutQueries';
 import products from '../../data/products.json';
 
 const ShopArticles = () => {
 
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
-
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1024px)'
-  });
+  const isDesktopOrLaptop = useLayoutQueries().isDesktopOrLaptop;
 
   return (
     <div className="ShopPage--articles">

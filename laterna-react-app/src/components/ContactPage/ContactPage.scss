@@ -2,7 +2,7 @@
 @import '../../styles/texts.scss';
 
 
-@media(min-device-width: 1024px) {
+@media(min-width: 1024px) {
   .ContactPage {
     @include flex-row-between;
     align-items: flex-start;

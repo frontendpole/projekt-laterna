@@ -7,16 +7,11 @@ import mainLogo from '../../assets/images/LOGO-03.png';
 import desktopNavLogo from '../../assets/images/LOGO-1.png';
 import classNames from 'classnames';
 import NavDesktop from '../Navigation/NavDesktop';
+import useLayoutQueries from '../../functions/useLayoutQueries';
 
 const Header = () => {
 
   const [isHeaderSmall, setIsHeaderSmall] = useState(false);
-
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' });
-
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1024px)'
-  });
 
   const handleScroll = () => {
     if (window.scrollY >= 97) {
@@ -33,16 +28,16 @@ const Header = () => {
       <div className="PageHeader--wrapper">
         <NavLink to='/'>
           <img
-            src={isDesktopOrLaptop ? desktopNavLogo : mainLogo}
+            src={useLayoutQueries().isDesktopOrLaptop ? desktopNavLogo : mainLogo}
             className={classNames("PageHeader--logo", { mini: isHeaderSmall })}
             alt="logo Projektu Laterna" />
         </NavLink>
 
-        {isTabletOrMobile &&
+        {useLayoutQueries().isTabletOrMobile &&
           <Nav />
         }
 
-        {isDesktopOrLaptop &&
+        {useLayoutQueries().isDesktopOrLaptop &&
           <NavDesktop />}
       </div>
     </header>)

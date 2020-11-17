@@ -10,7 +10,6 @@ const ShopPage = React.lazy(() => import('./ShopPage'));
 
 const Main = () => {
 
-
   return (
     <main>
       <Suspense fallback="Ładowanie strony...">

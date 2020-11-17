@@ -33,11 +33,12 @@
   }
 }
 
-@media (min-device-width: 1024px) {
+@media (min-width: 1024px) {
   .Lantern {
 
     &--basic-info {
       width: auto;
+
 
       h2 {
         font-size: 22px;
