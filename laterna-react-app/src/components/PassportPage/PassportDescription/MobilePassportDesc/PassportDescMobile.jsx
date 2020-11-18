@@ -1,11 +1,11 @@
 import React from 'react';
 import '../PassportDescription.scss';
-import PassportImg1 from '../../../../assets/images/Zrzut ekranu 2020-06-30 o 20.47.15.png';
-import PassportImg2 from '../../../../assets/images/Zrzut ekranu 2020-06-05 o 15.18.42.png';
-import PassportImg3 from '../../../../assets/images/paszport mockup 13.png';
-import PassportImg4 from '../../../../assets/images/paszport mockup -1.png';
-import PassportImg5 from '../../../../assets/images/paszport mockup 3 (2).png';
-import PassportImg6 from '../../../../assets/images/paszport mockup -2.png';
+import PassportImg1 from '../../images/Zrzut ekranu 2020-06-30 o 20.47.15.png';
+import PassportImg2 from '../../images/Zrzut ekranu 2020-06-05 o 15.18.42.png';
+import PassportImg3 from '../../images/paszport mockup 13.png';
+import PassportImg4 from '../../images/paszport mockup -1.png';
+import PassportImg5 from '../../images/paszport mockup 3 (2).png';
+import PassportImg6 from '../../images/paszport mockup -2.png';
 
 const PassportDescMobile = () => {
 

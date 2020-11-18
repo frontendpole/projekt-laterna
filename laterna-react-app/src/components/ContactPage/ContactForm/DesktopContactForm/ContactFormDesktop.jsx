@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from '../../../Elements/Input';
 import '../ContactForm.scss';
-import sendBtnImg from '../../../../assets/images/Group 397.png';
+import sendBtnImg from '../../images/Group 397.png';
 
 const ContactFormDesktop = () => {
 

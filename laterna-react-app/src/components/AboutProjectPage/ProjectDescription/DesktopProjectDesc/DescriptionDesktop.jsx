@@ -1,9 +1,9 @@
 import React from 'react';
 import '../ProjectDescription.scss';
-import imgDesktop1 from '../../../../assets/images/Chron-Paul (Diskussion)  CC BY-SA 3.0 DE.png';
-import imgDesktop2 from '../../../../assets/images/101681023_294729721553318_7178833893036916736_n (2).png';
-import logoPJATKDesktop from '../../../../assets/images/Logo_PL_1.png';
-import backgroundWave from '../../../../assets/images/Path 1873.png';
+import imgDesktop1 from '../../images/Chron-Paul (Diskussion)  CC BY-SA 3.0 DE.png';
+import imgDesktop2 from '../../images/101681023_294729721553318_7178833893036916736_n (2).png';
+import logoPJATKDesktop from '../../images/Logo_PL_1.png';
+import backgroundWave from '../../images/Path 1873.png';
 
 const DescriptionDesktop = () => {
 

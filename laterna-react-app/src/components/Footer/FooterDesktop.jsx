@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Footer.scss';
-import instagramDesktop from '../../assets/images/iconfinder_-2@2x.png';
-import facebookDesktop from '../../assets/images/iconfinder_facebook_circle_black_-1@2x.png';
-import pinterestDesktop from '../../assets/images/iconfinder_-1@2x.png';
-import photo1Desktop from '../../assets/images/insta-79@2x.png';
-import photo2Desktop from '../../assets/images/plakat 16.png';
-import photo3Desktop from '../../assets/images/insta-81@2x.png';
-import photo4Desktop from '../../assets/images/insta-80@2x.png';
+import instagramDesktop from './images/iconfinder_-2@2x.png';
+import facebookDesktop from './images/iconfinder_facebook_circle_black_-1@2x.png';
+import pinterestDesktop from './images/iconfinder_-1@2x.png';
+import photo1Desktop from './images/insta-79@2x.png';
+import photo2Desktop from './images/plakat 16.png';
+import photo3Desktop from './images/insta-81@2x.png';
+import photo4Desktop from './images/insta-80@2x.png';
 
 const FooterDesktop = () => {
 

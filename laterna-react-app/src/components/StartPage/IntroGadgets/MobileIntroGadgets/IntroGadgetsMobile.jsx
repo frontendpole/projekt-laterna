@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../IntroGadgets.scss'
-import cardsImg from '../../../../assets/images/pocztowki.png';
-import goToStoreImg from '../../../../assets/images/przejdz.png';
+import cardsImg from '../../images/gadgets/pocztowki.png';
+import goToStoreImg from '../../images/gadgets/przejdz.png';
 
 const IntroGadgetsMobile = () => {
   return (

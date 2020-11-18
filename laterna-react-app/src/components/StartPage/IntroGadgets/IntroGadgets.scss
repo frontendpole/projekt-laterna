@@ -43,7 +43,7 @@
 
     &--wrapper {
       @include flex-row-between;
-      justify-content: center;
+      justify-content: flex-start;
       width: 1148.28px;
     }
 

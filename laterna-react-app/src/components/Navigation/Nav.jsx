@@ -4,11 +4,11 @@ import classNames from 'classnames';
 import NavListItem from './NavListItem';
 import './Nav.scss';
 import { NavLink } from 'react-router-dom';
-import hamburgerIcon from '../../assets/images/MENU.png'
-import closeIcon from '../../assets/images/X.png';
-import navLogo from '../../assets/images/LOGO.png';
+import hamburgerIcon from './images/MENU.png'
+import closeIcon from './images/X.png';
+import navLogo from './images/LOGO.png';
 import lanterns from '../../data/lanterns.json';
-import showLanternListImg from '../../assets/images/przy latarniach.png';
+import showLanternListImg from './images/przy latarniach.png';
 
 
 const Nav = ({ history }) => {
@@ -66,7 +66,7 @@ const Nav = ({ history }) => {
 
           <ul className={classNames('Navigation--list--lanterns', { active: isLanternListOpened })}>
             {lanterns.map(lantern => (
-              <NavLink as="button" to={`/latarnie/${lantern.id}`}>{lantern.name}</NavLink>
+              <NavLink as="button" to={`/latarnie/${lantern.id}/${lantern.url}`}>{lantern.name}</NavLink>
             ))}
           </ul>
           <NavListItem as="button" path='/paszport' name='paszport' />

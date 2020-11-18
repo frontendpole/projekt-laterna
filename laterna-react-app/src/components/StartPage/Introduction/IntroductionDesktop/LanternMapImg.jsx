@@ -2,22 +2,22 @@ import React from 'react';
 import './LanternMapImg.scss';
 import { NavLink } from 'react-router-dom';
 import lanterns from '../../../../data/lanterns.json';
-import świnoujścieLine from '../../../../assets/images/map/lines/Line 928.png';
-import kikutLine from '../../../../assets/images/map/lines/Line 933.png';
-import niechorzeLine from '../../../../assets/images/map/lines/Line 927.png';
-import kołobrzegLine from '../../../../assets/images/map/lines/Line 942.png';
-import gąskiLine from '../../../../assets/images/map/lines/Line 929.png';
-import darłowoLine from '../../../../assets/images/map/lines/Line 939.png';
-import jarosławiecLine from '../../../../assets/images/map/lines/Line 930.png';
-import ustkaLine from '../../../../assets/images/map/lines/Line 940.png';
-import stiloLine from '../../../../assets/images/map/lines/Line 931.png';
-import czołpinoLine from '../../../../assets/images/map/lines/Line 941.png';
-import rozewieLine from '../../../../assets/images/map/lines/Line 933.png';
-import jastarniaLine from '../../../../assets/images/map/lines/Line 932.png';
-import helLine from '../../../../assets/images/map/lines/Line 934.png';
-import sopotLine from '../../../../assets/images/map/lines/Line 938.png';
-import gdańsk1Line from '../../../../assets/images/map/lines/Line 936.png';
-import gdańsk2Line from '../../../../assets/images/map/lines/Line 937.png';
+import świnoujścieLine from '../../images/lines/Line 928.png';
+import kikutLine from '../../images/lines/Line 933.png';
+import niechorzeLine from '../../images/lines/Line 927.png';
+import kołobrzegLine from '../../images/lines/Line 942.png';
+import gąskiLine from '../../images/lines/Line 929.png';
+import darłowoLine from '../../images/lines/Line 939.png';
+import jarosławiecLine from '../../images/lines/Line 930.png';
+import ustkaLine from '../../images/lines/Line 940.png';
+import stiloLine from '../../images/lines/Line 931.png';
+import czołpinoLine from '../../images/lines/Line 941.png';
+import rozewieLine from '../../images/lines/Line 933.png';
+import jastarniaLine from '../../images/lines/Line 932.png';
+import helLine from '../../images/lines/Line 934.png';
+import sopotLine from '../../images/lines/Line 938.png';
+import gdańsk1Line from '../../images/lines/Line 936.png';
+import gdańsk2Line from '../../images/lines/Line 937.png';
 
 const LanternMapImg = () => {
 
@@ -25,7 +25,7 @@ const LanternMapImg = () => {
     <>
       {lanterns.map(lantern => (
         <>
-          <NavLink to={`/latarnie/${lantern.id}`}>
+          <NavLink to={`/latarnie/${lantern.id}/${lantern.url}`}>
             <img src={lantern.mapImg} className={`LanternImg ${lantern.url}`} />
           </NavLink>
           <p className={`LanternText ${lantern.url}`}>

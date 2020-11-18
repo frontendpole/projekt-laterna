@@ -18,7 +18,7 @@ const Main = () => {
           <Route exact path="/oprojekcie" component={AboutProjectPage} />
           <Route exact path="/paszport" component={PassportPage} />
           <Route exact path="/kontakt" component={ContactPage} />
-          <Route exact path="/latarnie/:id" component={LanternPage} />
+          <Route exact path="/latarnie/:id/:url" component={LanternPage} />
           <Route exact path="/sklep" component={ShopPage} />
         </Switch>
       </Suspense>

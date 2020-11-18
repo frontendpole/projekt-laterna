@@ -5,16 +5,14 @@ import NavListItem from './NavListItem';
 import './NavDesktop.scss';
 import { NavLink } from 'react-router-dom';
 import lanterns from '../../data/lanterns.json';
-import arrowDark from '../../assets/images/przy latarniach-55.png';
-import arrowLight from '../../assets/images/przy latarniach-56.png';
-
+import arrowDark from './images/przy latarniach-55.png';
+import arrowLight from './images/przy latarniach-56.png';
 
 const NavDesktop = ({ history }) => {
 
   const [isLanternListOpened, setIsLanternListOpened] = useState(false);
 
   const [isLanternsDark, setIsLanternsDark] = useState(false);
-
 
   const toggleLanternList = () => {
     setIsLanternListOpened(!isLanternListOpened);
@@ -56,7 +54,7 @@ const NavDesktop = ({ history }) => {
       <ul className={classNames('NavDesktop--lanterns', { active: isLanternListOpened })}>
         <div className="NavDesktop--lanterns--wrapper">
           {lanterns.map(lantern => (
-            <NavLink as="button" to={`/latarnie/${lantern.id}`}>{lantern.name}</NavLink>
+            <NavLink as="button" to={`/latarnie/${lantern.id}/${lantern.url}`}>{lantern.name}</NavLink>
           ))}
         </div>
       </ul>

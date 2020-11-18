@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Footer.scss';
-import instagramIcon from '../../assets/images/iconfinder_-2.png';
-import facebookIcon from '../../assets/images/iconfinder_facebook_circle_black_-1.png';
-import pinterestIcon from '../../assets/images/iconfinder_-1.png';
-import photo1 from '../../assets/images/insta-1.png';
-import photo2 from '../../assets/images/insta-2.png';
-import photo3 from '../../assets/images/insta-1.png';
-import photo4 from '../../assets/images/insta-3.png';
+import instagramIcon from './images/iconfinder_-2.png';
+import facebookIcon from './images/iconfinder_facebook_circle_black_-1.png';
+import pinterestIcon from './images/iconfinder_-1.png';
+import photo1 from './images/insta-1.png';
+import photo2 from './images/insta-2.png';
+import photo3 from './images/insta-1.png';
+import photo4 from './images/insta-3.png';
 
 const FooterMobile = () => {
 

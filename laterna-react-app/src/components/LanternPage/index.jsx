@@ -15,10 +15,6 @@ const LanternPage = () => {
 
   let { id } = useParams();
 
-  let previousId = parseInt(id) - 1;
-
-  let nextId = parseInt(id) + 1;
-
   const titleStyle = {
     width: '897px',
     height: '127px',
@@ -29,78 +25,86 @@ const LanternPage = () => {
     left: "10%"
   }
 
+  const isDesktopOrLaptop = useLayoutQueries().isDesktopOrLaptop;
+
+  const isTabletOrMobile = useLayoutQueries().isTabletOrMobile;
+
   return (
     <>
-      {useLayoutQueries().isDesktopOrLaptop &&
-        <HeaderImg
-          headerImg={lanterns[id].headerImg}
-          title={lanterns[id].name}
-          titleStyle={titleStyle} />
-      }
-      <section className="Lantern" key={id}>
-        <div className="Lantern--wrapper">
+      {lanterns.map(lantern => (
+        lantern.id === id &&
+        <section key={lantern.id}>
+          {isDesktopOrLaptop &&
+            <HeaderImg
+              headerImg={lantern.headerImg}
+              title={lantern.name}
+              titleStyle={titleStyle} />
+          }
+          <section className="Lantern">
+            <div className="Lantern--wrapper">
 
-          <LanternHeader
-            previousId={previousId}
-            previousName={id != "0" ? lanterns[previousId].shortName || lanterns[previousId].name : 'strona gł.'}
-            headerImgUrl={lanterns[id].headerImgUrl}
-            lanternName={lanterns[id].name}
-            lanternId={id}
-            nextId={nextId}
-            nextName={id != "16" ? lanterns[nextId].shortName || lanterns[nextId].name : 'strona gł.'}
-            isFirst={id === "0"}
-            isLast={id === "16"}
-          />
+              <LanternHeader
+                previousId={lantern.id - 1}
+                previousName={lantern.id != "0" ? lanterns[lantern.id - 1].shortName || lanterns[lantern.id - 1].name : 'strona gł.'}
+                headerImgUrl={lantern.headerImgUrl}
+                lanternName={lantern.name}
+                nextId={parseInt(lantern.id) + 1}
+                nextName={lantern.id != "16" ? lanterns[parseInt(lantern.id) + 1].shortName || lanterns[parseInt(lantern.id) + 1].name : 'strona gł.'}
+                isFirst={lantern.id === "0"}
+                isLast={lantern.id === "16"}
+                previousUrl={lantern.id != "0" ? lanterns[lantern.id - 1].url : null}
+                nextUrl={lantern.id != "16" ? lanterns[parseInt(lantern.id) + 1].url : null}
+              />
 
-          <div className="Lantern--basicInfoWrapper">
-            {useLayoutQueries().isDesktopOrLaptop &&
-              <img
-                src={lanterns[id].desktopImg}
-                alt={`grafika latarni morskiej w miejscowości ${lanterns[id].name}`} />}
-            <LanternBasicInfo
-              desktopImg={lanterns[id].desktopImg}
-              name={lanterns[id].name}
-              constructionYear={lanterns[id].constructionYear}
-              height={lanterns[id].height}
-              lightHeight={lanterns[id].lightHeight}
-              lightDetails={lanterns[id].lightDetails}
-              address={lanterns[id].address}
-              address2={lanterns[id].address2}
-              introduction={lanterns[id].introduction}
-            />
-          </div>
-
-          {useLayoutQueries().isDesktopOrLaptop &&
-            <>
-              <LanternCustomInfo array={lanterns[id].introDesktop} />
-
-              <div className="LanternPageDesktop--pictures">
-                {lanterns[id].picturesDesktop.map(element => (
-                  <img src={element.img} alt="zdjęcie latarni morskiej" />
-                ))}
+              <div className="Lantern--basicInfoWrapper">
+                {isDesktopOrLaptop &&
+                  <img
+                    src={lantern.desktopImg}
+                    alt={`grafika latarni morskiej w miejscowości ${lantern.name}`} />}
+                <LanternBasicInfo
+                  desktopImg={lantern.desktopImg}
+                  name={lantern.name}
+                  constructionYear={lantern.constructionYear}
+                  height={lantern.height}
+                  lightHeight={lantern.lightHeight}
+                  lightDetails={lantern.lightDetails}
+                  address={lantern.address}
+                  address2={lantern.address2}
+                  introduction={lantern.introduction}
+                />
               </div>
 
-              {lanterns[id].restDesktop &&
-                <LanternCustomInfo array={lanterns[id].restDesktop} />
-              }
+              {isDesktopOrLaptop &&
+                <>
+                  <LanternCustomInfo array={lantern.introDesktop} />
 
-              <footer className="lanternRest--footer">
-                <p>Zdjęcia:</p>
-                <p>{lanterns[id].footer}</p>
-              </footer>
-            </>}
+                  <div className="LanternPageDesktop--pictures">
+                    {lantern.picturesDesktop.map(element => (
+                      <img src={element.img} alt="zdjęcie latarni morskiej" />
+                    ))}
+                  </div>
 
-          {useLayoutQueries().isTabletOrMobile &&
-            <LanternRest
-              introImg={lanterns[id].introImg}
-              name={lanterns[id].name}
-              rest={lanterns[id].rest}
-              footer={lanterns[id].footer}
-            />}
-        </div>
-      </section>
+                  {lantern.restDesktop &&
+                    <LanternCustomInfo array={lantern.restDesktop} />
+                  }
+
+                  <footer className="lanternRest--footer">
+                    <p>Zdjęcia:</p>
+                    <p>{lantern.footer}</p>
+                  </footer>
+                </>}
+              {isTabletOrMobile &&
+                <LanternRest
+                  introImg={lantern.introImg}
+                  name={lantern.name}
+                  rest={lantern.rest}
+                  footer={lantern.footer}
+                />}
+            </div>
+          </section>
+        </section>
+      ))}
     </>
   )
 }
-
 export default LanternPage;

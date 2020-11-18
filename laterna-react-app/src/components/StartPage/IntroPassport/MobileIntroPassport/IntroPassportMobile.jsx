@@ -1,10 +1,10 @@
 import React from 'react';
 import '../IntroPassport.scss';
 import { NavLink } from 'react-router-dom';
-import passportImg from '../../../../assets/images/paszport do www-1.png';
-import getInfoButton from '../../../../assets/images/dowiedz.png';
-import waveImg from '../../../../assets/images/falka.png';
-import arrowImg from '../../../../assets/images/strzalka.png';
+import passportImg from '../../images/passport/paszport do www-1.png';
+import getInfoButton from '../../images/passport/dowiedz.png';
+import waveImg from '../../images/passport/falka.png';
+import arrowImg from '../../images/passport/strzalka.png';
 
 const IntroPassportMobile = () => {
 

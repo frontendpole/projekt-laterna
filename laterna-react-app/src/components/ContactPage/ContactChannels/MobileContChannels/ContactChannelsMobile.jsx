@@ -2,10 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../ContactChannels.scss';
 import './ContactChannelsMobile';
-import instagramIcon from '../../../../assets/images/INSTA.png';
-import facebookIcon from '../../../../assets/images/FB.png';
-import pinterestIcon from '../../../../assets/images/PINT.png';
-import emailBtnIcon from '../../../../assets/images/Path 1283.png';
+import instagramIcon from '../../images/INSTA.png';
+import facebookIcon from '../../images/FB.png';
+import pinterestIcon from '../../images/PINT.png';
+import emailBtnIcon from '../../images/Path 1283.png';
 
 const ContactChannelsMobile = () => {
 

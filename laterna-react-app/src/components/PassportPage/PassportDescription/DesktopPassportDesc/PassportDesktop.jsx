@@ -1,12 +1,12 @@
 import React from 'react';
 import '../PassportDescription.scss';
-import PassportImg1Desktop from '../../../../assets/images/paszport mockup 6.png';
-import PassportImg2Desktop from '../../../../assets/images/paszport mockup 4.png';
-import PassportImg3Desktop from '../../../../assets/images/paszport mockup 3.png';
-import PassportImg4Desktop from '../../../../assets/images/desktop/Group 256.png';
-import PassportImg5Desktop from '../../../../assets/images/Zrzut ekranu 2020-06-13 o 19.42.47.png';
-import PassportImg6Desktop from '../../../../assets/images/desktop/paszport mockup 1.png';
-import passportWaveImg from '../../../../assets/images/desktop/Path 1943@2x.png';
+import PassportImg1Desktop from '../../images/paszport mockup 6.png';
+import PassportImg2Desktop from '../../images/paszport mockup 4.png';
+import PassportImg3Desktop from '../../images/paszport mockup 3.png';
+import PassportImg4Desktop from '../../images/Group 256.png';
+import PassportImg5Desktop from '../../images/Zrzut ekranu 2020-06-13 o 19.42.47.png';
+import PassportImg6Desktop from '../../images/paszport mockup 1.png';
+import passportWaveImg from '../../images/Path 1943@2x.png';
 import PassportGetInfo from '../../PassportGetInfo/PassportGetInfo';
 
 const PassportDesktop = () => {

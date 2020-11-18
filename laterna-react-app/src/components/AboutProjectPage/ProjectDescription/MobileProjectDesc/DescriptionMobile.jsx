@@ -1,8 +1,8 @@
 import React from 'react';
 import '../ProjectDescription.scss';
-import aboutProjectImg1 from '../../../../assets/images/Mateusz Frycz  CC BY-SA 3.0 PL.png';
-import aboutProjectImg2 from '../../../../assets/images/101681023_294729721553318_7178833893036916736_n.png';
-import logoPJATK from '../../../../assets/images/Logo_PL_4.png';
+import aboutProjectImg1 from '../../images/Mateusz Frycz  CC BY-SA 3.0 PL.png';
+import aboutProjectImg2 from '../../images/101681023_294729721553318_7178833893036916736_n.png';
+import logoPJATK from '../../images/Logo_PL_4.png';
 
 const DescriptionMobile = () => {
 

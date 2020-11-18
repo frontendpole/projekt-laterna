@@ -1,5 +1,4 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
 import './ContactForm.scss';
 import ContactFormMobile from './MobileContactForm/ContactFormMobile';
 import ContactFormDesktop from './DesktopContactForm/ContactFormDesktop';

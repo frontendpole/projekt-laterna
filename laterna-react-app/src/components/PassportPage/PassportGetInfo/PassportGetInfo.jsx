@@ -2,7 +2,7 @@ import React from 'react';
 import useLayoutQueries from '../../../functions/useLayoutQueries';
 import './PassportGetInfo.scss';
 import Input from '../../Elements/Input';
-import sendBtnImg from '../../../assets/images/Group 397.png';
+import sendBtnImg from '../images/Group 397.png';
 
 const PassportGetInfo = () => {
 

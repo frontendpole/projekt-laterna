@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeaderImg.scss';
+import { animate__fadeInUp } from 'animate.css';
 
 const HeaderImg = ({ title, headerImg, rectangleStyle, titleStyle }) => {
 

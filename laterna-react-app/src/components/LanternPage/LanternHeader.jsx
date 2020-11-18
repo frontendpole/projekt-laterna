@@ -4,7 +4,7 @@ import BackArrowWithLabel from './BackArrowWithLabel';
 import ForwardArrowWithLabel from './ForwardArrowWithLabel';
 import useLayoutQueries from '../../functions/useLayoutQueries';
 
-const LanternHeader = ({ headerImgUrl, lanternName, previousName, previousId, nextName, nextId, isFirst, isLast }) => {
+const LanternHeader = ({ headerImgUrl, lanternName, previousName, previousId, nextName, nextId, isFirst, isLast, previousUrl, nextUrl }) => {
 
   return (
     <>
@@ -13,11 +13,13 @@ const LanternHeader = ({ headerImgUrl, lanternName, previousName, previousId, ne
           previousId={previousId}
           previousName={previousName}
           isFirst={isFirst}
+          previousUrl={previousUrl}
         />
         <ForwardArrowWithLabel
           nextId={nextId}
           nextName={nextName}
           isLast={isLast}
+          nextUrl={nextUrl}
         />
       </header>
       {useLayoutQueries().isTabletOrMobile &&
@@ -28,11 +30,3 @@ const LanternHeader = ({ headerImgUrl, lanternName, previousName, previousId, ne
   )
 }
 export default LanternHeader;
-
-
-
-
-
-
-
-

@@ -58,6 +58,7 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
+    height: 2542px;
 
     img {
       max-width: 450px;
@@ -90,13 +91,11 @@
       }
     }
 
-
-
     &--wrapper {
       @include flex-row-between;
       flex-wrap: wrap;
       width: 950px;
-      height: 2277px;
+      height: 2400px;
     }
 
     &--2pictures {
@@ -108,7 +107,7 @@
         position: absolute;
 
         &:nth-child(1) {
-          top: 0;
+          top: 30px;
           left: 0;
           z-index: 3;
         }
@@ -133,7 +132,7 @@
         font-family: 'ClarikaProGeoLight';
 
         &:nth-child(1) {
-          margin: 0;
+          margin-top: 90px;
         }
 
         &:nth-child(2),

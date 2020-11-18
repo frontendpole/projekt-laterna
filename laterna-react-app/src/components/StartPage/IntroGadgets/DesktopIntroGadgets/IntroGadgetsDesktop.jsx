@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../IntroGadgets.scss';
-import postCardImg from '../../../../assets/images/export main page/Group 84.png';
-import lanternCardImg from '../../../../assets/images/export main page/Group 89.png';
-import blueCardImg from '../../../../assets/images/export main page/Group 275.png';
-import goToStoreImg from '../../../../assets/images/export main page/Group 421.png';
+import postCardImg from '../../images/gadgets/Group 84.png';
+import lanternCardImg from '../../images/gadgets/Group 89.png';
+import blueCardImg from '../../images/gadgets/Group 275.png';
+import goToStoreImg from '../../images/gadgets/Group 421.png';
 
 const IntroGadgetsDesktop = () => {
   return (

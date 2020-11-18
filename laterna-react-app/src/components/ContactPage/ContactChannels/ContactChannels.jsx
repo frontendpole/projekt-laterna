@@ -1,5 +1,4 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
 import './ContactChannels.scss';
 import ContactChannelsMobile from './MobileContChannels/ContactChannelsMobile';
 import ContactChannelsDesktop from './DesktopContChannels/ContactChannelsDesktop';
