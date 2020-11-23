@@ -20,6 +20,8 @@
     height: 35px;
     padding: 0;
     border: none;
+    word-wrap: break-word;
+    @include paragraph;
   }
 
   input[type="checkbox"] {
