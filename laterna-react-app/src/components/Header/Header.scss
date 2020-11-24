@@ -34,10 +34,10 @@
       animation: rotate-vert-center 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s infinite both;
 
       &.mini {
-        width: 14.7px;
-        height: 14.7px;
-        top: 3px;
-        left: 41px;
+        width: 11.9px;
+        height: 11.9px;
+        top: 6px;
+        left: 42px;
       }
     }
 
@@ -64,6 +64,8 @@
         left: 42px;
 
         &.mini {
+          width: 14.7px;
+          height: 14.7px;
           top: 8px;
           left: 54px;
         }
