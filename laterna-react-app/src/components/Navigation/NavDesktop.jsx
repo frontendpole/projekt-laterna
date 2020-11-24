@@ -54,7 +54,7 @@ const NavDesktop = ({ history }) => {
       <ul className={classNames('NavDesktop--lanterns', { active: isLanternListOpened })}>
         <div className="NavDesktop--lanterns--wrapper">
           {lanterns.map(lantern => (
-            <NavLink as="button" to={`/latarnie/${lantern.id}/${lantern.url}`}>{lantern.name}</NavLink>
+            <NavLink key={lantern.id} as="button" to={`/latarnie/${lantern.id}/${lantern.url}`}>{lantern.name}</NavLink>
           ))}
         </div>
       </ul>

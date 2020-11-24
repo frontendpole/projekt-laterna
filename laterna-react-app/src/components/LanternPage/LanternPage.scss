@@ -38,20 +38,20 @@
 
     &--basicInfoWrapper {
       @include flex-row-between;
-      justify-content: flex-start;
+      justify-content: center;
       width: 996px;
       height: 496px;
 
       img {
-        margin-right: 232.25px;
-      }
+     margin-right: 232.25px;
+   }
     }
 
     p {
       font-size: 20px;
       font-family: ClarikaProGeoLight;
       letter-spacing: 0.5px;
+      line-height: 25px;
     }
-
   }
 }

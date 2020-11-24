@@ -10,7 +10,7 @@ const CarouselImg = () => {
   return (
     <Carousel>
       {lanterns.map(lantern => (
-        <Card img={lantern.carouselImg} id={lantern.id} name={lantern.name} url={lantern.url} />
+        <Card key={lantern.id} img={lantern.carouselImg} id={lantern.id} name={lantern.name} url={lantern.url} />
       ))}
     </Carousel>
   )

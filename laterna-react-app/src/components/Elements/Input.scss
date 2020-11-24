@@ -16,12 +16,18 @@
   }
 
   input[type="text"] {
+    @include paragraph;
     width: 302px;
     height: 35px;
     padding: 0;
     border: none;
     word-wrap: break-word;
-    @include paragraph;
+    box-sizing: border-box;
+    padding: 5px 10px;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   input[type="checkbox"] {

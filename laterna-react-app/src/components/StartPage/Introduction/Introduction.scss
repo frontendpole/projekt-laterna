@@ -26,6 +26,18 @@
   }
 }
 
+@media (max-width: 365px) {
+  .Introduction {
+    &--header {
+      &--headerWrapper {
+        h2 {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+
 @media(min-width: 1024px) {
   .Introduction {
     text-align: center;
@@ -37,11 +49,12 @@
         @include main-text-style;
         margin: 0;
         position: absolute;
-        width: 537px;
+        width: 274px;
         line-height: 38px;
         text-align: left;
         top: 54px;
-        left: 207px;
+        // left: 207px;
+        left: 10%;
 
         h2 {
           margin: 0;
@@ -58,7 +71,8 @@
         line-height: 38px;
         text-align: right;
         top: 643px;
-        left: 605px;
+        right: 10%;
+        z-index: 1;
 
         h2 {
           margin: 0;
@@ -72,11 +86,11 @@
 @media(min-width: 1366px) {
   .Introduction--header--headerWrapper1 {
     top: 54px;
-    left: 138px;
+    left: 10%;
   }
 
   .Introduction--header--headerWrapper2 {
     top: 643px;
-    left: 683px;
+    right: 10%;
   }
 }

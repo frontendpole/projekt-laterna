@@ -35,11 +35,28 @@
   }
 }
 
+@media (max-width: 365px) {
+  .IntroGadgets {
+
+    &--gadgetsGetDetails {
+      @include flex-row-between;
+      margin-bottom: 60.44px;
+      width: 300px;
+      position: relative;
+
+      #goToStore {
+        left: 166.86px;
+      }
+    }
+  }
+}
+
 @media(min-width: 1024px) {
 
   .IntroGadgets {
     height: 800px;
     justify-content: center;
+    align-items: flex-start;
 
     &--wrapper {
       @include flex-row-between;
@@ -119,6 +136,8 @@
 @media(min-width: 1366px) {
 
   .IntroGadgets {
+    align-items: center;
+
     &--gadgetsGetDetails {
       margin-right: 70.34px;
     }

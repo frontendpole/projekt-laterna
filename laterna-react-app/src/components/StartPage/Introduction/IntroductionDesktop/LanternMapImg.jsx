@@ -26,30 +26,30 @@ const LanternMapImg = () => {
       {lanterns.map(lantern => (
         <>
           <NavLink to={`/latarnie/${lantern.id}/${lantern.url}`}>
-            <img src={lantern.mapImg} className={`LanternImg ${lantern.url}`} />
+            <img src={lantern.mapImg} className={`LanternImg ${lantern.url}`} alt={`grafika latarni morskiej z miejscowości ${lantern.name}`} />
           </NavLink>
           <p className={`LanternText ${lantern.url}`}>
-            {lantern.name != "krynica morska" && lantern.shortName || lantern.name}
+            {lantern.name === "krynica morska" ? lantern.name : lantern.shortName || lantern.name}
           </p>
         </>
       ))}
-      <img src={świnoujścieLine} className={`LanternLine ${lanterns[0].url}`} />
-      <img src={kikutLine} className={`LanternLine ${lanterns[1].url}`} />
-      <img src={niechorzeLine} className={`LanternLine ${lanterns[2].url}`} />
-      <img src={kołobrzegLine} className={`LanternLine ${lanterns[3].url}`} />
-      <img src={gąskiLine} className={`LanternLine ${lanterns[4].url}`} />
-      <img src={darłowoLine} className={`LanternLine ${lanterns[5].url}`} />
-      <img src={jarosławiecLine} className={`LanternLine ${lanterns[6].url}`} />
-      <img src={ustkaLine} className={`LanternLine ${lanterns[7].url}`} />
-      <img src={stiloLine} className={`LanternLine ${lanterns[8].url}`} />
-      <img src={czołpinoLine} className={`LanternLine ${lanterns[9].url}`} />
-      <img src={rozewieLine} className={`LanternLine ${lanterns[10].url}`} />
-      <img src={jastarniaLine} className={`LanternLine ${lanterns[11].url}`} />
-      <img src={helLine} className={`LanternLine ${lanterns[12].url}`} />
-      <img src={sopotLine} className={`LanternLine ${lanterns[13].url}`} />
-      <img src={gdańsk1Line} className={`LanternLine ${lanterns[14].url}`} />
-      <img src={gdańsk2Line} className={`LanternLine ${lanterns[15].url}`} />
-      <img src={darłowoLine} className={`LanternLine ${lanterns[16].url}`} />
+      <img src={świnoujścieLine} className={`LanternLine ${lanterns[0].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={kikutLine} className={`LanternLine ${lanterns[1].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={niechorzeLine} className={`LanternLine ${lanterns[2].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={kołobrzegLine} className={`LanternLine ${lanterns[3].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={gąskiLine} className={`LanternLine ${lanterns[4].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={darłowoLine} className={`LanternLine ${lanterns[5].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={jarosławiecLine} className={`LanternLine ${lanterns[6].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={ustkaLine} className={`LanternLine ${lanterns[7].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={stiloLine} className={`LanternLine ${lanterns[8].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={czołpinoLine} className={`LanternLine ${lanterns[9].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={rozewieLine} className={`LanternLine ${lanterns[10].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={jastarniaLine} className={`LanternLine ${lanterns[11].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={helLine} className={`LanternLine ${lanterns[12].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={sopotLine} className={`LanternLine ${lanterns[13].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={gdańsk1Line} className={`LanternLine ${lanterns[14].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={gdańsk2Line} className={`LanternLine ${lanterns[15].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
+      <img src={darłowoLine} className={`LanternLine ${lanterns[16].url}`} alt="linia łącząca nazwę miejscowości z grafiką latarni na mapie" />
     </>
   )
 }

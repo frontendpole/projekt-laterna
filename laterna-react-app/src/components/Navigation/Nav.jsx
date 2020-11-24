@@ -38,7 +38,7 @@ const Nav = ({ history }) => {
   return (
     <>
       <button type='button' onClick={toggleMenu} id='hamburger'>
-        <img src={hamburgerIcon} style={{
+        <img alt="ikona hamburger menu" src={hamburgerIcon} style={{
           height: 20
         }} />
       </button>
@@ -46,11 +46,11 @@ const Nav = ({ history }) => {
       <nav className={classNames('Navigation', { active: isMenuActive })}>
         <div className="Navigation--header">
           <NavLink to='/' as="button">
-            <img src={navLogo} className="Navigation--header--logo" />
+            <img alt="logo Projektu Laterna" src={navLogo} className="Navigation--header--logo" />
           </NavLink>
 
           <button type='button' onClick={toggleMenu} id='closeMenu'>
-            <img src={closeIcon} className="Navigation--active--header--icon" />
+            <img alt="ikona X do zamknięcia menu" src={closeIcon} className="Navigation--active--header--icon" />
           </button>
         </div>
         <ul className="Navigation--list">
@@ -66,7 +66,7 @@ const Nav = ({ history }) => {
 
           <ul className={classNames('Navigation--list--lanterns', { active: isLanternListOpened })}>
             {lanterns.map(lantern => (
-              <NavLink as="button" to={`/latarnie/${lantern.id}/${lantern.url}`}>{lantern.name}</NavLink>
+              <NavLink key={lantern.id} as="button" to={`/latarnie/${lantern.id}/${lantern.url}`}>{lantern.name}</NavLink>
             ))}
           </ul>
           <NavListItem as="button" path='/paszport' name='paszport' />

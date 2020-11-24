@@ -11,7 +11,7 @@ const IntroGadgetsMobile = () => {
         <div className='IntroGadgets--header--info'>
           <h2>ZDOBĄDŹ POCZTÓWKI,</h2>
           <h2>PLAKATY, GRY I INNE
-          <span style={{ color: '#AE4527' }}>SKARBY</span>
+          <span style={{ color: '#AE4527' }}> SKARBY</span>
           </h2>
           <h2>Z LATARNIAMI MORSKIMI</h2>
         </div>

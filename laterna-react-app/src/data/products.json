@@ -15,17 +15,7 @@
   "imgDesktop":"shopProducts/sklep mapa.png",
   "name": "mapa",
   "price":"10"
-},
-{
-  "imgMobile":"shopProducts/sklep paszport (2).png",
-  "imgDesktop":"shopProducts/sklep paszport.png",
-  "name": "paszport",
-  "price":"40"
-},
-{
-  "imgMobile":"shopProducts/sklep memo (2).png",
-  "imgDesktop":"shopProducts/sklep memo.png",
-  "name": "gra memory",
-  "price":"80"
 }
 ]
+
+

@@ -8,7 +8,7 @@ const LanternHeader = ({ headerImgUrl, lanternName, previousName, previousId, ne
 
   return (
     <>
-      <header className="Lantern--header">
+      <header className="Lantern--header" style={isFirst ? { justifyContent: "flex-end" } : null}>
         <BackArrowWithLabel
           previousId={previousId}
           previousName={previousName}

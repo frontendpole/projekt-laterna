@@ -7,7 +7,7 @@ const LanternBasicInfo = ({ constructionYear, height, lightHeight, lightDetails,
   return (
     <>
       <div className="Lantern--basic-info">
-        <div className="Lantern--basic-info--wrapper" style={{ marginTop: 47.76 }}>
+        <div className="Lantern--basic-info--wrapper" style={useLayoutQueries().isTabletOrMobile ? { marginTop: 47.76 } : null}>
           <h2>ROK BUDOWY LATARNI</h2>
           <div className="border"></div>
           <p>{constructionYear}</p>

@@ -20,7 +20,7 @@ const StartPage = () => {
     textAlign: 'left',
     fontSize: '55px',
     lineHeight: '66px',
-    top: "75%",
+    top: "9%",
     left: "10%"
   }
 

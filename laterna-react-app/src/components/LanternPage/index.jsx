@@ -21,7 +21,7 @@ const LanternPage = () => {
     textAlign: 'left',
     fontSize: '65px',
     lineHeight: '78px',
-    top: "85%",
+    top: "9%",
     left: "10%"
   }
 
@@ -45,15 +45,15 @@ const LanternPage = () => {
 
               <LanternHeader
                 previousId={lantern.id - 1}
-                previousName={lantern.id != "0" ? lanterns[lantern.id - 1].shortName || lanterns[lantern.id - 1].name : 'strona gł.'}
+                previousName={lantern.id !== "0" ? lanterns[lantern.id - 1].shortName || lanterns[lantern.id - 1].name : null}
                 headerImgUrl={lantern.headerImgUrl}
                 lanternName={lantern.name}
                 nextId={parseInt(lantern.id) + 1}
-                nextName={lantern.id != "16" ? lanterns[parseInt(lantern.id) + 1].shortName || lanterns[parseInt(lantern.id) + 1].name : 'strona gł.'}
+                nextName={lantern.id !== "16" ? lanterns[parseInt(lantern.id) + 1].shortName || lanterns[parseInt(lantern.id) + 1].name : null}
                 isFirst={lantern.id === "0"}
                 isLast={lantern.id === "16"}
-                previousUrl={lantern.id != "0" ? lanterns[lantern.id - 1].url : null}
-                nextUrl={lantern.id != "16" ? lanterns[parseInt(lantern.id) + 1].url : null}
+                previousUrl={lantern.id !== "0" ? lanterns[lantern.id - 1].url : null}
+                nextUrl={lantern.id !== "16" ? lanterns[parseInt(lantern.id) + 1].url : null}
               />
 
               <div className="Lantern--basicInfoWrapper">

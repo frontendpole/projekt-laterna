@@ -20,7 +20,7 @@
     @include flex-row-between;
     width: 996px;
     margin-top: 91.5px;
-    
+
 
     p {
       font-family: ClarikaProGeoLight;
@@ -38,12 +38,11 @@
 
   &--textSolo {
     @include flex-column-between;
-    align-items: flex-start;
+    align-items: center;
     width: 996px;
     margin-top: 70px;
 
     p {
-      width: 904px;
       font-family: ClarikaProGeoLight;
       margin-top: 30px;
       font-size: 18px;
@@ -74,6 +73,7 @@
   }
 
   &--photo {
+
     img {
       display: none;
 

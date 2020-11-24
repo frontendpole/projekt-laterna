@@ -44,20 +44,25 @@
   }
 }
 
-@media(min-width: 1024px) {
+@media (max-width: 365px) {
+  .IntroPassport {
+    &--passportGetDetails {
+      justify-content: flex-end;
 
-  #passportDetails {
-    height: 96px;
-
-    a {
-      height: 96px;
-      display: block;
+      #passportDetails {
+        transform: translateX(-8px);
+      }
     }
 
-    &:hover {
-      transform: scale(0.95);
+    &--arrow {
+      bottom: 153.39px;
+      left: 169px;
+      transform: translateX(0);
     }
   }
+}
+
+@media(min-width: 1024px) {
 
   .IntroPassport {
     height: auto;
@@ -96,8 +101,8 @@
         }
 
         &:nth-child(2) {
-          right: 0;
-          bottom: 0;
+          top: 88px;
+          left: 229px;
         }
 
         &:hover {
@@ -116,19 +121,33 @@
       position: relative;
       z-index: 2;
       margin-bottom: 0;
-      margin-top: 92.95px;
+
+      #passportDetails {
+        height: 96px;
+        transform: translateX(72px);
+
+        a {
+          height: 96px;
+          display: block;
+        }
+
+        &:hover {
+          transform: scale(0.95);
+        }
+      }
 
       .IntroPassport--arrow {
         position: absolute;
         top: 290.93px;
-        left: -95px;
+        left: -43px;
       }
     }
 
     &--header {
-      width: 577px;
+      width: 439px;
       height: 204px;
       margin-top: 145.95px;
+      align-self: flex-end;
 
       h2 {
         font-size: 36px;
@@ -141,9 +160,42 @@
 
 @media(min-width: 1366px) {
   .IntroPassport {
+
+
+
+    &--arrow {
+      left: -95px;
+    }
+
+    &--passportGetDetails {
+      margin-top: 92.95px;
+
+      .IntroPassport--arrow {
+        left: -131px;
+      }
+
+      #passportDetails {
+        transform: translateX(0);
+      }
+    }
+
+    &--header {
+      align-self: flex-start;
+      width: 577px;
+    }
+
     &--2pics {
       width: 629px;
       height: 600.26px;
+
+
+
+      img {
+        &:nth-child(2) {
+          right: 0;
+          bottom: 0;
+        }
+      }
     }
   }
 }
