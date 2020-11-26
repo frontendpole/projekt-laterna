@@ -20,19 +20,19 @@ const ContactChannelsMobile = () => {
       </div>
       <div className="ContactChannels--social-media">
         <button>
-          <NavLink to='#'>
+          <a href='https://www.facebook.com/projektlaterna'>
             <img className='social-media--facebook' src={facebookIcon} alt="facebook icon" />
-          </NavLink>
+          </a>
         </button>
         <button>
-          <NavLink to='https://www.instagram.com/projektlaterna/?igshid=1ama6k71e24md&fbclid=IwAR2zkE5gdUxncRjTMfx7-jsX2Ka2AVt1IGc_7dmZxxk4KQCrOxOn-GvYNPQ'>
+          <a href='https://www.instagram.com/projektlaterna/?igshid=1ama6k71e24md&fbclid=IwAR2zkE5gdUxncRjTMfx7-jsX2Ka2AVt1IGc_7dmZxxk4KQCrOxOn-GvYNPQ'>
             <img className='social-media--instagram' src={instagramIcon} alt="instagram icon" />
-          </NavLink>
+          </a>
         </button>
         <button>
-          <NavLink to='#'>
+          <a href='https://pl.pinterest.com/projektlaterna/?fbclid=IwAR3qiDXeNlimAVLR_gkeqSmhzZgmA6znoB2CDEm0jm81vLpw-aQK9CQHNno'>
             <img className='social-media--pinterest' src={pinterestIcon} alt="pinterest icon" />
-          </NavLink>
+          </a>
         </button>
       </div>
     </>

@@ -5,7 +5,7 @@ import startPageImgMobile from './images/ZDJECIE STILO-1@2x.png';
 import Introduction from './Introduction/Introduction';
 import IntroGadgets from './IntroGadgets/IntroGadgets';
 import IntroPassport from './IntroPassport/IntroPassport';
-import startPageImgDesktop from './images/ZeroJeden . CC BY-SA 3.0 PL web@2x.png';
+import startPageImgDesktop from './images/ZeroJeden . CC BY-SA 3.0 PL web@2x-min.png';
 
 const StartPage = () => {
 

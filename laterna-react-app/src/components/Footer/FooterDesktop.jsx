@@ -26,19 +26,20 @@ const FooterDesktop = () => {
             </a>
           </button>
           <button>
-            <a href="#">
+            <a href="https://www.facebook.com/projektlaterna">
               <img className='social-media--facebook' src={facebookDesktop} alt="facebook icon" />
             </a>
           </button>
           <button>
-            <a href="#">
+            <a href="https://pl.pinterest.com/projektlaterna/?fbclid=IwAR3qiDXeNlimAVLR_gkeqSmhzZgmA6znoB2CDEm0jm81vLpw-aQK9CQHNno">
               <img className='social-media--pinterest' src={pinterestDesktop} alt="pinterest icon" />
             </a>
           </button>
         </section>
       </div>
       <div className="Footer--wrapper2">
-        <a href="https://www.instagram.com/projektlaterna/?igshid=1ama6k71e24md&fbclid=IwAR2zkE5gdUxncRjTMfx7-jsX2Ka2AVt1IGc_7dmZxxk4KQCrOxOn-GvYNPQ">instagram</a>        <section className='footer-pictures'>
+        <a href="https://www.instagram.com/projektlaterna/?igshid=1ama6k71e24md&fbclid=IwAR2zkE5gdUxncRjTMfx7-jsX2Ka2AVt1IGc_7dmZxxk4KQCrOxOn-GvYNPQ">instagram</a>
+        <section className='footer-pictures'>
           <img src={photo1Desktop} alt="" />
           <img src={photo2Desktop} alt="" />
           <img src={photo3Desktop} alt="" />
