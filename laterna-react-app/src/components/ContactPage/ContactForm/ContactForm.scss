@@ -57,6 +57,10 @@
 
       label {
         @include label-checkbox;
+
+        a {
+          color: #2E3C4B;
+        }
       }
     }
   }

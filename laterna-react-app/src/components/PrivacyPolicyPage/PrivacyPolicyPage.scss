@@ -1,0 +1,64 @@
+@import '../../styles/texts.scss';
+@import '../../styles/layout.scss';
+
+.PrivacyPolicy {
+  width: 100vw;
+  background-color: #F2EDEB;
+  @include flex-column-between;
+
+  h2 {
+    @include main-text-style;
+    margin-top: 30px;
+  }
+
+  header {
+    @include paragraph;
+    margin-top: 30px;
+    max-width: 80vw;
+  }
+
+  &--wrapper {
+    @include flex-column-between;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  &--list {
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  h3 {
+    @include main-text-style;
+    text-align: left;
+  }
+
+  p {
+    @include paragraph;
+    max-width: 80vw;
+    text-align: left;
+  }
+
+  &--links {
+    @include flex-column-between;
+    align-items: flex-start;
+    padding: 0;
+
+    a {
+      @include main-text-style;
+      text-decoration: none;
+
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .PrivacyPolicy {
+
+    h2 {
+      font-size: 22px;
+    }
+  }
+}

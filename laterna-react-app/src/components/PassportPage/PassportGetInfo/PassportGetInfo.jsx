@@ -76,7 +76,7 @@ const PassportGetInfo = () => {
         <Input type="text" label='Adres e-mail' labelStyle={{ marginTop: useLayoutQueries().isDesktopOrLaptop ? 16 : 20 }} value={email} name="email" onChange={handleInputEmailChange} />
         <div className='PassportGetInfo--form--checkbox'>
           <Input type="checkbox" onChange={handleCheckboxChange} checked={isChecked} />
-          <label htmlFor="checkbox">Akceptuję Politykę Prywatności Projektu Laterna</label>
+          <label htmlFor="checkbox">Akceptuję <a href="/polityka-prywatnosci" target="_blank">Politykę Prywatności</a> Projektu Laterna</label>
         </div>
       </form>
       <button id="sendBtn" onClick={sendMessage}>
