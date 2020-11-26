@@ -34,7 +34,7 @@ const NavDesktop = ({ history }) => {
     <>
       <nav className="NavDesktop">
         <ul className="NavDesktop--list">
-          <NavListItem as="button" path='/oprojekcie' name='o projekcie' />
+          <NavListItem as="button" path='/o-projekcie' name='o projekcie' />
 
           <button
             onClick={toggleLanternList}

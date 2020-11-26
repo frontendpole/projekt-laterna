@@ -54,7 +54,7 @@ const Nav = ({ history }) => {
           </button>
         </div>
         <ul className="Navigation--list">
-          <NavListItem as="button" path='/oprojekcie' name='o projekcie' />
+          <NavListItem as="button" path='/o-projekcie' name='o projekcie' />
 
           <button onClick={toggleLanternList} id="showLanternList">
             <img
