@@ -3,6 +3,7 @@ import Input from '../../../Elements/Input';
 import '../ContactForm.scss';
 import sendBtnImg from '../../images/Group 397.png';
 import emailjs from 'emailjs-com';
+import { NavLink } from 'react-router-dom';
 
 const ContactFormDesktop = () => {
 
@@ -92,7 +93,7 @@ const ContactFormDesktop = () => {
         <textarea type="text" label="Treść wiadomości" value={message} onChange={handleInputMessageChange} />
         <div className='ContactForm--form--checkbox'>
           <Input type="checkbox" onChange={handleCheckboxChange} checked={isChecked} />
-          <label htmlFor="checkbox">Akceptuję <a href="/projekt-laterna/polityka-prywatnosci" target="_blank">Politykę Prywatności</a> Projektu Laterna</label>
+          <label htmlFor="checkbox">Akceptuję <NavLink to="/polityka-prywatnosci" target="_blank">Politykę Prywatności</NavLink> Projektu Laterna</label>
         </div>
       </form>
       <button id="sendBtn" onClick={sendMessage}>
