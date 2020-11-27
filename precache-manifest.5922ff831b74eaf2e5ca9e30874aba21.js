@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3eaa2888d800819f05ee0fba093b2e2",
+    "revision": "58c7d52cccf855137dfbb3693265a056",
     "url": "/projekt-laterna/index.html"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/css/11.98503c81.chunk.css"
   },
   {
-    "revision": "e31e1bf0e7008e473497",
+    "revision": "ee14cb5c1e61f4b32517",
     "url": "/projekt-laterna/static/css/3.6c9de864.chunk.css"
   },
   {
-    "revision": "cb7d3a67326af300f180",
+    "revision": "2d615988421c0f60e1bb",
     "url": "/projekt-laterna/static/css/4.e765d501.chunk.css"
   },
   {
-    "revision": "65a837683404fcad4e7a",
+    "revision": "ef87e8a0e482cd9f2a1d",
     "url": "/projekt-laterna/static/css/6.41ca4071.chunk.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/css/7.b097aaf9.chunk.css"
   },
   {
-    "revision": "2941c61ee941ff09b111",
+    "revision": "3fb129421015cf4863d4",
     "url": "/projekt-laterna/static/css/8.ebc3af77.chunk.css"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/css/9.fb346933.chunk.css"
   },
   {
-    "revision": "a5ca922c0a7fb3622f3a",
+    "revision": "d7badeff7463b7136114",
     "url": "/projekt-laterna/static/css/main.d7635a81.chunk.css"
   },
   {
@@ -56,44 +56,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/js/11.73c45767.chunk.js"
   },
   {
-    "revision": "e31e1bf0e7008e473497",
-    "url": "/projekt-laterna/static/js/3.b8f0ecb4.chunk.js"
+    "revision": "ee14cb5c1e61f4b32517",
+    "url": "/projekt-laterna/static/js/3.9e6e7925.chunk.js"
   },
   {
-    "revision": "cb7d3a67326af300f180",
-    "url": "/projekt-laterna/static/js/4.c32baf07.chunk.js"
+    "revision": "2d615988421c0f60e1bb",
+    "url": "/projekt-laterna/static/js/4.22ae05e1.chunk.js"
   },
   {
-    "revision": "582b5b40462545f884d9",
-    "url": "/projekt-laterna/static/js/5.d424aa24.chunk.js"
+    "revision": "3f19952261ad3fe32a21",
+    "url": "/projekt-laterna/static/js/5.39080d94.chunk.js"
   },
   {
     "revision": "5ab1baa52e351a54fb487f180027ee45",
-    "url": "/projekt-laterna/static/js/5.d424aa24.chunk.js.LICENSE.txt"
+    "url": "/projekt-laterna/static/js/5.39080d94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65a837683404fcad4e7a",
-    "url": "/projekt-laterna/static/js/6.56e2ebb6.chunk.js"
+    "revision": "ef87e8a0e482cd9f2a1d",
+    "url": "/projekt-laterna/static/js/6.eb93be53.chunk.js"
   },
   {
     "revision": "63ee49b4ed0d328683be",
     "url": "/projekt-laterna/static/js/7.2636277a.chunk.js"
   },
   {
-    "revision": "2941c61ee941ff09b111",
-    "url": "/projekt-laterna/static/js/8.7d69d24e.chunk.js"
+    "revision": "3fb129421015cf4863d4",
+    "url": "/projekt-laterna/static/js/8.b09254d3.chunk.js"
   },
   {
     "revision": "a452ce20af1b1da563e2",
     "url": "/projekt-laterna/static/js/9.f378353c.chunk.js"
   },
   {
-    "revision": "a5ca922c0a7fb3622f3a",
-    "url": "/projekt-laterna/static/js/main.0b0244ce.chunk.js"
+    "revision": "d7badeff7463b7136114",
+    "url": "/projekt-laterna/static/js/main.36d4e36c.chunk.js"
   },
   {
-    "revision": "134a07ac72661e15c774",
-    "url": "/projekt-laterna/static/js/runtime-main.753278d7.js"
+    "revision": "d1e84985d2b8e0bfc3a9",
+    "url": "/projekt-laterna/static/js/runtime-main.b531813e.js"
   },
   {
     "revision": "d958b7930cf9e05da2ec995ca2c26bf3",
