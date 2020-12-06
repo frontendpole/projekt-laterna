@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f13cf5236f05b2e893b8378e1b584a1f",
+    "revision": "984838d6cf9d9b80e63b3dd400aa4292",
     "url": "/projekt-laterna/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/css/0.2ce0d9b2.chunk.css"
   },
   {
-    "revision": "c09685bf4e221367c07a",
-    "url": "/projekt-laterna/static/css/10.45107c64.chunk.css"
+    "revision": "f377ee0d2a506dd53f82",
+    "url": "/projekt-laterna/static/css/10.740dd135.chunk.css"
   },
   {
     "revision": "d4cdc5e65871645ace1c",
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/css/9.fb346933.chunk.css"
   },
   {
-    "revision": "cd2a01856964cd6f4a3b",
+    "revision": "a5ca922c0a7fb3622f3a",
     "url": "/projekt-laterna/static/css/main.d7635a81.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/js/0.f0e467b8.chunk.js"
   },
   {
-    "revision": "c09685bf4e221367c07a",
-    "url": "/projekt-laterna/static/js/10.5dd062fe.chunk.js"
+    "revision": "f377ee0d2a506dd53f82",
+    "url": "/projekt-laterna/static/js/10.88e47fb5.chunk.js"
   },
   {
     "revision": "d4cdc5e65871645ace1c",
@@ -88,12 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/js/9.f378353c.chunk.js"
   },
   {
-    "revision": "cd2a01856964cd6f4a3b",
-    "url": "/projekt-laterna/static/js/main.457a4274.chunk.js"
+    "revision": "a5ca922c0a7fb3622f3a",
+    "url": "/projekt-laterna/static/js/main.0b0244ce.chunk.js"
   },
   {
-    "revision": "b6b654daeca5eab8bacc",
-    "url": "/projekt-laterna/static/js/runtime-main.6e6dc28d.js"
+    "revision": "4c30dc622dc0c18bf568",
+    "url": "/projekt-laterna/static/js/runtime-main.171146dc.js"
   },
   {
     "revision": "d958b7930cf9e05da2ec995ca2c26bf3",
