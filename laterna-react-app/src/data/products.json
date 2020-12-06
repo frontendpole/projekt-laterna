@@ -1,19 +1,19 @@
 [{
-  "imgMobile":"shopProducts/sklep poczt (2).png",
-  "imgDesktop":"shopProducts/sklep poczt.png",
+  "imgMobile":"http://frontendpole.github.io/projekt-laterna/shopProducts/sklep poczt.png",
+  "imgDesktop":"http://frontendpole.github.io/projekt-laterna/shopProducts/sklep poczt.png",
   "name": "pocztówki",
   "price":"20"
 },
 {
-  "imgMobile":"shopProducts/sklep plakat (2).png",
-  "imgDesktop":"shopProducts/sklep plakat.png",
+  "imgMobile":"http://frontendpole.github.io/projekt-laterna/shopProducts/sklep plakat.png",
+  "imgDesktop":"http://frontendpole.github.io/projekt-laterna/shopProducts/sklep plakat.png",
   "name": "plakaty",
   "price":"40"
 },
 {
-  "imgMobile":"shopProducts/sklep mapa (2).png",
-  "imgDesktop":"shopProducts/sklep mapa.png",
-  "name": "mapa",
+  "imgMobile":"http://frontendpole.github.io/projekt-laterna/shopProducts/sklep mapa.png",
+  "imgDesktop":"http://frontendpole.github.io/projekt-laterna/shopProducts/sklep mapa.png",
+  "name": "mapy",
   "price":"10"
 }
 ]

@@ -8,26 +8,37 @@
   &--header {
     @include flex-column-between;
     justify-content: space-around;
-    height: 120px;
     margin-top: 42px;
 
-    h2 {
+    h2,
+    a {
       @include main-text-style;
       font-size: 22px;
       line-height: 31px;
+      text-decoration: none;
+    }
+
+    &:nth-child(2) {
+      margin-top: 30px;
+
+      a,
+      h2 {
+        font-weight: normal;
+      }
     }
   }
 
   &--articles {
     @include flex-column-between;
     width: 302px;
-    height: 1156px;
+    height: 1100px;
     margin-top: 60px;
     margin-bottom: 60px;
   }
 
   &--product {
     @include flex-column-between;
+    text-decoration: none;
 
     &--description {
       @include flex-row-between;
@@ -38,16 +49,9 @@
         @include main-text-style;
         font-size: 20px;
         line-height: 24px;
-        width: 50%;
         text-transform: uppercase;
-
-        &:nth-child(1) {
-          text-align: left;
-        }
-
-        &:nth-child(2) {
-          text-align: right;
-        }
+        margin: 0 auto;
+        text-decoration: none;
       }
     }
   }
@@ -60,33 +64,35 @@
     &--header {
       margin-top: 60px;
 
-      h2 {
+      h2,
+      a {
         font-size: 30px;
-        line-height: 31px;
+        line-height: 37px;
       }
     }
 
     &--articles {
       @include flex-row-between;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       width: 900px;
-      height: 1100px;
-      margin: 50px 0;
+      height: auto;
+      margin: 100px 0 200px 0;
     }
 
     &--product {
+      max-width: 200px;
 
       img {
-        max-width: 400px;
+        max-width: 200px;
       }
 
       &--description {
-        width: 400px;
-        margin-top: 30px;
+        width: 200px;
+        margin-top: 20px;
 
         p {
-          font-size: 26px;
-          line-height: 31px;
+          font-size: 22px;
+          line-height: 22px;
         }
       }
     }
@@ -98,7 +104,6 @@
   .ShopPage {
     &--articles {
       width: 1088px;
-      height: 1300px;
     }
 
     &--product {

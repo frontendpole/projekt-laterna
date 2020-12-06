@@ -12,9 +12,12 @@ const ShopPage = () => {
       <HeaderImg headerImg={useLayoutQueries().isDesktopOrLaptop ? shopPageImg : shopPageMobile} title="sklep" />
       <section className="ShopPage">
         <div className="ShopPage--header">
-          <h2>SKLEP PROJEKTU LATERNA</h2>
-          <h2 style={{ color: '#B04527' }}>NIE JEST JESZCZE CZYNNY</h2>
-          <h2>ZAJRZYJ TU ZA JAKIŚ CZAS :)</h2>
+          <h2>WITAMY W SKLEPIE PEŁNYM</h2>
+          <h2>LATARNIOWYCH SKARBÓW!</h2>
+        </div>
+        <div className="ShopPage--header">
+          <h2>ABY PRZEJŚĆ DO SKLEPU</h2>
+          <a href="https://www.etsy.com/pl/shop/ProjektLaterna?ref=seller-platform-mcnav" style={{ color: "rgb(176, 69, 39)" }} target="_blank" >KLIKNIJ TUTAJ</a>
         </div>
         <ShopArticles />
       </section>    </>

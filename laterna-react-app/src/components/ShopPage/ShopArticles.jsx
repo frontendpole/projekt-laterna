@@ -10,15 +10,14 @@ const ShopArticles = () => {
   return (
     <div className="ShopPage--articles">
       {products.map(product => (
-        <div className="ShopPage--product">
+        <a href={product.name === 'pocztówki' ? "https://www.etsy.com/pl/shop/ProjektLaterna?ref=seller-platform-mcnav&section_id=31390866" : product.name === "plakaty" ? "https://www.etsy.com/pl/shop/ProjektLaterna?ref=seller-platform-mcnav&section_id=31440377" : product.name === "mapy" ? "https://www.etsy.com/pl/shop/ProjektLaterna?ref=seller-platform-mcnav&section_id=31460953" : null} target="_blank" className="ShopPage--product">
           <img
             src={isDesktopOrLaptop ? product.imgDesktop : product.imgMobile}
             alt={`zdjęcie artykułu: ${product.name}`} />
           <div className="ShopPage--product--description">
             <p>{product.name}</p>
-            <p>{product.price} PLN</p>
           </div>
-        </div>))}
+        </a>))}
     </div>
   )
 }

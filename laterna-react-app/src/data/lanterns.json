@@ -2,8 +2,8 @@
 { "id":"0",
   "url":"swinoujscie",
   "name":"świnoujście",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 18.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/01.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/01.svg",
   "constructionYear":"1990",
   "height":"23 m",
   "lightHeight":"30 m.n.p.m.",
@@ -21,7 +21,7 @@
   "footer":"www.latarnie.com.pl / za zgodą portalu",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Swino K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/poland-1218601@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/1 SWINO.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/01.svg",
   "introDesktop":[
     {"p":"Pierwsza latarnia w Świnoujściu została zabudowana już w 1805 roku - była to konstrukcja z desek i luster, która ułatwiała wpływanie do portów w Świnoujściu i dalej w górę Świny do Szczecina. Wzniesiona na głowicy falochronu doczekała 1828 r., kiedy zamieniona została na stalową latarnie o wysokości około 13 m. Wreszcie w 1854 zdecydowano o budowie wysokiej i jak na ówczesne czasy, bardzo nowoczesnej latarni u nasady falochronu wschodniego. Wieża, której budowę ukończono w 1857 roku mierzy 68 metrów i dziś jest najwyższą latarnią nad Bałtykiem. Wśród czynnych, “tradycyjnych” latarni zajmuje również 10. miejsce w Europie i 12. na świecie. Jest także najwyższą latarnią zbudowaną z cegieł."
     },
@@ -42,8 +42,8 @@
 { "id":"1", 
   "url":"kikut",
   "name":"kikut",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 3.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/plakaty-02.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/02.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/02.svg",
   "constructionYear":"1962",
   "height":"18,2 m",
   "lightHeight":"91,5 m.n.p.m.",
@@ -59,7 +59,7 @@
   "footer":"www.latarnie.com.pl / za zgodą portalu Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Kik K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/kikut cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/plakaty-02.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/02.svg",
   "introDesktop":[
     {"p":"Zbudowana w połowie XIX wieku z ciosanych głazów dawniej pełniła rolę wieży orientacyjno-widokowej. Jednak, kiedy po II wojnie światowej znacznie zwiększył się ruch morski w okolicach portów w Świnoujściu i Szczecinie, zdecydowano, że potrzebne jest światło nawigacyjne zlokalizowane pomiędzy latarniami w Świnoujściu i Niechorzu."
     },
@@ -73,8 +73,8 @@
 { "id":"2",
   "url":"niechorze",
   "name":"niechorze",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 12.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/plakaty-03.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/03.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/03.svg",
   "constructionYear":"1866 (1948)",
   "height":"45 m",
   "lightHeight":"62,8 m.n.p.m",
@@ -92,7 +92,7 @@
 "footer":"Kriskros /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Parapente / CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
 "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Niech K.png",
 "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/niechorze cover@2x.png",
-"desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-03.png",
+"desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/03.svg",
 "introDesktop":[
   {"p":"Powstała w 1866 roku na wysokim klifie latarnia wypełniła lukę w oznaczeniach nawigacyjnych, jaka rozpościerała się pomiędzy latarniami w Świnoujściu i Jarosławcu. Podstawa latarni zbudowana jest na planie kwadratu i na wysokości około 19 metrów przechodzi w przekrój ośmiokąta. Z obu stron do wieży przylegają przybudówki, w których przewidziano mieszkania dla czterech rodzin latarników. Co ciekawe są one zamieszkane do dziś. Latarnia wraz z zabudowaniami wokół - stodołą, budynkiem inwentarskim (dziś już rozebranym) i magazynem tworzyła prawdziwy kompleks budynków uzupełniony o znajdujące się od strony północnej ogrody."
   }
@@ -109,8 +109,8 @@
 { "id":"3",
   "url":"kolobrzeg",
   "name":"kołobrzeg",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 26.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-1.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/04.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/04.svg",
   "constructionYear":"1666 (1946)",
   "height":"26 m",
   "lightHeight":"36 m.n.p.m",
@@ -128,7 +128,7 @@
   "footer":"Cezarde62 /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Aw58 / CC BY-SA, https://creativecommons.org/licenses/by-sa/4.0/deed.pl Mirand /CC BY-SA 3.0 PL, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Ko┼éo K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/kolobrzeg cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-04.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/04.svg",
   "introDesktop":[
     {"p":"Kołobrzeg od związany był z morzem i żeglugą i nie dziwi, że światło latarni w Kołobrzegu było jednym z pierwszych świateł nawigacyjnych na południowym brzegu Bałtyku. Już w 1666 roku na nowowybudowanej wieży budynku zarządu portu zabłysło światło chociaż początkowo zapalane, kiedy statek chciał wpłynąć do portu. W późniejszych latach za punkty nawigacyjne służyły statkom latarnie wystawiane na falochronie. W późniejszych latach rolę latarni pełniły maszt przy stacji pilotów, następnie wielokrotnie przebudowywana wieża, która przetrwałą do 1945 roku, kiedy została wysadzona przez wycofujące się wojska niemieckie."
     }
@@ -145,8 +145,8 @@
 { "id":"4",
   "url":"gaski",
   "name":"gąski",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 27.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-2.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/05.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/05.svg",
   "constructionYear":"1878",
   "height":"49,8 m",
   "lightHeight":"50,1 m.n.p.m",
@@ -163,7 +163,7 @@
   "footer":"Aw58 / CC BY-SA, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/G─ůski K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/gąski cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-05.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/05.svg",
   "introDesktop":[
     {"p":"W przeciwieństwie do wielu koleżanek, latarnia w Gąskach nie jest położona na wysokiej wydmie czy klifie. W tym miejscu brzeg jest dość płaski, a 51,2-metrowa wieża góruje nad pobliskimi lasami. Podobnie jak w przypadku Czołpina, na potrzeby budowy latarni na brzegu morza postawiono pomost, a materiały transportowano drogą morską. Latarnia powstawała od 1876, a jej światło po raz pierwszy zabłysnęło w 1878. Jej konstrukcja doskonale pokazuje trzy części, z których składa się typowa budowla latarni morskiej. Najniższa z nich - podstawa, ma kształt ośmiokąta i wysokością sięga 11,4 metra. Powyżej wznosi się sięgająca 40 metrów wieża, na której oparto laternę - stalowo-szklany pawilon, w którym znajduje się soczewka latarni."
     }
@@ -179,8 +179,8 @@
 { "id":"5",
   "url":"darlowo",
   "name":"darłowo",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 2.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-3.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/06.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/06.svg",
   "constructionYear":"1885",
   "height":"22 m",
   "lightHeight":"19,7 m.n.p.m",
@@ -195,7 +195,7 @@
   "footer":"Topory / CC BY-SA, https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en Red 81 / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Dar┼é K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/darlowo cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-06.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/06.svg",
   "introDesktop":[
     {"p":"Latarnia Darłowo wcale nie znajduje się w Darłowie, ale w Darłówku i miała wskazywać statkom wejście do portu w Darłowie. W 1855 roku u nasady falochronu wschodniego zbudowano parterową stację pilotów, do którego przylegała wieża. Tam na drugim piętrze znajdował się pokój dyżurnego, który obserwował redę i przez okno na wysokości 12 metrów wskazywał światłem drogę do portu. 70 lat później 1927 roku zdecydowano się zwiększyć wysokość światła - wieżę podwyższono o jedną kondygnację, nad którą zbudowano laternę osiągając 22-metrową wysokość wieży. W tej formie wieża latarni dotrwała do dziś. Narażona na niesprzyjające warunki atmosferyczne i zalewana podczas sztormów doczekała się kapitalnego remontu w 1998 roku, a sierpniu 2000 roku zostałą udostępniona dla zwiedzających i turystów tłumnie odwiedzających latem okolice Darłowa."
     }
@@ -208,8 +208,8 @@
 { "id":"6",
   "url":"jaroslawiec",
   "name":"jarosławiec",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 14.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-4.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/07.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/07.svg",
   "constructionYear":"1838",
   "height":"33,3m",
   "lightHeight":"50,2m.n.p.m",
@@ -227,7 +227,7 @@
   "footer":"Martawodnik97 / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Jaro K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/jaroslawiec cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-07.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/07.svg",
   "introDesktop":[
     {"p":"Potrzebę dodania światła nawigacyjnego pomiędzy Darłowem a Łebą zauważono już na początku XIX wieku. To wtedy postanowiono wybudować latarnię w Jarosławcu. Pierwszy projekt - przewidujący budowę drewnianej wieży wysokości 16,3 m powstał już w 1820 roku, ale nigdy nie doczekał się realizacji. Kolejny, przewidujący murowaną wieżę o wysokości 3,4 metra w odległości 11 m. od klifowego brzegu powstał w 1827. Też nie doczekał się realizacji - stwierdzono, że latarnia położona tak wody mogłaby zostać podmyta."
     },
@@ -243,8 +243,8 @@
 { "id":"7",
   "url":"ustka",
   "name":"ustka",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 17.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-5.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/08.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/08.svg",
   "constructionYear":"1892",
   "height":"19,5 m",
   "lightHeight":"22,2 m.n.p.m",
@@ -262,7 +262,7 @@
   "footer":"Obraz neufal54 z Pixabay Cezarde62 / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Ustka K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/ustka cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-08.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/08.svg",
   "introDesktop":[
     {"p":"W okolicach portu w Ustce od zawsze występowały silne prądy przybrzeżne i utrudniające wpłynięcie do portu prostopadłe do wybrzeża wiatry, dlatego niezbędne było zbudowanie w porcie latarni morskiej. Wybudowana w 1892 roku znajduje się u ujścia rzeki Słupi do Bałtyku. Budynek który przetrwał do dziś powstał z czerwonej cegły i składa się ze stacji pilotów i ośmiokątnej wieży, na szczycie której umieszczono soczewkę latarni. "
     },
@@ -278,8 +278,8 @@
 { "id":"8",
   "url":"stilo",
   "name":"stilo",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 11.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-6.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/09.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/09.svg",
   "constructionYear":"1906",
   "height":"33,4 m",
   "lightHeight":"75 m.n.p.m",
@@ -296,7 +296,7 @@
   "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Michal Gorski / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Stilo K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/stilo cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-09.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/09.svg",
   "introDesktop":[
     {"p":"Na samym początku XX wieku. w związku z brakiem wystarczającego oznakowania nawigacyjnego pomiędzy latarniami Czołpino i Rozewie rząd pruski zdecydował o budowie latarni niedaleko wsi Stilo. Ukończona w 1906 roku zaskakuje materiałem, z którego powstała - jako jedna z dwóch (poza Jastarnią) na polskim wybrzeżu zbudowana jest całkowicie z metalu. Jej korpus wykonano z łączonych śrubami żeliwnych elementów, które doskonale widać podczas zwiedzania latarni. Na całym świecie są tylko trzy latarnie o takiej konstrukcji."
     }
@@ -313,8 +313,8 @@
 { "id":"9",
   "url":"czolpino",
   "name":"czołpino",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 17_1.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-7.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/10.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/10.svg",
   "constructionYear":"1875",
   "height":"25,2 m",
   "lightHeight":"75 m.n.p.m",
@@ -332,7 +332,7 @@
   "footer":"Topory CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0) Chron-Paul (Diskussion) / CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Tomasz Górny (Nemo5576) / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en))",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Czo┼ép K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/czolpino cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-10.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/10.svg",
   "introDesktop":[
     {"p":"Latarnia Czołpino położona w przepięknej otulinie Słowińskiego Parku Narodowego to jedna z królowych polskich latarni. Jej budowa zajęła aż trzy lata - ze względu właśnie na jej położenie. Znajduje się na wysokiej wydmie, co za tym idzie nie było możliwości dostarczenia materiałów do jej budowy drogą lądową. Budulec zdecydowano się dostarczać drogą morską - z tej okazji powstał tymczasowy pomost, a materiały przypływały barkami. Zbudowano ją z czerwonej, licowanej cegła, sama wieża ma 25,2 m wysokości, co dzięki położeniu na wysokiej wydmie daje imponującą 75-metrową wysokość światła. Zbudowana w 1875 roku latarnia nienaruszona przetrwała II wojnę światową i w niezmienionej formie można ją oglądać do dziś."
     },
@@ -349,8 +349,8 @@
 { "id":"10",
   "url":"rozewie",
   "name":"rozewie",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 10.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/11 ROZE.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/11.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/11.svg",
   "constructionYear":"1822",
   "height":"32,7 m",
   "lightHeight":"83,2 m.n.p.m",
@@ -370,7 +370,7 @@
   "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Bazie / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Roz K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/rozewie  cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-11.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/11.svg",
   "introDesktop":[
     {"p":"Tak naprawdę na Rozewiu stoją dwie latarnie: “stara” i “nowa”. Ta nadal aktywna to starsza, powstała już w 1822 roku, dwukrotnie modernizowana. Nosi imię Stefana Żeromskiego za sprawą legendy - latarnik Leon Wzorek opowiadał, że Żeromski pisał w Rozewiu powieść “Wiatr od morza”. Faktycznie książka powstała w Warszawie, niewykluczone jednak, że odwiedziny latarni w Rozewiu posłużyły za inspirację. Z kolei latarnik Wzorek doczekał się na Rozewiu swojej ulicy, przy której stoi latarnia. "
     },
@@ -389,8 +389,8 @@
 { "id":"11",
   "url":"jastarnia",
   "name":"jastarnia",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 15.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-8.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/12.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/12.svg",
   "constructionYear":"1950",
   "height":"13,3 m",
   "lightHeight":"22 m.n.p.m",
@@ -407,7 +407,7 @@
   "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Jast K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/jastarnia cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-12.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/12.svg",
   "introDesktop":[
     {"p":"Znajdująca się między latarniami Rozewie i Hel latarnia w Jastarni zbudowana została w 1950 r. Wcześniej na jej miejscu stała latarnia zbudowana w 1938 r., jednak przetrwałą ona tylko rok i została zniszczona już na początku II wojny światowej. Zbudowana z elementów starego nautofonu* Stilo jest jedną z dwóch (właśnie obok Stilo) całkowicie metalowych latarni w Polsce. Wieża w kształcie metalowego walca osadzonego na betonowej podstawie mierzy zaledwie 13,5 metra, co czyni ją najniższą latarnią morską w Polsce. Niestety, jest również jedną z dwóch niedostępnych dla zwiedzających."
     },
@@ -422,8 +422,8 @@
 { "id":"12",
   "url":"hel",
   "name":"hel",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 13.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-9.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/13.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/13.svg",
   "constructionYear":"1942",
   "height":"41,5 m",
   "lightHeight":"39 m.n.p.m",
@@ -440,7 +440,7 @@
   "footer":"Tomasz Kolowski Tommy jr / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Bazie / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Hel K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/hel cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-13.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/13.svg",
   "introDesktop":[
     {"p":"Pierwsza latarnia w Helu wybudowana została 1826, niestety polscy saperzy zmuszeni byli do jej wysadzenia podczas obrony Helu we wrześniu 39’ Zarys jej fundamentów jest do dziś widoczny jako owalny skwerek, kilkanaście metrów przed wejściem do obecnej latarni. Nowa latarnia powstała jeszcze w trakcie II wojny światowej w 1942 r. Latarnię zbudowano w rekordowe 7 miesięcy i cały czas funkcjonująca doczekała czasów obecnych."
     },
@@ -455,8 +455,8 @@
 { "id":"13",
   "url":"sopot",
   "name":"sopot",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 9.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-10.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/14.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/14.svg",
   "constructionYear":"1904",
   "height":"30 m",
   "lightHeight":"25 m.n.p.m",
@@ -474,7 +474,7 @@
   "footer":"Obraz b-sea z Pixabay Mariusz Nasieniewski / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en) Almondox / CC BY (https://creativecommons.org/licenses/by/3.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Sopot K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/sopot cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-14.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/14.svg",
   "introDesktop":[
     {"p":"Latarnia morska w Sopocie tak naprawdę nie jest latarnią. Ale od początku - w 1903 roku powstał w Sopocie zakład balneologiczny, który potrzebował kotłowni. Jednak komin w klasycznym wydaniu nie pasowałby do nadmorskiego kurortu i położenia zaraz obok sopockiego molo. Dlatego projektanci postanowili zaprojektować komin, który będzie się wpisywał w krajobraz."
     },
@@ -491,8 +491,8 @@
   "url":"gdansk-nowy-port",
   "name":"gdańsk nowy port",
   "shortName":"gdańsk",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 5.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-11.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/15.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/15.svg",
   "constructionYear":"1894",
   "height":"27,3 m",
   "lightHeight":"30,3 m.n.p.m",
@@ -513,7 +513,7 @@
   "footer":"Andrzej Otrębski / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Krzymill / CC BY-SA 3.0 PL (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Gda Nowy K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Gdansk nowy cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-15.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/15.svg",
   "introDesktop":[
     {"p":"Latarnia Nowy Port zakończyła swe działania wraz z uruchomieniem latarni w Porcie Północnym, została dopisana do rejestru zabytków i w 2004 roku udostępniona do zwiedzania. Stanowi ośmiokątną wieżę zwężającą się ku górze, zakończoną galerią z misternie kutymi poręczami. "
     },
@@ -530,8 +530,8 @@
   "url":"gdansk-port-polnocny",
   "name":"gdańsk port północny",
   "shortName":"gdańsk",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 8.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-12.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/16.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/16.svg",
   "constructionYear":"1984",
   "height":"64,3 m",
   "lightHeight":"61 m.n.p.m",
@@ -547,7 +547,7 @@
   "footer":"Marlena1666 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0) Yanek / fotopolska.eu / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Gda Pn K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Gdańsk_Port_Północny cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-16.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/16.svg",
   "introDesktop":[
     {"p":"Wśród polskich latarni zdecydowanie najmłodsza, bo zbudowana dopiero w 1984 r mieści się na wieży kapitanatu portu w Gdańsku. Jest nie tylko najmłodsza, ale również zdecydowanie najbrzydsza - brakuje jej magii i nie rozczula podobnie do tradycyjnych wieży latarni."
     },
@@ -563,8 +563,8 @@
   "url":"krynica-morska",
   "shortName":"krynica m.",
   "name":"krynica morska",
-  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Carousel/233px/Artboard 19.png",
-  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/SLIDER-13.png",
+  "carouselImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/17.svg",
+  "headerImgUrl": "http://frontendpole.github.io/projekt-laterna/images-lantern/svg/17.svg",
   "constructionYear":"1951",
   "height":"26,5 m",
   "lightHeight":"53 m.n.p.m",
@@ -580,7 +580,7 @@
   "footer":"Tomasz Lerczak / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0) Koefbac / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Kry K.png",
   "headerImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/krynica cover@2x.png",
-  "desktopImg":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/pocztowki-17.png",
+  "desktopImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/svg/17.svg",
   "introDesktop":[
     {"p":"Pierwsza latarnia w Krynicy powstała w 1895 roku, niestety uległa zniszczeniu w trakcie II wojny światowej. Ta, którą dziś możemy podziwiać została uroczyście otwarta w 1951. Zbudowana została z betonowych bloków i co ciekawe jest pusta w środku - z krętej klatki schodowej przymocowanej do ścian można obserwować wejście do latarni."
     },
