@@ -62,7 +62,6 @@ const LanternPage = () => {
                     src={lantern.desktopImg}
                     alt={`grafika latarni morskiej w miejscowości ${lantern.name}`} />}
                 <LanternBasicInfo
-                  desktopImg={lantern.desktopImg}
                   name={lantern.name}
                   constructionYear={lantern.constructionYear}
                   height={lantern.height}

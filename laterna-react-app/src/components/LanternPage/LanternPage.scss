@@ -22,6 +22,10 @@
   &--wrapper {
     @include flex-column-between;
     width: 302.4px;
+
+    img {
+      max-width: 302px;
+    }
   }
 }
 
@@ -34,6 +38,10 @@
       @include flex-column-between;
       width: 100%;
       max-width: 1087px;
+
+      img {
+        max-width: 351px;
+      }
     }
 
     &--basicInfoWrapper {
