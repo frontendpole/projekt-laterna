@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c99b2f42de5cce8823368d18f5f46a36",
+    "revision": "c1ed8bbe20fd320aa21adcc5a8a3444f",
     "url": "/projekt-laterna/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/css/3.a0a691ad.chunk.css"
   },
   {
-    "revision": "c4a2495c8ccb2d2ecde7",
+    "revision": "28136c7de15a70470369",
     "url": "/projekt-laterna/static/css/4.881fc463.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/js/3.1ec09761.chunk.js"
   },
   {
-    "revision": "c4a2495c8ccb2d2ecde7",
-    "url": "/projekt-laterna/static/js/4.bf60cea3.chunk.js"
+    "revision": "28136c7de15a70470369",
+    "url": "/projekt-laterna/static/js/4.3b01ef9a.chunk.js"
   },
   {
     "revision": "582b5b40462545f884d9",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/js/main.3ec6ace5.chunk.js"
   },
   {
-    "revision": "ca75b87afdf96805e229",
-    "url": "/projekt-laterna/static/js/runtime-main.37ad19af.js"
+    "revision": "e59fb5db21aa7c7c2eed",
+    "url": "/projekt-laterna/static/js/runtime-main.8c81ea7a.js"
   },
   {
     "revision": "d958b7930cf9e05da2ec995ca2c26bf3",
@@ -200,8 +200,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/media/Zrzut ekranu 2020-06-13 o 19.42.47.47e008f9.svg"
   },
   {
-    "revision": "d103b7d91b95a9b3e5f4d9ebcc713515",
-    "url": "/projekt-laterna/static/media/Zrzut ekranu 2020-06-30 o 20.47.15.d103b7d9.png"
+    "revision": "24b2ed78822c1b866239a9dd56d9ea82",
+    "url": "/projekt-laterna/static/media/Zrzut ekranu 2020-06-30 o 20.47.15.24b2ed78.svg"
   },
   {
     "revision": "b90ac20736821a62dadf8670948397b9",
