@@ -1,6 +1,6 @@
 import React from 'react';
 import '../PassportDescription.scss';
-import PassportImg1 from '../../images/Zrzut ekranu 2020-06-30 o 20.47.15.png';
+import PassportImg1 from '../../images/Zrzut ekranu 2020-06-30 o 20.47.15.svg';
 import PassportImg2 from '../../images/Zrzut ekranu 2020-06-05 o 15.18.42.png';
 import PassportImg3 from '../../images/paszport mockup 13.png';
 import PassportImg4 from '../../images/paszport mockup -1.png';
