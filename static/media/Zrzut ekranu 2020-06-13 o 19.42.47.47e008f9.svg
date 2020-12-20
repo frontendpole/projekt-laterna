@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="373.099" height="505.818" viewBox="0 0 373.099 505.818">
+  <g id="Group_474" data-name="Group 474" transform="matrix(0.998, 0.07, -0.07, 0.998, 33.711, 0)">
+    <rect id="Rectangle_502" data-name="Rectangle 502" width="340.217" height="483.263" fill="#fff"/>
+    <line id="Line_1033" data-name="Line 1033" x2="192.986" transform="translate(77.817 410.343)" fill="none" stroke="#2e3c4b" stroke-miterlimit="10" stroke-width="0.5"/>
+    <path id="Path_2845" data-name="Path 2845" d="M201.977,286.27a95.681,95.681,0,0,0,35.136-35.136,97.17,97.17,0,0,0,0-96.857,95.742,95.742,0,0,0-35.136-35.136,97.172,97.172,0,0,0-96.858,0,95.677,95.677,0,0,0-35.135,35.136,97.17,97.17,0,0,0,0,96.857,95.616,95.616,0,0,0,35.135,35.136,97.172,97.172,0,0,0,96.858,0Z" transform="translate(20.761 38.648)" fill="#e9ccbd"/>
+    <g id="gdansk_nowy_kolor" data-name="gdansk nowy kolor" transform="translate(157.595 165.935)">
+      <path id="Path_2846" data-name="Path 2846" d="M121.521,139.341c1.959-2.177,19.107-1.811,19.926.037s3.116,92.894,1.783,95.565-23.358,2.114-24.277.472S120.043,140.983,121.521,139.341Z" transform="translate(-114.396 -115.776)" fill="#ba8356"/>
+      <path id="Path_2847" data-name="Path 2847" d="M128.492,121.664c5.161,0,8.359,7.23,7.473,8.373s-14.306,1.534-14.141.154C121.894,129.613,122.365,121.665,128.492,121.664Z" transform="translate(-113.267 -121.664)" fill="#ba8356"/>
+      <path id="Path_2848" data-name="Path 2848" d="M145.075,225.3c-.372-1.649.483-10.8-.138-13.028s-24.73-.848-25.728.974c-.689,1.26-.241,10.964,0,12.5.138.877-4.276,7.591-3.587,8.286s32.834.772,33.317-.848S145.352,226.521,145.075,225.3Z" transform="translate(-115.549 -89.112)" fill="#f2edea"/>
+      <path id="Path_2849" data-name="Path 2849" d="M128.9,129.413c.17-.754,3.543-.442,3.938,0s.967,6.828.636,7.238-4.422.938-4.573.275A47.737,47.737,0,0,1,128.9,129.413Z" transform="translate(-110.745 -119.01)" fill="#f2edea"/>
+      <path id="Path_2850" data-name="Path 2850" d="M125.388,137.113c-.17.754-3.543.442-3.937,0s-.967-6.828-.636-7.238,4.422-.94,4.573-.277A47.587,47.587,0,0,1,125.388,137.113Z" transform="translate(-113.669 -118.891)" fill="#f2edea"/>
+      <path id="Path_2851" data-name="Path 2851" d="M121.03,135.846c.232-.119,15.357-1.177,15.743-.708s.791,4.735.179,4.615c-.682-.135-14.726-.383-15.922-.049C120.324,139.9,121.03,135.846,121.03,135.846Z" transform="translate(-113.669 -116.805)" fill="#fff"/>
+      <path id="Path_2852" data-name="Path 2852" d="M126.821,198.516c.4-.8,2.145-.415,2.542-.237s.261,9.551.261,9.994-2.13.443-2.606.176S126.821,198.516,126.821,198.516Z" transform="translate(-111.478 -93.877)" fill="#d9cec4"/>
+      <path id="Path_2853" data-name="Path 2853" d="M128.238,178c-.664.355-1.9.356-2.122-.089s-.142-7.606.215-8.189c.225-.368,1.5-.445,1.727,0C128.514,170.6,128.65,177.784,128.238,178Z" transform="translate(-111.749 -104.287)" fill="#d9cec4"/>
+      <path id="Path_2854" data-name="Path 2854" d="M128.561,160.377c-.123.075-1.047.445-1.294.089s.109-6.425.109-6.6.856-.443,1.046,0S128.82,160.22,128.561,160.377Z" transform="translate(-111.318 -110.036)" fill="#d9cec4"/>
+      <path id="Path_2855" data-name="Path 2855" d="M130.676,225.316s-.316-8.983-3.176-8.983-2.2,8.983-2.2,8.983C125.617,225.736,130.078,225.86,130.676,225.316Z" transform="translate(-112.027 -87.216)" fill="#2e3c4b"/>
+      <path id="Path_2856" data-name="Path 2856" d="M117.478,148.445c.436-.623,26.211-.116,26.591.58s-1.207,2.507-1.794,2.893-22.574,0-23-.462S116.894,149.281,117.478,148.445Z" transform="translate(-114.887 -112.022)" fill="#2e3c4b"/>
+    </g>
+    <text id="GDAŃSK_NOWY_PORT" data-name="GDAŃSK
+NOWY PORT" transform="translate(171.298 53.596)" fill="#2e3c4b" font-size="21" font-family="SulphurPoint-Bold, Sulphur Point" font-weight="700"><tspan x="-37.369" y="0">GDAŃSK</tspan><tspan x="-56.763" y="25">NOWY PORT</tspan></text>
+    <text id="DATA" transform="translate(172.579 435.94)" fill="#2e3c4b" font-size="15" font-family="SulphurPoint-Bold, Sulphur Point" font-weight="700"><tspan x="-16.462" y="0">DATA</tspan></text>
+  </g>
+</svg>
