@@ -1,11 +1,11 @@
 import React from 'react';
 import '../IntroPassport.scss';
 import { NavLink } from 'react-router-dom';
-import getInfoButton from '../../images/passport/dowiedz (2).png';
+import getInfoButton from '../../images/passport/dowiedz (2).svg';
 import waveImg from '../../images/passport/Path 1874@2x.png';
 import arrowImg from '../../images/passport/Group 257.png';
-import PassportImg4Desktop from '../../images/passport/Group 3333.png';
-import PassportImg5Desktop from '../../images/passport/Zrzut ekranu 2020-06-13 o 19.42.47.png';
+import PassportImg4Desktop from '../../images/passport/Group 3333.svg';
+import PassportImg5Desktop from '../../images/passport/Group 474.svg';
 
 const IntroPassportDesktop = () => {
 

@@ -11,7 +11,7 @@
   "address":"ul. Ku Morzu 5a",
   "address2":"72-600 Świnoujście",
   "introduction":"Pierwsza latarnia w Świnoujściu została zabudowana już w 1805 roku - była to konstrukcja z desek i luster, która ułatwiała wpływanie do portów w Świnoujściu i dalej w górę Świny do Szczecina. Wzniesiona na głowicy falochronu doczekała 1828 r., kiedy zamieniona została na stalową latarnie o wysokości około 13 m. Wreszcie w 1854 zdecydowano o budowie wysokiej i jak na ówczesne czasy, bardzo nowoczesnej latarni u nasady falochronu wschodniego. Wieża, której budowę ukończono w 1857 roku mierzy 68 metrów i dziś jest najwyższą latarnią nad Bałtykiem. Wśród czynnych, “tradycyjnych” latarni zajmuje również 10. miejsce w Europie i 12. na świecie. Jest także najwyższą latarnią zbudowaną z cegieł.",
-  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/CIEKAWOSTKA.png",
+  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/CIEKAWOSTKA.svg",
   "rest": [
     { "p": "Kiedy powstała, w połowie XIX w. wieża latarni wyglądała nieco inaczej niż dziś. Żółta licowana cegła, z której początkowo była zbudowana nie wytrzymała próby czasu i ze względu na ciężkie warunki atmosferyczne zaczęła się kruszyć. Po latach prób, w ramach przeprowadzonego w latach 1902-1903 remontu, zdecydowano się wymienić ją na czerwoną i żółtą cegłę klinkierową. Przy okazji przebudowy zmienił się nie tylko budulec, ale również kształt wieży - najbardziej niszczyły się cegły na krawędziach ośmiokąta, dlatego przekrój zmieniono na okrągły. W tej formie latarnia przetrwała do dziś."},
     { "img": "http://frontendpole.github.io/projekt-laterna/images-lantern/poland-1218601.png"},
@@ -37,7 +37,7 @@
     {"p":"Co ciekawe przed zakończeniem drugiej wojny światowej Niemcy chcieli wysadzić świnoujską latarnię, jednak związany z nią emocjonalnie latarnik odmówił wykonania rozkazu."},
     {"p":"Od 2000 roku udostępniona jest dla zwiedzających, którzy po pokonaniu trzystu schodów mogą podziwiać widoku z najwyższej nadbałtyckiej latarni. Z kolei w przyległych do latarni budynkach można odwiedzić Muzeum na Latarni."},
     {"p":"Latarnia w Świnoujściu jest wyjątkowa z jeszcze jednego powodu - emitowanego światła. Jako jedyna w Polsce poza światłem białym służącym do nawigacji na morzu, emituje również czerwone skierowane w kierunku przeciwnym do morza i służące do kierowania statków płynących Odrą."},
-    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/CIEKAWOSTKA.png"}]
+    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/CIEKAWOSTKA.svg"}]
 }, 
 { "id":"1", 
   "url":"kikut",
@@ -51,10 +51,9 @@
   "address":"72-513 Wisełka",
   "address2":"",
   "introduction":"Zbudowana z ciosanych głazów w połowie XIX wieku dawniej pełniła rolę wieży orientacyjno-widokowej. Jednak kiedy po II wojnie światowej znacznie zwiększył się ruch morski w okolicach portów w Świnoujściu i Szczecinie, zdecydowano, że niezbędne dla nawigacji jest światło zlokalizowane pomiędzy latarniami w Świnoujściu i Niechorzu. Położona w otulinie Wolińskiego Parku Narodowego wieża widokowa Kikut okazała się idealną kandydatką - chociaż niewysoka, bo licząca jedynie 15 metrów, z racji umiejscowienia na wysokim klifie może pochwalić się wysokością światła wynoszącą 91,5 m n.p.m - najwyższą na całym Wybrzeżu Zachodnim. Widoczne w odległości 16 mil morskich światło bałtyckie statki mogą obserwować od stycznia 1962 roku.",
-  "introImg": "/images-lantern/kikut2.png",
   "rest": [
-    { "img": "http://frontendpole.github.io/projekt-laterna/images-lantern/kikut1.png"},
-    {"img": "http://frontendpole.github.io/projekt-laterna/images-lantern/swino3.png"}
+    { "img": "http://frontendpole.github.io/projekt-laterna/images-lantern/kikut2.png"},
+    {"img": "http://frontendpole.github.io/projekt-laterna/images-lantern/kikut1.png"}
   ],
   "footer":"www.latarnie.com.pl / za zgodą portalu Tomasz Lerczak / CC BY-SA 4.0 PL, https://creativecommons.org/licenses/by-sa/4.0/deed.pl",
   "mapImg":"http://frontendpole.github.io/projekt-laterna/images-lantern/Map/Kik K.png",
@@ -82,7 +81,7 @@
   "address":"ul. Polna 30",
   "address2":"72-350 Niechorze",
   "introduction":"Powstała w 1866 roku na wysokim klifie latarnia wypełniła lukę w oznaczeniach nawigacyjnych, jaka rozpościerała się pomiędzy latarniami w Świnoujściu i Jarosławcu. Podstawa latarni zbudowana jest na planie kwadratu i na wysokości około 19 metrów przechodzi w przekrój ośmiokąta. Z obu stron do wieży przylegają przybudówki, w których przewidziano mieszkania dla czterech rodzin latarników. Co ciekawe są one zamieszkane do dziś. Latarnia wraz z zabudowaniami wokół - stodołą, budynkiem inwentarskim (dziś już rozebranym) i magazynem tworzyła prawdziwy kompleks budynków uzupełniony o znajdujące się od strony północnej ogrody.",
-  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/niechorze-ciekaw.png",
+  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/niechorze-ciekaw.svg",
   "rest": [
     { "p": "Niestety, latarnia w tej formie nie doczekała czasów dzisiejszych - w 1945 podczas działań wojennych zniszczona została laterna. Całe szczęście nie doszło do wybuchu 8 min, które pozostawiły po sobie w budynku opuszczające go wojska niemieckie. Po odbudowie latarnia zaświeciła na nowo w 1948 roku."},
     {"p": "Latem dostępna jest dla zwiedzających - po pokonaniu ponad 200 stopni znajdujemy się na tarasie, z którego roztacza się przepiękny widok na morze i okolicę. Przy okazji wizyty w latarni Niechorze można odwiedzić pobliski Park Miniatur Latarni Morskich, a w nim poza modelami latarni również jedyną w Europie sprawną rekonstrukcję blizy."},
@@ -104,7 +103,7 @@
 "restDesktop":[ 
   {"p":"Niestety, latarnia w tej formie nie doczekała czasów dzisiejszych - w 1945 podczas działań wojennych zniszczona została laterna. Całe szczęście nie doszło do wybuchu 8 min, które pozostawiły po sobie w budynku opuszczające go wojska niemieckie. Po odbudowie latarnia zaświeciła na nowo w 1948 roku."},
   {"p":"Latem dostępna jest dla zwiedzających - po pokonaniu ponad 200 stopni znajdujemy się na tarasie, z którego roztacza się przepiękny widok na morze i okolicę."},
-  {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Group 353.png"}]
+  {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Group 353.svg"}]
 }, 
 { "id":"3",
   "url":"kolobrzeg",
@@ -217,7 +216,7 @@
   "address":"ul. Szkolna 1",
   "address2":"76-107 Jarosławiec",
   "introduction":"Potrzebę dodania światła nawigacyjnego pomiędzy Darłowem a Łebą zauważono już na początku XIX wieku. To wtedy postanowiono wybudować latarnię w Jarosławcu. Pierwszy projekt - przewidujący budowę drewnianej wieży wysokości 16,3 m powstał już w 1820 roku, ale nigdy nie doczekał się realizacji. Kolejny, przewidujący murowaną wieżę o wysokości 3,4 metra w odległości 11 m. od klifowego brzegu powstał w 1827. Też nie doczekał się realizacji - stwierdzono, że latarnia położona tak wody mogłaby zostać podmyta.",
-  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/Group 389.png",
+  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/Group 389.svg",
   "rest":[
     {"p":"Za to w 1830 postanowiono wybudować latarnię właśnie według tego projektu za to na wzgórzu położonym w odległości 400 metrów od wody. Tym razem okazało się, że latarnia jest za niska i jej światło zasłaniają okoliczne drzewa. Wreszcie w 1835.zdecydowano o przekształceniu niskiej latarni w mieszkania dla latarników, a obok postawiono nową wieżę - już 33,3-metrową. Wreszcie się udało, a latarnia w tej formie przetrwała do dziś."},
     {"img":"http://frontendpole.github.io/projekt-laterna/images-lantern/jaros┼éawiec 1.png"},
@@ -232,7 +231,7 @@
     {"p":"Potrzebę dodania światła nawigacyjnego pomiędzy Darłowem a Łebą zauważono już na początku XIX wieku. To wtedy postanowiono wybudować latarnię w Jarosławcu. Pierwszy projekt - przewidujący budowę drewnianej wieży wysokości 16,3 m powstał już w 1820 roku, ale nigdy nie doczekał się realizacji. Kolejny, przewidujący murowaną wieżę o wysokości 3,4 metra w odległości 11 m. od klifowego brzegu powstał w 1827. Też nie doczekał się realizacji - stwierdzono, że latarnia położona tak wody mogłaby zostać podmyta."
     },
     {"p": "Za to w 1830 postanowiono wybudować latarnię właśnie według tego projektu za to na wzgórzu położonym w odległości 400 metrów od wody. Tym razem okazało się, że latarnia jest za niska i jej światło zasłaniają okoliczne drzewa. Wreszcie w 1835.zdecydowano o przekształceniu niskiej latarni w mieszkania dla latarników, a obok postawiono nową wieżę - już 33,3-metrową. Wreszcie się udało, a latarnia w tej formie przetrwała do dziś."},
-    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Group 355.png"}
+    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Group 355.svg"}
   ],
   "picturesDesktop":[
     {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/jarosławiec 1.png"},
@@ -322,7 +321,7 @@
   "address":"ul. Ogrodowa 12",
   "address2":"76-214 Smołdzino",
   "introduction":"Latarnia Czołpino położona w przepięknej otulinie Słowińskiego Parku Narodowego to jedna z królowych polskich latarni. Jej budowa zajęła aż trzy lata - właśnie ze względu na jej położenie. Znajduje się na wysokiej wydmie, dlatego nie było możliwości dostarczenia materiałów do jej budowy drogą lądową. Budulec zdecydowano się dostarczać morzem - z tej okazji powstał tymczasowy pomost, a materiały przypływały barkami. Latarnię zbudowano z czerwonej, licowanej cegły, a sama wieża ma 25,2 m wysokości. Dzięki położeniu na wysokiej wydmie daje to imponującą 75-metrową wysokość światła. Zbudowana w 1875 roku latarnia nienaruszona przetrwała II wojnę światową i w niezmienionej formie można ją oglądać do dziś.",
-  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/CIEKAWOSTKA-1.png",
+  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/CIEKAWOSTKA-1.svg",
   "rest":[
     {"p":"Podobnie jak większość latarni na polskim wybrzeżu Czołpino również udostępnione jest dla zwiedzających, czeka ich jednak długi, stromy i malowniczy spacer przez Słowiński Park Narodowy. Za to widok z tarasu widokowego latarni rekompensuje “trudy” wycieczki - z galerii podziwiać możemy nie tylko park narodowy, ale również słynne ruchome wydmy."},
     {"img":"http://frontendpole.github.io/projekt-laterna/images-lantern/czolpino 1.png"},
@@ -336,7 +335,7 @@
   "introDesktop":[
     {"p":"Latarnia Czołpino położona w przepięknej otulinie Słowińskiego Parku Narodowego to jedna z królowych polskich latarni. Jej budowa zajęła aż trzy lata - ze względu właśnie na jej położenie. Znajduje się na wysokiej wydmie, co za tym idzie nie było możliwości dostarczenia materiałów do jej budowy drogą lądową. Budulec zdecydowano się dostarczać drogą morską - z tej okazji powstał tymczasowy pomost, a materiały przypływały barkami. Zbudowano ją z czerwonej, licowanej cegła, sama wieża ma 25,2 m wysokości, co dzięki położeniu na wysokiej wydmie daje imponującą 75-metrową wysokość światła. Zbudowana w 1875 roku latarnia nienaruszona przetrwała II wojnę światową i w niezmienionej formie można ją oglądać do dziś."
     },
-    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/CIEKAWOSTKA-1.png"}
+    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/CIEKAWOSTKA-1.svg"}
   ],
   "picturesDesktop":[
     {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/czolpino 1.png"},
@@ -358,7 +357,7 @@
   "address":"ul. Leona Wzorka 3",
   "address2":"84-104 Władysławowo",
   "introduction":"Tak naprawdę na Rozewiu stoją dwie latarnie: “stara” i “nowa”. Ta nadal aktywna to starsza, powstała już w 1822 roku, dwukrotnie modernizowana. Nosi imię Stefana Żeromskiego za sprawą legendy - latarnik Leon Wzorek opowiadał, że Żeromski pisał w Rozewiu powieść “Wiatr od morza”. Faktycznie książka powstała w Warszawie, niewykluczone jednak, że odwiedziny latarni w Rozewiu posłużyły za inspirację. Z kolei legendarny latarnik Wzorek doczekał się na Rozewiu swojej ulicy, przy której stoi latarnia.",
-  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/CIEKAWOSTKA-2.png",
+  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/CIEKAWOSTKA-2.svg",
   "rest":[
     {"p":"Stara latarnia na Rozewiu powstała już w 1822 roku, co czyni ją najstarszą działającą latarnią w Polsce. W drugiej połowie XIX w., gdy okazało się, że statki kierujące się do portu w Gdańsku myliły rozewskie i helskie światło, zdecydowano o budowie drugiej, siostrzanej, “nowej” latarni. Rozewie I i II świeciły wspólnie od 1875 do 1910 r, kiedy zdecydowano się zmodyfikować starszą latarnię - została podwyższona, a oświetlenie naftowe wymieniono na elektryczne o większym zasięgu. “Nowa” przestała być potrzebna i do 1990 wykorzystywana była, jako wieża obserwacyjna i miejsce lokalizacji radaru strażnicy Wojsk Obrony Pogranicza."},
     {"img":"http://frontendpole.github.io/projekt-laterna/images-lantern/rozewie 1.png"},
@@ -375,7 +374,7 @@
     {"p":"Tak naprawdę na Rozewiu stoją dwie latarnie: “stara” i “nowa”. Ta nadal aktywna to starsza, powstała już w 1822 roku, dwukrotnie modernizowana. Nosi imię Stefana Żeromskiego za sprawą legendy - latarnik Leon Wzorek opowiadał, że Żeromski pisał w Rozewiu powieść “Wiatr od morza”. Faktycznie książka powstała w Warszawie, niewykluczone jednak, że odwiedziny latarni w Rozewiu posłużyły za inspirację. Z kolei latarnik Wzorek doczekał się na Rozewiu swojej ulicy, przy której stoi latarnia. "
     },
     {"p":"Stara latarnia na Rozewiu powstała już w 1822 roku, co czyni ją najstarszą działającą latarnią w Polsce. W drugiej połowie XIX w., gdy okazało się, że statki kierujące się do portu w Gdańsku myliły rozewskie i helskie światło, zdecydowano o budowie drugiej, siostrzanej, “nowej” latarni. Rozewie I i II świeciły wspólnie od 1875 do 1910 r, kiedy zdecydowano się zmodyfikować starszą latarnię - została podwyższona, a oświetlenie naftowe wymieniono na elektryczne o większym zasięgu. “Nowa” przestała być potrzebna i do 1990 wykorzystywana była, jako wieża obserwacyjna i miejsce lokalizacji radaru strażnicy Wojsk Obrony Pogranicza."},
-    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/CIEKAWOSTKA-2.png"}
+    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/CIEKAWOSTKA-2.svg"}
   ],
   "picturesDesktop":[
     {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/rozewie 1.png"},
@@ -398,7 +397,7 @@
   "address":"84-140 Jastarnia",
   "address2":"",
   "introduction":"Znajdująca się między latarniami Rozewie i Hel latarnia w Jastarni zbudowana została w 1950 r. Wcześniej na jej miejscu stała latarnia zbudowana w 1938 r., jednak przetrwałą ona tylko rok i została zniszczona już na początku II wojny światowej. Zbudowana z elementów starego nautofonu* Stilo jest jedną z dwóch (właśnie obok Stilo) całkowicie metalowych latarni w Polsce. Wieża w kształcie metalowego walca osadzonego na betonowej podstawie mierzy zaledwie 13,5 metra, co czyni ją najniższą latarnią morską w Polsce. Niestety, jest również jedną z dwóch niedostępnych dla zwiedzających.",
-  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/Group 390.png",
+  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/Group 390.svg",
   "rest":[
     {"p":"*Nautofon - buczek mgłowy - urządzenie wykorzystywane na statkach i stałych znakach nawigacyjnych służące do nadawania sygnałów dźwiękowych w trakcie mgły. Dźwięk nautofonu może być słyszalny nawet w odległości 20 km. Dźwięk nautofonu można usłyszeć m.in. w Parku Miniatur Latarni Morskich w Niechorzu."},
     {"img":"http://frontendpole.github.io/projekt-laterna/images-lantern/jastarnia 1.png"},
@@ -416,7 +415,7 @@
   "picturesDesktop":[
     {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/jastarnia 1.png"},
     {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/jastarnia 2.png"},
-    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Group 297.png"}
+    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Group 297.svg"}
   ]
 }, 
 { "id":"12",
@@ -539,7 +538,7 @@
   "address":"ul. kpt. Żeglugi Wielkiej Witolda Poinca 1",
   "address2":"80-601 Gdańsk",
   "introduction":"Wśród polskich latarni zdecydowanie najmłodsza, bo zbudowana dopiero w 1984 r mieści się na wieży kapitanatu portu w Gdańsku. Jest nie tylko najmłodsza, ale również zdecydowanie najbrzydsza - brakuje jej magii i nie rozczula podobnie do tradycyjnych wieży latarni.",
-  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/CIEKAWOSTKA-3.png",
+  "introImg": "http://frontendpole.github.io/projekt-laterna/images-lantern/CIEKAWOSTKA-3.svg",
   "rest":[
     {"p":"Jako jedyna z polskich latarni posiada windę, niestety nie skorzystają z niej turyści - nie jest udostępniona do zwiedzania. A szkoda - podobno z jej galerii rozciąga się przepiękny widok."},
     {"img":"http://frontendpole.github.io/projekt-laterna/images-lantern/Gdan╠üsk_Port_Po╠ü┼énocny 2.png"}
@@ -552,7 +551,7 @@
     {"p":"Wśród polskich latarni zdecydowanie najmłodsza, bo zbudowana dopiero w 1984 r mieści się na wieży kapitanatu portu w Gdańsku. Jest nie tylko najmłodsza, ale również zdecydowanie najbrzydsza - brakuje jej magii i nie rozczula podobnie do tradycyjnych wieży latarni."
     },
     {"p":"Jako jedyna z polskich latarni posiada windę, niestety nie skorzystają z niej turyści - nie jest udostępniona do zwiedzania. A szkoda - podobno z jej galerii rozciąga się przepiękny widok."},
-    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/CIEKAWOSTKA-3.png"}
+    {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/CIEKAWOSTKA-3.svg"}
   ],
   "picturesDesktop":[
     {"img":"http://frontendpole.github.io/projekt-laterna/lanternsDesktop/Gdańsk_Port_Północny 2.png"},

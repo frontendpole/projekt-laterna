@@ -80,7 +80,7 @@
       justify-content: center;
 
       h2 {
-        font-size: 36px;
+        font-size: 30px;
         line-height: 43px;
         text-align: left;
         letter-spacing: 0.9px;
@@ -107,12 +107,14 @@
         position: absolute;
 
         &:nth-child(1) {
+          width: 299px;
           top: 30px;
           left: 0;
           z-index: 3;
         }
 
         &:nth-child(2) {
+          width: 286px;
           right: 0;
           bottom: 0;
         }
@@ -150,6 +152,10 @@
     &--header {
       width: 500px;
       height: 500px;
+
+      h2 {
+        font-size: 36px;
+      }
     }
 
     img {

@@ -1,8 +1,8 @@
 import React from 'react';
 import '../IntroPassport.scss';
 import { NavLink } from 'react-router-dom';
-import passportImg from '../../images/passport/paszport do www-1.png';
-import getInfoButton from '../../images/passport/dowiedz.png';
+import passportImg from '../../images/passport/paszport do www-1.svg';
+import getInfoButton from '../../images/passport/dowiedz.svg';
 import waveImg from '../../images/passport/falka.png';
 import arrowImg from '../../images/passport/strzalka.png';
 
