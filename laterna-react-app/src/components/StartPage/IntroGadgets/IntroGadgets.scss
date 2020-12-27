@@ -56,12 +56,10 @@
   .IntroGadgets {
     height: 800px;
     justify-content: center;
-    align-items: flex-start;
 
     &--wrapper {
       @include flex-row-between;
-      justify-content: flex-start;
-      width: 1148.28px;
+      width: 1000px;
     }
 
     &--gadgetsGetDetails {
@@ -136,7 +134,9 @@
 @media(min-width: 1366px) {
 
   .IntroGadgets {
-    align-items: center;
+    &--wrapper {
+      width: 1148.28px;
+    }
 
     &--gadgetsGetDetails {
       margin-right: 70.34px;
