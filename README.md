@@ -1,4 +1,6 @@
-# Hi! Thanks for checking out this repository. :)
+# Projekt Laterna
+
+Hi! Thanks for checking out this repository. :)
 
 This is a react website made for Studio Cudak.
 
