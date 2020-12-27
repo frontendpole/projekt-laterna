@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e431131aa956325801ad1ee4d791175f",
+    "revision": "2eb2639edc8be8ae1ac4623752ad4c1a",
     "url": "/projekt-laterna/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/css/11.39244d13.chunk.css"
   },
   {
-    "revision": "5d9000b36a031fa6984f",
-    "url": "/projekt-laterna/static/css/3.a0a691ad.chunk.css"
+    "revision": "38b149e8215bed47cf17",
+    "url": "/projekt-laterna/static/css/3.2b70df57.chunk.css"
   },
   {
     "revision": "28136c7de15a70470369",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/js/11.73c45767.chunk.js"
   },
   {
-    "revision": "5d9000b36a031fa6984f",
-    "url": "/projekt-laterna/static/js/3.9c0c95e9.chunk.js"
+    "revision": "38b149e8215bed47cf17",
+    "url": "/projekt-laterna/static/js/3.1ec09761.chunk.js"
   },
   {
     "revision": "28136c7de15a70470369",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/js/main.3ec6ace5.chunk.js"
   },
   {
-    "revision": "f90c99c5a7e94e51f583",
-    "url": "/projekt-laterna/static/js/runtime-main.17285f5a.js"
+    "revision": "8c71463b378216d8be54",
+    "url": "/projekt-laterna/static/js/runtime-main.811a65c8.js"
   },
   {
     "revision": "d958b7930cf9e05da2ec995ca2c26bf3",
@@ -132,24 +132,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/media/Group 275.a15dfbb3.svg"
   },
   {
-    "revision": "f7a3e554335d09e4c87a023844ebd8d9",
-    "url": "/projekt-laterna/static/media/Group 3333.f7a3e554.svg"
+    "revision": "046076123f239895cf6e9cb7a0043ca3",
+    "url": "/projekt-laterna/static/media/Group 3333.04607612.svg"
   },
   {
-    "revision": "9928e55a54a05c03292032e37073b5ec",
-    "url": "/projekt-laterna/static/media/Group 421.9928e55a.svg"
+    "revision": "e2dccac850fa441b793413c2a5ca2bf0",
+    "url": "/projekt-laterna/static/media/Group 421.e2dccac8.svg"
   },
   {
-    "revision": "b79ff3465e90cfb9f3e9987d3a760e6e",
-    "url": "/projekt-laterna/static/media/Group 474.b79ff346.svg"
+    "revision": "47e008f938b9f63e5570e47d500285bd",
+    "url": "/projekt-laterna/static/media/Group 474.47e008f9.svg"
   },
   {
-    "revision": "d0c79b7e70ecb7ef5e6454e7be0a0f79",
-    "url": "/projekt-laterna/static/media/Group 84.d0c79b7e.svg"
+    "revision": "1dcac098a999eb036b1af19c08f05499",
+    "url": "/projekt-laterna/static/media/Group 84.1dcac098.svg"
   },
   {
-    "revision": "471d9bb7ce51e615602db2bc1a7c96e5",
-    "url": "/projekt-laterna/static/media/Group 89.471d9bb7.svg"
+    "revision": "faf024225fbc02547dbf852da824a734",
+    "url": "/projekt-laterna/static/media/Group 89.faf02422.svg"
   },
   {
     "revision": "2166289337e69f467c42c362d1002b66",
@@ -220,12 +220,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/media/crop lighthouse-4324254_192@2x-min.1de7f84a.png"
   },
   {
-    "revision": "9a6c06c83c78cb76b7eeddc6d5dd64e5",
-    "url": "/projekt-laterna/static/media/dowiedz (2).9a6c06c8.svg"
+    "revision": "06a00e77ff8f3c356c38825be6a63ab2",
+    "url": "/projekt-laterna/static/media/dowiedz (2).06a00e77.svg"
   },
   {
-    "revision": "ec689c2e5a2f58e4caaf8427f047e979",
-    "url": "/projekt-laterna/static/media/dowiedz.ec689c2e.svg"
+    "revision": "6696a9f989a045821ee46b4ebccb6af9",
+    "url": "/projekt-laterna/static/media/dowiedz.6696a9f9.svg"
   },
   {
     "revision": "5affeee035a1a6df2f66bf0440926db9",
@@ -300,11 +300,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projekt-laterna/static/media/plakat 16.f7c3afc4.png"
   },
   {
-    "revision": "344f13df97ea14a116d6e602d0d80089",
-    "url": "/projekt-laterna/static/media/pocztowki.344f13df.svg"
+    "revision": "83da3be82f2ef9f7f4a384ab6e8a5e71",
+    "url": "/projekt-laterna/static/media/pocztowki.83da3be8.svg"
   },
   {
-    "revision": "a0751c46f68f070e11b472ba6ae48c05",
-    "url": "/projekt-laterna/static/media/przejdz.a0751c46.svg"
+    "revision": "5e0afa897ec3654b891c92a2b6924149",
+    "url": "/projekt-laterna/static/media/przejdz.5e0afa89.svg"
   }
 ]);
