@@ -1,7 +1,7 @@
 import React from 'react';
 import '../PassportDescription.scss';
 import PassportImg1 from '../../images/Zrzut ekranu 2020-06-30 o 20.47.15.svg';
-import PassportImg2 from '../../images/Zrzut ekranu 2020-06-05 o 15.18.42.png';
+import PassportImg2 from '../../images/Zrzut ekranu 2020-06-05 o 15.18.42.svg';
 import PassportImg3 from '../../images/paszport mockup 13.png';
 import PassportImg4 from '../../images/paszport mockup -1.png';
 import PassportImg5 from '../../images/paszport mockup 3 (2).png';
@@ -18,8 +18,10 @@ const PassportDescMobile = () => {
         <h2 className="PassportDescription--header--info" style={{ color: '#AE4527' }}>Z WAKACJI NAD POLSKIM MORZEM!</h2>
       </header>
       <article className="PassportDescription--article">
-        <img src={PassportImg1} alt="okładka górna paszportu miłośnika latarni morskich" />
-        <img src={PassportImg2} alt="wnętrze paszportu miłośnika latarni morskich, latarnia w Kołobrzegu" />
+        <div className="PassportDescription--article--picWrapper">
+          <img src={PassportImg1} alt="okładka górna paszportu miłośnika latarni morskich" />
+          <img src={PassportImg2} alt="wnętrze paszportu miłośnika latarni morskich, latarnia w Kołobrzegu" />
+        </div>
         <p>Do Paszportu miłośnika latarni morskich, tak jak do prawdziwych paszportów, wbija się pieczątki z miejsc, które się odwiedziło.</p>
         <img src={PassportImg3} alt="wnętrze paszportu miłośnika latarni morskich, strona tytułowa" />
         <p>Do naszego Paszportu pieczątki wbija nie celnik, a latarnik, a same pieczęci nie są symbolami odległych, egzotycznych krajów, a pięknych i unikalnych latarni polskiego wybrzeża.</p>

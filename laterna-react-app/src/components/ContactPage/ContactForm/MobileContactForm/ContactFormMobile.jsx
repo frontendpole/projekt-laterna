@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Input from '../../../Elements/Input';
 import '../ContactForm.scss';
-import sendBtnImg from '../../images/Group 397.png';
+import sendBtnImg from '../../images/Group 397.svg';
 import emailjs from 'emailjs-com';
 import { NavLink } from 'react-router-dom';
 

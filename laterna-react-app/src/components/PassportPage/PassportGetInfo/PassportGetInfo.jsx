@@ -2,7 +2,7 @@ import React from 'react';
 import useLayoutQueries from '../../../functions/useLayoutQueries';
 import './PassportGetInfo.scss';
 import Input from '../../Elements/Input';
-import sendBtnImg from '../images/Group 397.png';
+import sendBtnImg from '../images/Group 397.svg';
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { NavLink } from 'react-router-dom';
