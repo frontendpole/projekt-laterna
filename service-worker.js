@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/projekt-laterna/precache-manifest.201d7d6870a75c2a886d07dc10b92ad2.js"
+  "/projekt-laterna/precache-manifest.ce63d5ef642b4b4039b811c58572df71.js"
 );
 
 self.addEventListener('message', (event) => {
