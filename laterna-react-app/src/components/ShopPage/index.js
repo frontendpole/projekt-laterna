@@ -16,7 +16,7 @@ const ShopPage = () => {
           <h2>LATARNIOWYCH SKARBÓW!</h2>
         </div>
         <div className="ShopPage--header">
-          <h2>ABY PRZEJŚĆ DO SKLEPU</h2>
+          <h2>ABY PRZEJŚĆ DO SKLEPU,</h2>
           <a href="https://www.etsy.com/pl/shop/ProjektLaterna?ref=seller-platform-mcnav" style={{ color: "rgb(176, 69, 39)" }} target="_blank" >KLIKNIJ TUTAJ</a>
         </div>
         <ShopArticles />
