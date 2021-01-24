@@ -81,7 +81,7 @@ const ContactFormMobile = () => {
         <textarea onChange={handleInputMessageChange} value={message} />
         <div className='ContactForm--form--checkbox'>
           <Input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
-          <label htmlFor="checkbox">Akceptuję  <NavLink to="/polityka-prywatnosci">Politykę Prywatności</NavLink> Projektu Laterna</label>
+          <label htmlFor="checkbox">Akceptuję  <NavLink to="/polityka-prywatnosci" target="_blank">Politykę Prywatności</NavLink> Projektu Laterna</label>
         </div>
       </form>
       <button id="sendBtn" onClick={sendMessage}>
