@@ -93,7 +93,7 @@ const ContactFormDesktop = () => {
         <textarea type="text" label="Treść wiadomości" value={message} onChange={handleInputMessageChange} />
         <div className='ContactForm--form--checkbox'>
           <Input type="checkbox" onChange={handleCheckboxChange} checked={isChecked} />
-          <label htmlFor="checkbox">Akceptuję <NavLink to="/polityka-prywatnosci" target="_blank">Politykę Prywatności</NavLink> Projektu Laterna</label>
+          <label htmlFor="checkbox">Akceptuję <NavLink to="/polityka-prywatnosci" target="_blank" rel="noopener noreferrer">Politykę Prywatności</NavLink> Projektu Laterna</label>
         </div>
       </form>
       <button id="sendBtn" onClick={sendMessage}>
