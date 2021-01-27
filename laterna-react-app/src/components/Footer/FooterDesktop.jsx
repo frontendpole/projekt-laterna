@@ -17,7 +17,7 @@ const FooterDesktop = () => {
         <h2>projekt laterna</h2>
         <NavLink to='/kontakt'>kontakt</NavLink>
         <section className='contactDetails'>
-          <p>kontakt@projektlaterna.pl</p>
+          <p>projektlaterna@gmail.com</p>
         </section>
         <section className='social-media'>
           <button>

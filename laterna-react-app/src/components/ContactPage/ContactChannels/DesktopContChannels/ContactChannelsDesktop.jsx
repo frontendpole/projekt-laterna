@@ -16,7 +16,7 @@ const ContactChannelsDesktop = () => {
         <p>Jeśli masz pytania lub uwagi dotyczące projektu, paszportu czy sklepu, śmiało skontaktuj się z nami!</p>
       </header>
       <div className="ContactChannels--emailWrapper">
-        <img src={emailBtnIconDesktop} alt="kontakt@projektlaterna.pl" />
+        <img src={emailBtnIconDesktop} alt="projektlaterna@gmail.com" />
         <p className="ContactChannels--emailWrapper--emailAddress">kontakt@projektlaterna.pl</p>
       </div>
       <div className="ContactChannels--social-media">
