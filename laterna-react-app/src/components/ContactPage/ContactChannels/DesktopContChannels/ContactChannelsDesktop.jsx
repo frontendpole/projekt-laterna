@@ -17,7 +17,7 @@ const ContactChannelsDesktop = () => {
       </header>
       <div className="ContactChannels--emailWrapper">
         <img src={emailBtnIconDesktop} alt="projektlaterna@gmail.com" />
-        <p className="ContactChannels--emailWrapper--emailAddress">kontakt@projektlaterna.pl</p>
+        <p className="ContactChannels--emailWrapper--emailAddress">projektlaterna@gmail.com</p>
       </div>
       <div className="ContactChannels--social-media">
         <button>

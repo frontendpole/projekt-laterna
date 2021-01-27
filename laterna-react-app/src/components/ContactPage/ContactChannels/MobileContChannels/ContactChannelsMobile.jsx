@@ -16,7 +16,7 @@ const ContactChannelsMobile = () => {
       </header>
       <div className="ContactChannels--emailWrapper">
         <img src={emailBtnIcon} alt="projektlaterna@gmail.com" />
-        <p className="ContactChannels--emailWrapper--emailAddress">kontakt@projektlaterna.pl</p>
+        <p className="ContactChannels--emailWrapper--emailAddress">projektlaterna@gmail.com</p>
       </div>
       <div className="ContactChannels--social-media">
         <button>
